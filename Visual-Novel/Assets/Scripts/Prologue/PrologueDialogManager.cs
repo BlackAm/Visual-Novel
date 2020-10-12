@@ -8,16 +8,15 @@ public class PrologueDialogManager : MonoBehaviour
 {
 	public Text dialogueText;
 
-
 	private Queue<string> sentences;
-
+    
 	// Use this for initialization
 	void Awake()
 	{
 		sentences = new Queue<string>();
 	}
 
-	public void StartDialogue(PrologueDialog prologueDialog)
+    public void StartDialogue(PrologueDialog prologueDialog)
 	{
 		sentences.Clear();
 
@@ -62,6 +61,5 @@ public class PrologueDialogManager : MonoBehaviour
 	{
 		if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump"))
 			DisplayNextSentence();
-
 	}
 }
