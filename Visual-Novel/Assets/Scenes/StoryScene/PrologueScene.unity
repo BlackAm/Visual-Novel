@@ -932,15 +932,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 942566401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c616a5de8795545908f0ff72944543, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b0b658c061c7f341830bc77bf4d6d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prologueDialog:
-    sentences:
-    - 
-    - 
-    - 
-  xmlFileName: TestDialogue
+  dialogueText: {fileID: 631560758}
 --- !u!4 &942566403
 Transform:
   m_ObjectHideFlags: 0
@@ -964,10 +959,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 942566401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0765b248f5db9fa469f5a96a46d234bd, type: 3}
+  m_Script: {fileID: 11500000, guid: abdaabd002c6c924b9149aec5e6b9b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueText: {fileID: 631560758}
+  prologue:
+    sentences:
+    - 
+    - 
+  xmlFileName: TestDialogue
 --- !u!1 &1165457094
 GameObject:
   m_ObjectHideFlags: 0

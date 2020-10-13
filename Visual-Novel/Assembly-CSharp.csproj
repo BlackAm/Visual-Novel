@@ -70,9 +70,9 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LoadingScene.cs" />
     <Compile Include="Assets\Scripts\NameInput.cs" />
-    <Compile Include="Assets\Scripts\Prologue\PrologueDialog.cs" />
-    <Compile Include="Assets\Scripts\Prologue\PrologueDialogManager.cs" />
-    <Compile Include="Assets\Scripts\Prologue\PrologueDialogTrigger.cs" />
+    <Compile Include="Assets\Scripts\Prologue\Prologue.cs" />
+    <Compile Include="Assets\Scripts\Prologue\PrologueManager.cs" />
+    <Compile Include="Assets\Scripts\Prologue\PrologueTrigger.cs" />
     <Compile Include="Assets\Scripts\Rememberance.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\StartManager.cs" />

@@ -1694,13 +1694,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 50f5181457063224287a6929a1b56774, type: 3}
     - {fileID: 21300000, guid: 517f56e8e0b248a42829de25efc8e4f5, type: 3}
     names:
-    - "\uD788\uB85C\uC7781"
-    - "\uD788\uB85C\uC7782"
-    - "\uD788\uB85C\uC7783"
+    - 
+    - 
     sentences:
     - 
     - 
     - 
+  xmlFileName: TestDialogue
 --- !u!1 &1223076108
 GameObject:
   m_ObjectHideFlags: 0
