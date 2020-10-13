@@ -15,13 +15,16 @@ public class DialogueManager : MonoBehaviour {
 	private Queue<string> sentences;
 	private Queue<Sprite> sprites;
 
+    public DialogueTrigger dialogueTrigger;
+
 	// Use this for initialization
 	void Awake () {
 		names = new Queue<string>();
 		sentences = new Queue<string>();
 		sprites = new Queue<Sprite>();
-	}
 
+        dialogueTrigger = GetComponent<DialogueTrigger>();
+	}
 	private void Update()
     {
 		if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump"))
@@ -50,16 +53,15 @@ public class DialogueManager : MonoBehaviour {
 			sprites.Enqueue(image);
         }
 
-
 		DisplayNextSentence();
 	}
 
 	public void DisplayNextSentence ()
 	{
+        Debug.Log(sentences.Count);
 		if (sentences.Count == 0)
 		{
 			EndDialogue();
-			return;
 		}
 
 		nameText.text = names.Dequeue();
@@ -82,5 +84,7 @@ public class DialogueManager : MonoBehaviour {
 
 	void EndDialogue()
 	{
-	}
+        Debug.Log("Mananger End Dialogue Entered");
+        dialogueTrigger.EndDialogue();
+    }
 }
