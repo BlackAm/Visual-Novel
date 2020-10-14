@@ -50,7 +50,15 @@ public class DialogueTrigger : MonoBehaviour
         XmlNodeList all_nodes = xmlDoc.SelectNodes("dataroot/" + _storyFile);
         foreach (XmlNode node in all_nodes)
         {
-            dialogue.names[dialogueCount] = node.SelectSingleNode("name").InnerText;
+            if(node.SelectSingleNode("name").InnerText == "")
+            {
+                dialogue.names[dialogueCount] = PlayerPrefs.GetString("Name");
+            }
+            else
+            {
+                dialogue.names[dialogueCount] = node.SelectSingleNode("name").InnerText;
+            }
+            
             dialogue.sentences[dialogueCount] = node.SelectSingleNode("dialogue").InnerText;
             dialogueCount++;
         }
