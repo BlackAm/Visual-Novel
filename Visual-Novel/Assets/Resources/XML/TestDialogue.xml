@@ -17,11 +17,8 @@
     <id>2</id>
     <dialogue>두번째 글자로 넘어가는지 확인하는 중</dialogue>
     <name>22222</name>
+    <question name="first">첫번째 질문</question>
+    <question name="second">두번째 질문</question>
+    <question name="thrid"></question>
   </TestName>
-  <TestNameQuestion>
-    <question>첫번째 질문</question>
-  </TestNameQuestion>
-  <TestNameQuestion>
-    <question>두번째 질문</question>
-  </TestNameQuestion>
 </dataroot>

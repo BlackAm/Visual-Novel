@@ -10,10 +10,8 @@ public class DialogueTrigger : MonoBehaviour
     public DialogueManager dialogueManager;
 
     public string storyXml;
-    public string questionXml;
 
     private int dialogueCount = 0;
-    private int questionCount = 0;
 
     public GameObject choicePanel;
 
@@ -38,16 +36,15 @@ public class DialogueTrigger : MonoBehaviour
     {
         dialogueManager = GetComponent<DialogueManager>();
 
-        LoadXML(storyXml, questionXml);
+        LoadXML(storyXml);
         SetQuestions();
     }
 
-    private void LoadXML(string _storyFile, string _questionFile)
+    private void LoadXML(string _storyFile)
     {
         TextAsset txtAsset = (TextAsset)Resources.Load("XML/TestDialogue");
         XmlDocument xmlDoc = new XmlDocument();
         xmlDoc.LoadXml(txtAsset.text);
-
 
         // 전체 아이템 가져오기 예제.
         XmlNodeList all_nodes = xmlDoc.SelectNodes("dataroot/" + _storyFile);
@@ -58,12 +55,15 @@ public class DialogueTrigger : MonoBehaviour
             dialogueCount++;
         }
 
-        all_nodes = xmlDoc.SelectNodes("dataroot/" + _questionFile);
         foreach (XmlNode node in all_nodes)
         {
-            Debug.Log(node.SelectSingleNode("question").InnerText);
-            dialogue.quiestions[questionCount] = node.SelectSingleNode("question").InnerText;
-            questionCount++;
+            if(node.SelectNodes("question").Count > 0)
+            {
+                for(int i = 0; i < 3; i++)
+                {
+                    dialogue.quiestions[i] = node.SelectNodes("question")[i].InnerText;
+                }
+            }
         }
     }
 
