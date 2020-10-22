@@ -1903,14 +1903,15 @@ MonoBehaviour:
     - 
   dialogueManager: {fileID: 0}
   storyXml: TestName
-  questionXml: TestNameQuestion
   choicePanel: {fileID: 1504505079}
-  choiceButton01: {fileID: 447893201}
-  choiceButton02: {fileID: 1647432745}
-  choiceButton03: {fileID: 1527774003}
-  choiceButtonText01: {fileID: 731751940}
-  choiceButtonText02: {fileID: 1280821376}
-  choiceButtonText03: {fileID: 1713509998}
+  choiceButton:
+  - {fileID: 1527774003}
+  - {fileID: 1647432745}
+  - {fileID: 447893201}
+  choiceText:
+  - {fileID: 1713509998}
+  - {fileID: 1280821376}
+  - {fileID: 731751940}
 --- !u!1 &1223076108
 GameObject:
   m_ObjectHideFlags: 0

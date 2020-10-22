@@ -1,6 +1,4 @@
 ﻿using System.Xml;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PrologueTrigger : MonoBehaviour
@@ -11,7 +9,7 @@ public class PrologueTrigger : MonoBehaviour
 
     private int dialogueCount = 0;
 
-    public void TriggerDialogue()
+    private void TriggerDialogue()
     {
         FindObjectOfType<PrologueManager>().StartDialogue(prologue);
     }

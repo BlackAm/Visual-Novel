@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using System;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -18,7 +16,7 @@ public class DialogueManager : MonoBehaviour {
     public DialogueTrigger dialogueTrigger;
 
 	// Use this for initialization
-	void Awake () {
+	private void Awake () {
 		names = new Queue<string>();
 		sentences = new Queue<string>();
 		sprites = new Queue<Sprite>();
@@ -71,7 +69,7 @@ public class DialogueManager : MonoBehaviour {
 		StartCoroutine(TypeSentence(sentence));
 	}
 
-	IEnumerator TypeSentence (string sentence)
+	private IEnumerator TypeSentence (string sentence)
 	{
 		dialogueText.text = "";
 		foreach (char letter in sentence.ToCharArray())
@@ -81,9 +79,8 @@ public class DialogueManager : MonoBehaviour {
 		}
 	}
 
-	void EndDialogue()
+	private void EndDialogue()
 	{
-        Debug.Log("Mananger End Dialogue Entered");
         dialogueTrigger.EndDialogue();
     }
 }

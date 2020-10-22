@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Xml;
@@ -15,12 +13,8 @@ public class DialogueTrigger : MonoBehaviour
 
     public GameObject choicePanel;
 
-    public Button choiceButton01;
-    public Button choiceButton02;
-    public Button choiceButton03;
-    public Text choiceButtonText01;
-    public Text choiceButtonText02;
-    public Text choiceButtonText03;
+    public Button[] choiceButton = new Button[3];
+    public Text[] choiceText = new Text[3];
 
     public void TriggerDialogue()
     {
@@ -50,24 +44,17 @@ public class DialogueTrigger : MonoBehaviour
         XmlNodeList all_nodes = xmlDoc.SelectNodes("dataroot/" + _storyFile);
         foreach (XmlNode node in all_nodes)
         {
-            if(node.SelectSingleNode("name").InnerText == "")
-            {
-                dialogue.names[dialogueCount] = PlayerPrefs.GetString("Name");
-            }
-            else
-            {
-                dialogue.names[dialogueCount] = node.SelectSingleNode("name").InnerText;
-            }
-            
+            int charName = (node.SelectSingleNode("name").InnerText) == "" ? SetPlayerName() : SetCharacterName(node);
+
             dialogue.sentences[dialogueCount] = node.SelectSingleNode("dialogue").InnerText;
             dialogueCount++;
         }
 
         foreach (XmlNode node in all_nodes)
         {
-            if(node.SelectNodes("question").Count > 0)
+            if (node.SelectNodes("question").Count > 0)
             {
-                for(int i = 0; i < 3; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     dialogue.quiestions[i] = node.SelectNodes("question")[i].InnerText;
                 }
@@ -78,37 +65,43 @@ public class DialogueTrigger : MonoBehaviour
 
     private void SetQuestions()
     {
-        if(dialogue.quiestions[2] == "")
+        Debug.Log(dialogue.quiestions.Length);
+        for(int i = 2; i >= 0; i--)
         {
-            choiceButton03.gameObject.SetActive(false);
-        }
-        else
-        {
-            choiceButtonText03.text = dialogue.quiestions[2];
-        }
-
-        if(dialogue.quiestions[1] == "")
-        {
-            choiceButton02.gameObject.SetActive(false);
-        }
-        else
-        {
-            choiceButtonText02.text = dialogue.quiestions[1];
-        }
-
-        if (dialogue.quiestions[0] == "")
-        {
-            choiceButton01.gameObject.SetActive(false);
-        }
-        else
-        {
-            choiceButtonText01.text = dialogue.quiestions[0];
+            int dialogueCount = (dialogue.quiestions[i] == "") ? ChoicebuttonFalse(choiceButton[2 - i]) : ChoicebuttonTrue(choiceText[2 - i], i);
         }
     }
 
     public void EndDialogue()
     {
-        Debug.Log("Trigger EndDialogue Entered");
         choicePanel.gameObject.SetActive(true);
+    }
+
+    private int SetPlayerName()
+    {
+        dialogue.names[dialogueCount] = PlayerPrefs.GetString("Name");
+
+        return 0;
+    }
+
+    private int SetCharacterName(XmlNode node)
+    {
+        dialogue.names[dialogueCount] = node.SelectSingleNode("name").InnerText;
+
+        return 0;
+    }
+
+    private int ChoicebuttonFalse(Button choiceButton)
+    {
+        choiceButton.gameObject.SetActive(false);
+
+        return 0;
+    }
+
+    private int ChoicebuttonTrue(Text choiceText, int index)
+    {
+        choiceText.text = dialogue.quiestions[index];
+
+        return 0;
     }
 }
