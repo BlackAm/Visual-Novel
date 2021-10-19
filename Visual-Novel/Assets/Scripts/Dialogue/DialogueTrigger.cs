@@ -1,20 +1,27 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Xml;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    #region <Fiedls>
+
     public Dialogue dialogue;
-    public DialogueManager dialogueManager;
 
     public string storyXml;
 
-    private int dialogueCount = 0;
+    private int _DialogueCount;
+    private int _QuestionCount;
 
-    public GameObject choicePanel;
+    public Transform ChoicePanel;
 
-    public Button[] choiceButton = new Button[3];
-    public Text[] choiceText = new Text[3];
+    public Button[] choiceButton;
+    public Text[] choiceText;
+
+    #endregion
+
+    #region <Callbacks>
 
     public void TriggerDialogue()
     {
@@ -28,80 +35,115 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Awake()
     {
-        dialogueManager = GetComponent<DialogueManager>();
-
+        storyXml = SceneManager.GetActiveScene().name;
         LoadXML(storyXml);
-        SetQuestions();
     }
+
+    #endregion
+
+    #region <Methods/Setter>
+
+    private void SetQuestionArray()
+    {
+        choiceButton = new Button[_QuestionCount];
+        choiceText = new Text[_QuestionCount];
+        dialogue.quiestions = new string[_QuestionCount];
+
+        var canvas = GameObject.Find($"Canvas");
+        ChoicePanel = canvas.transform.Find("ChoicePanel");
+        var buttons = ChoicePanel.gameObject.GetComponentsInChildren<Button>();
+        var texts = ChoicePanel.gameObject.GetComponentsInChildren<Text>();
+        var Count = 0;
+        
+        foreach (var button in buttons)
+        {
+            if (Count < _QuestionCount)
+            {
+                choiceButton[Count++] = button;
+            }
+        }
+        Count = 0;
+        foreach (var text in texts)
+        {
+            if (Count < _QuestionCount)
+            {
+                choiceText[Count++] = text;
+            }
+        }
+    }
+    
+    private void SetQuestions()
+    {
+        for(var i = 0; i <= _QuestionCount -1; i++)
+        {
+            // ì„ íƒì§€ ìˆ˜ì • í•„ìš”
+            SetChoiceButton(choiceText[_QuestionCount - 1 - i], i);
+        }
+    }
+    private void SetName(XmlNode node)
+    {
+        var name = node.SelectSingleNode("Name")?.InnerText;
+        dialogue.names[_DialogueCount] = Equals(name, "Player") ? GetPlayerName() : name;
+    }
+
+    #endregion
+
+    #region <Methods/Getter>
+
+    public string GetPlayerName()
+    {
+        return PlayerPrefs.GetString("Name");
+    }
+
+    #endregion
+    
+    #region <Methods/XML>
 
     private void LoadXML(string _storyFile)
     {
         TextAsset txtAsset = (TextAsset)Resources.Load("XML/TestDialogue");
         XmlDocument xmlDoc = new XmlDocument();
         xmlDoc.LoadXml(txtAsset.text);
-
-        // ÀüÃ¼ ¾ÆÀÌÅÛ °¡Á®¿À±â ¿¹Á¦.
+        
         XmlNodeList all_nodes = xmlDoc.SelectNodes("dataroot/" + _storyFile);
+        dialogue.sentences = new string[all_nodes.Count];
+        
         foreach (XmlNode node in all_nodes)
         {
-            int charName = (node.SelectSingleNode("name").InnerText) == "" ? SetPlayerName() : SetCharacterName(node);
-
-            dialogue.sentences[dialogueCount] = node.SelectSingleNode("dialogue").InnerText;
-            dialogueCount++;
+            SetName(node);
+            dialogue.sentences[_DialogueCount++] = node.SelectSingleNode("Dialogue").InnerText;
         }
 
         foreach (XmlNode node in all_nodes)
         {
-            if (node.SelectNodes("question").Count > 0)
+            _QuestionCount = node.SelectNodes("Question").Count;
+            if (_QuestionCount > 0)
             {
-                for (int i = 0; i < 3; i++)
+                SetQuestionArray();
+                for (var i = 0; i < _QuestionCount; i++)
                 {
-                    dialogue.quiestions[i] = node.SelectNodes("question")[i].InnerText;
+                    var question = node.SelectNodes("Question")[i].InnerText;
+                    dialogue.quiestions[i] = question;
                 }
+                SetQuestions();
             }
         }
     }
 
+    #endregion
 
-    private void SetQuestions()
-    {
-        Debug.Log(dialogue.quiestions.Length);
-        for(int i = 2; i >= 0; i--)
-        {
-            int dialogueCount = (dialogue.quiestions[i] == "") ? ChoicebuttonFalse(choiceButton[2 - i]) : ChoicebuttonTrue(choiceText[2 - i], i);
-        }
-    }
-
+    #region <Methods/UI>
+    
     public void EndDialogue()
     {
-        choicePanel.gameObject.SetActive(true);
+        ChoicePanel.gameObject.SetActive(true);
     }
 
-    private int SetPlayerName()
+    private void SetChoiceButton(Text P_ChoiceText, int p_Index)
     {
-        dialogue.names[dialogueCount] = PlayerPrefs.GetString("Name");
-
-        return 0;
+        P_ChoiceText.text = dialogue.quiestions[p_Index];
+        Debug.LogWarning(dialogue.quiestions[p_Index]);
     }
 
-    private int SetCharacterName(XmlNode node)
-    {
-        dialogue.names[dialogueCount] = node.SelectSingleNode("name").InnerText;
-
-        return 0;
-    }
-
-    private int ChoicebuttonFalse(Button choiceButton)
-    {
-        choiceButton.gameObject.SetActive(false);
-
-        return 0;
-    }
-
-    private int ChoicebuttonTrue(Text choiceText, int index)
-    {
-        choiceText.text = dialogue.quiestions[index];
-
-        return 0;
-    }
+    #endregion
 }

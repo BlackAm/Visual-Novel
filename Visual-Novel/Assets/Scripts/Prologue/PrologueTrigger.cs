@@ -7,7 +7,7 @@ public class PrologueTrigger : MonoBehaviour
 
     public string xmlFileName;
 
-    private int dialogueCount = 0;
+    private int dialogueCount;
 
     private void TriggerDialogue()
     {
@@ -24,14 +24,15 @@ public class PrologueTrigger : MonoBehaviour
         LoadXML(xmlFileName);
     }
 
-    private void LoadXML(string _fileName)
+    private void LoadXML(string _storyFile)
     {
         TextAsset txtAsset = (TextAsset)Resources.Load("XML/TestDialogue");
         XmlDocument xmlDoc = new XmlDocument();
         xmlDoc.LoadXml(txtAsset.text);
 
         // 전체 아이템 가져오기 예제.
-        XmlNodeList all_nodes = xmlDoc.SelectNodes("dataroot/" + _fileName);
+        XmlNodeList all_nodes = xmlDoc.SelectNodes($"dataroot/{_storyFile}");
+        prologue.sentences = new string[all_nodes.Count];
 
         foreach (XmlNode node in all_nodes)
         {

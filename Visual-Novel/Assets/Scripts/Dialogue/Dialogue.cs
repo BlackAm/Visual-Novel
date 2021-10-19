@@ -9,8 +9,7 @@ public class Dialogue
 	public Sprite[] sprites;
 
 	public string[] names;
-
-	[TextArea(3, 10)]
+	
 	public string[] sentences;
 
     public string[] quiestions;
