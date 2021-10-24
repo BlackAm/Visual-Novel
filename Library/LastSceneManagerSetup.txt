@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/StoryScene/Dialog_1_Scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
