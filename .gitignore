@@ -1,5 +1,4 @@
 /[Ll]ibrary/
-Visual-Novel/[Ll]ibrary
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -63,3 +62,4 @@ sysinfo.txt
 /Run.app/
 Assets/Editor/JsonDotNet20/Newtonsoft.Json.dll.meta
 Assets/Editor/JsonDotNet20/Newtonsoft.Json.pdb.meta
+Visual-Novel/Library
