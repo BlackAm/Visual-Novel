@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>0</KEY>
+    <CommandCooldown>100</CommandCooldown>
+    <CommandExpireMsec>500</CommandExpireMsec>
+    <CommandMaxCapacity>4</CommandMaxCapacity>
+  </Record>
+</Table>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>0</KEY>
+    <SceneDescription>Null</SceneDescription>
+    <CameraConfigureIndex>0</CameraConfigureIndex>
+    <SceneVariableIndexList>0</SceneVariableIndexList>
+  </Record>
+  <Record>
+    <KEY>301</KEY>
+    <SceneDescription>마을</SceneDescription>
+    <CameraConfigureIndex>0</CameraConfigureIndex>
+    <SceneVariableIndexList>1/2</SceneVariableIndexList>
+    <CenterPoint>-7.3, 0, -3</CenterPoint>
+  </Record>
+</Table>

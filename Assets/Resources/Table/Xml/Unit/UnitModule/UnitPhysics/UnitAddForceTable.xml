@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+        <ForceDirectionType></ForceDirectionType>
+        <Force></Force>
+        <ForceDelay></ForceDelay>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <ForceDirectionType>TargetDirection</ForceDirectionType>
+        <Force>0,0,4</Force>
+        <ForceDelay>0</ForceDelay>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <ForceDirectionType>TargetDirection</ForceDirectionType>
+        <Force>0,0,-6</Force>
+        <ForceDelay>3</ForceDelay>
+    </Record>
+    <Record>
+        <KEY>3</KEY>
+        <ForceDirectionType>StrikerForward</ForceDirectionType>
+        <ForceType>Action</ForceType>
+        <ForceFilterEventFlagMask>Drawing | HitUnit</ForceFilterEventFlagMask>
+        <Force>0,-144,72</Force>
+        <ForceDelay>0</ForceDelay>
+        <DampingBound>4</DampingBound>
+        <HitPresetIndex>1200</HitPresetIndex>
+    </Record>
+    <Record>
+        <KEY>4</KEY>
+        <ForceDirectionType>StrikerForward</ForceDirectionType>
+        <ForceType>Action</ForceType>
+        <ForceFilterEventFlagMask>Drawing | HitUnit</ForceFilterEventFlagMask>
+        <Force>0,-144,64</Force>
+        <ForceDelay>0</ForceDelay>
+        <DampingBound>4</DampingBound>
+        <HitPresetIndex>1200</HitPresetIndex>
+    </Record>
+    <Record>
+        <KEY>5</KEY>
+        <ForceDirectionType>StrikerForward</ForceDirectionType>
+        <ForceType>Action</ForceType>
+        <ForceFilterEventFlagMask>Drawing</ForceFilterEventFlagMask>
+        <Force>0,-144,72</Force>
+        <ForceDelay>0</ForceDelay>
+        <DampingBound>4</DampingBound>
+    </Record>
+
+    <Record>
+        <KEY>50</KEY>
+        <ForceDirectionType>TargetDirection</ForceDirectionType>
+        <ForceType>Action</ForceType>
+        <ForceFilterEventFlagMask>Drawing</ForceFilterEventFlagMask>
+        <Force>0,-144,188</Force>
+        <ForceDelay>0</ForceDelay>
+        <DampingBound>4</DampingBound>
+    </Record>
+    <Record>
+        <KEY>51</KEY>
+        <ForceDirectionType>WorldForce</ForceDirectionType>
+        <ForceType>Action</ForceType>
+        <ForceFilterEventFlagMask>Drawing</ForceFilterEventFlagMask>
+        <Force>0,500,0</Force>
+        <ForceDelay>0</ForceDelay>
+        <DampingBound>4</DampingBound>
+    </Record>
+    
+    <Record>
+        <KEY>1120</KEY>
+        <ForceDirectionType>StrikerForward</ForceDirectionType>
+        <ForceType>Action</ForceType>
+        <ForceFilterEventFlagMask>Drawing</ForceFilterEventFlagMask>
+        <Force>0,-144,72</Force>
+        <ForceDelay>0</ForceDelay>
+        <DampingBound>4</DampingBound>
+    </Record>
+
+    <Record>
+        <KEY>999100</KEY>
+        <ForceDirectionType>TargetDirection</ForceDirectionType>
+        <Force>0,-144,72</Force>
+        <ForceDelay>100</ForceDelay>
+        <DampingBound>4</DampingBound>
+    </Record>
+</Table>

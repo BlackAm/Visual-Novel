@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <!-- 게임 컨텐츠 관련 문자열을 190000 ~ 199999번 -->
+    <Record>
+        <KEY>190000</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target><!-- Single, Range, Player,-->
+        <content>스킬이름</content>
+        <SkillDescription>스킬설명</SkillDescription>
+        <SkillFlavorText>스킬설명2</SkillFlavorText>
+        <SkillIconSpriteIndex>0</SkillIconSpriteIndex>
+    </Record>
+
+    <Record>
+        <KEY>191000</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>전사 평타 1</content>
+        <SkillDescription>전사 평타 1</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>191001</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>전사 평타 2</content>
+        <SkillDescription>전사 평타 2</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>191002</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>전사 평타 3</content>
+        <SkillDescription>전사 평타 3</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>191003</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>전사 평타 4</content>
+        <SkillDescription>전사 평타 4</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    
+    <!--전사 액티브 -->
+    <Record>
+        <KEY>191010</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>몬타노 어퍼</content>
+        <SkillDescription>제자리에서(움직이지 않고)\n회전하여 적을 강하게 올려벤다.</SkillDescription>
+        <SkillIconSpriteIndex>1010</SkillIconSpriteIndex>
+        <NeedLevel>1</NeedLevel>
+        <Mana>8</Mana>
+        <CoolTime>12</CoolTime>
+    </Record>
+    
+    
+    <Record>
+        <KEY>191011</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Single</Target>
+        <content>몬타노 슬래시</content>
+        <SkillDescription>적을 강하게 내려배고 3%의 확률로 적을\n5초간 0.5~2초간 출혈상태로 만든다.\n출혈은 초당 30%의 데미지를 준다.</SkillDescription>
+        <SkillIconSpriteIndex>1011</SkillIconSpriteIndex>
+        <NeedLevel>15</NeedLevel>
+        <Mana>8</Mana>
+        <CoolTime>11</CoolTime>
+    </Record>
+   
+    <Record>
+        <KEY>191020</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>호리젠탈 배쉬</content><!-- 2-->
+        <SkillDescription>적을 횡렬로 강하게 벤다.\n적이 출혈 상태일 경우 50%의 추가 데미지</SkillDescription>
+        <SkillIconSpriteIndex>1020</SkillIconSpriteIndex>
+        <NeedLevel>1</NeedLevel>
+        <Mana>14</Mana>
+        <CoolTime>10</CoolTime>
+    </Record>
+    <!-- 
+    <Record>
+        <KEY>191030</KEY>
+        <Type>Buff</Type>
+        <Rank>Common</Rank>
+        <Target>Player</Target>
+        <content>파르곤의 가르침</content>
+        <SkillDescription>15분동안 이동속도 5%상승</SkillDescription>
+        <SkillIconSpriteIndex>1030</SkillIconSpriteIndex>
+        <NeedLevel>5</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>60</CoolTime>
+    </Record>
+    -->
+    <Record>
+        <KEY>191040</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>어벤져</content>
+        <SkillDescription>적을 빠르게 찌르고 전체 체력의 2%만큼\nHp를 회복한다.</SkillDescription>
+        <SkillIconSpriteIndex>1040</SkillIconSpriteIndex>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <NeedLevel>10</NeedLevel>
+        <Mana>30</Mana>
+        <CoolTime>30</CoolTime>
+    </Record>
+    <!-- 
+    <Record>
+        <KEY>191050</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Single</Target>
+        <content>저지먼트</content>
+        <SkillDescription>초속 2.5m로 빠르게 돌진하여 적에게 다가감\n몬스터의 포커싱을\n자신으로 02초간 변경한다.</SkillDescription>
+        <SkillIconSpriteIndex>1050</SkillIconSpriteIndex>
+        <NeedLevel>20</NeedLevel>
+        <Mana>6</Mana>
+        <CoolTime>35</CoolTime>
+    </Record>
+    <Record>
+        <KEY>191051</KEY>
+        <Type>Active</Type>
+        <Rank>Heroic</Rank>
+        <Target>Single</Target>
+        <content>퍼니쉬먼트</content>
+        <SkillDescription>방패로 빠르게 내려쳐 적을 타격\n10%의 확률로 2~3초간 기절</SkillDescription>
+        <SkillIconSpriteIndex>1051</SkillIconSpriteIndex>
+        <NeedLevel>45</NeedLevel>
+        <Mana>14</Mana>
+        <CoolTime>34</CoolTime>
+    </Record>
+    <Record>
+        <KEY>191060</KEY>
+        <Type>Buff</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Player</Target>
+        <content>가디언 베리어</content>
+        <SkillDescription>15분동안 데미지 5%감소</SkillDescription>
+        <SkillIconSpriteIndex>1060</SkillIconSpriteIndex>
+        <NeedLevel>25</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>60</CoolTime>
+    </Record>
+    -->
+
+    <Record>
+        <KEY>191070</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Range</Target>
+        <content>파워 스트라이크</content>
+        <SkillDescription>각도60도의 부채꼴 범위로\n적을 강하게 내려쳐서 공격</SkillDescription>
+        <SkillIconSpriteIndex>1070</SkillIconSpriteIndex>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <NeedLevel>30</NeedLevel>
+        <Mana>10</Mana>
+        <CoolTime>12</CoolTime>
+    </Record>
+
+
+    <!-- 
+    <Record>
+        <KEY>191080</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Single</Target>
+        <content>헤드 스트라이크</content>
+        <SkillDescription>원거리에서 방패를 던져 공격,\n맞은 적은 20%의 확률로\n50~60%느려지는 슬로우 상태가 된다.</SkillDescription>
+        <SkillIconSpriteIndex>1080</SkillIconSpriteIndex>
+        <NeedLevel>35</NeedLevel>
+        <Mana>30</Mana>
+        <CoolTime>20</CoolTime>
+    </Record>
+    <Record>
+        <KEY>191090</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Single</Target>
+        <content>아이언 버트</content>
+        <SkillDescription>타격된 적을 10%의 확률로\n0.5~2초간 기절시킨다.</SkillDescription>
+        <SkillIconSpriteIndex>1090</SkillIconSpriteIndex>
+        <NeedLevel>40</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>25</CoolTime>
+    </Record>
+    <Record>
+        <KEY>191100</KEY>
+        <Type>Buff</Type>
+        <Rank>Heroic</Rank>
+        <Target>Player</Target>
+        <content>폴 인투 로얄</content>
+        <SkillDescription>40초동안 마법 데미지 감소 10%\n스킬 상태이상 확률 증가 0.5%\n일반 공격에 노란 빛 이펙트가 추가된다.</SkillDescription>
+        <SkillIconSpriteIndex>1100</SkillIconSpriteIndex>
+        <NeedLevel>50</NeedLevel>
+        <Mana>35</Mana>
+        <CoolTime>120</CoolTime>
+    </Record>
+    <Record>
+        <KEY>191110</KEY>
+        <Type>Active</Type>
+        <Rank>Heroic</Rank>
+        <Target>Range</Target>
+        <content>소드 오브 라미에르</content>
+        <SkillDescription>적 방향에 검을 사선으로 위로 2회 휘둘러\n범위 공격</SkillDescription>
+        <SkillIconSpriteIndex>1110</SkillIconSpriteIndex>
+        <NeedLevel>55</NeedLevel>
+        <Mana>40</Mana>
+        <CoolTime>30</CoolTime>
+    </Record> 
+    -->
+    <Record>
+        <KEY>191120</KEY>
+        <Type>Active</Type><!-- 12-->
+        <Rank>Legendary</Rank>
+        <Target>Single</Target>
+        <content>앱솔루트 체인</content>
+        <SkillDescription>방패를 앞으로 뻗어\n바라보는 방향의 범위 안의 대상을\n(최대 3명, 가까운 순서대로)\n자신의 바로 앞으로 끌어당긴다.</SkillDescription>
+        <SkillIconSpriteIndex>1120</SkillIconSpriteIndex>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <NeedLevel>60</NeedLevel>
+        <Mana>40</Mana>
+        <CoolTime>40</CoolTime>
+    </Record>
+
+    <!--전사 패시브-->
+    <Record>
+        <KEY>191500</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>쉴드 업</content>
+        <SkillDescription>방어력이 a 체력이 b 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>1500</SkillIconSpriteIndex>
+        <NeedLevel>8/43/50</NeedLevel>
+        <Ability>3,50/10,100/15,150</Ability>
+    </Record>
+    <Record>
+        <KEY>191510</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>아이언 월</content>
+        <SkillDescription>방어력이 a 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>1510</SkillIconSpriteIndex>
+        <NeedLevel>10</NeedLevel>
+        <Ability>5</Ability>
+    </Record>
+    <Record>
+        <KEY>191520</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>육제단련</content>
+        <SkillDescription>명중률이 a 공격력이 b 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>1520</SkillIconSpriteIndex>
+        <NeedLevel>13</NeedLevel>
+        <Ability>3,10</Ability>
+    </Record>
+    <Record>
+        <KEY>191530</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>소드마스터리</content>
+        <SkillDescription>추가 공격력이 a 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>1530</SkillIconSpriteIndex>
+        <NeedLevel>23/35/50</NeedLevel>
+        <Ability>15/20/30</Ability>
+    </Record>
+    <Record>
+        <KEY>191540</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>가벼운 한 잔</content>
+        <SkillDescription>체력 포션 사용 시 a 만큼 추가 회복 효과가 부여된다.</SkillDescription>
+        <SkillIconSpriteIndex>1540</SkillIconSpriteIndex>
+        <NeedLevel>27/50/70</NeedLevel>
+        <Ability>3/5/10</Ability>
+    </Record>
+    <Record>
+        <KEY>191550</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>쉐도우 오브 모먼트</content>
+        <SkillDescription>크리티컬 확률이 a% 증가한다.</SkillDescription>
+        <SkillIconSpriteIndex>1550</SkillIconSpriteIndex>
+        <NeedLevel>30</NeedLevel>
+        <Ability>5</Ability>
+    </Record>
+    <Record>
+        <KEY>191560</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>애로우 카운터</content>
+        <SkillDescription>물리 데미지가 a 감소한다.</SkillDescription>
+        <SkillIconSpriteIndex>1560</SkillIconSpriteIndex>
+        <NeedLevel>47</NeedLevel>
+        <Ability>30</Ability>
+    </Record>
+    <Record>
+        <KEY>191570</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>라스트 베이션</content>
+        <SkillDescription>체력이 10% 이하 일 때 a초간 b%의 확률로 데미지 c% 감소 효과가 부여된다.</SkillDescription>
+        <SkillIconSpriteIndex>1570</SkillIconSpriteIndex>
+        <NeedLevel>50</NeedLevel>
+        <Ability>10,30,90</Ability>
+    </Record>
+    
+    <Record>
+        <KEY>192000</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>궁수 평타 1</content>
+        <SkillDescription>궁수 평타 1</SkillDescription>
+        <SkillIconSpriteIndex>2000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>192001</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>궁수 평타 2</content>
+        <SkillDescription>궁수 평타 2</SkillDescription>
+        <SkillIconSpriteIndex>2000</SkillIconSpriteIndex>
+    </Record>
+    
+    <!--궁수 액티브-->
+    <Record>
+        <KEY>192010</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>호크 스나이핑</content>
+        <SkillDescription>빠르게 발사하여 적을 관통하는 화살 발사</SkillDescription>
+        <SkillIconSpriteIndex>2010</SkillIconSpriteIndex>
+        <NeedLevel>1</NeedLevel>
+        <Mana>6</Mana>
+        <CoolTime>8</CoolTime>
+    </Record>
+    <!-- <Record>
+        <KEY>192011</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Single</Target>
+        <content>라이칸 헌트</content>
+        <SkillDescription>빠르게 발사하여 적을 관통하는 화살 발사</SkillDescription>
+        <SkillIconSpriteIndex>2011</SkillIconSpriteIndex>
+        <NeedLevel>15</NeedLevel>
+        <Mana>6</Mana>
+        <CoolTime>7</CoolTime>
+    </Record> -->
+    <Record>
+        <KEY>192020</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>피어스 오브 베놈</content>
+        <SkillDescription>맞은 대상은 3~5초 중독상태가 되어\n공격력의 5%의 데미지를 준다.</SkillDescription>
+        <SkillIconSpriteIndex>2020</SkillIconSpriteIndex>
+        <NeedLevel>1</NeedLevel>
+        <Mana>8</Mana>
+        <CoolTime>11</CoolTime>
+    </Record>
+    <!-- <Record>
+        <KEY>192030</KEY>
+        <Type>Buff</Type>
+        <Rank>Common</Rank>
+        <Target>Player</Target>
+        <content>동방의 무법자</content>
+        <SkillDescription>15분동안 회피율5% 상승</SkillDescription>
+        <SkillIconSpriteIndex>2030</SkillIconSpriteIndex>
+        <NeedLevel>5</NeedLevel>
+        <Mana>30</Mana>
+        <CoolTime>100</CoolTime>
+    </Record> -->
+    <Record>
+        <KEY>192040</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>래피드 파이어</content>
+        <SkillDescription>3발의 화살을  빠르게 발사한다.</SkillDescription>
+        <SkillIconSpriteIndex>2040</SkillIconSpriteIndex>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <NeedLevel>10</NeedLevel>
+        <Mana>15</Mana>
+        <CoolTime>14</CoolTime>
+    </Record>
+    <!-- <Record>
+        <KEY>192041</KEY>
+        <Type>Buff</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>부르탈 스팅어</content>
+        <SkillDescription>회전하고 빠르게 화살을 발사한다.</SkillDescription>
+        <SkillIconSpriteIndex>2041</SkillIconSpriteIndex>
+        <NeedLevel>30</NeedLevel>
+        <Mana>17</Mana>
+        <CoolTime>13</CoolTime>
+    </Record> -->
+    <Record>
+        <KEY>192050</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Single</Target>
+        <content>트와일라잇 샷</content>
+        <SkillDescription>맞은 대상은 30%확률로 02초동안 속박</SkillDescription>
+        <SkillIconSpriteIndex>2050</SkillIconSpriteIndex>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <NeedLevel>20</NeedLevel>
+        <Mana>14</Mana>
+        <CoolTime>40</CoolTime>
+    </Record>
+    <!-- <Record>
+        <KEY>192060</KEY>
+        <Type>Buff</Type>
+        <Rank>Common</Rank>
+        <Target>Player</Target>
+        <content>퍼펙트 스나이퍼</content>
+        <SkillDescription>15분 동안\n명중률 5%상승, 크리티컬 확률 3%상승</SkillDescription>
+        <SkillIconSpriteIndex>2060</SkillIconSpriteIndex>
+        <NeedLevel>25</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>100</CoolTime>
+    </Record> -->
+    <!-- <Record>
+        <KEY>192070</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Range</Target>
+        <content>파이널 샷</content>
+        <SkillDescription>잠시 기를 모아 강력한 불 화살을 발사\n맞은 대상은 10%확률로 2초간기절</SkillDescription>
+        <SkillIconSpriteIndex>2070</SkillIconSpriteIndex>
+        <NeedLevel>35</NeedLevel>
+        <Mana>10</Mana>
+        <CoolTime>12</CoolTime>
+    </Record> -->
+    <Record>
+        <KEY>192080</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Single</Target>
+        <content>블라인드 샷</content>
+        <SkillDescription>확룰적으로 공격받은 대상을 30%확률로 2~3초간\n실명상태(명중률50%다운)로 만든다.</SkillDescription>
+        <SkillIconSpriteIndex>2080</SkillIconSpriteIndex>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <NeedLevel>40</NeedLevel>
+        <Mana>40</Mana>
+        <CoolTime>12</CoolTime>
+    </Record>
+    <!-- <Record>
+        <KEY>192090</KEY>
+        <Type>Active</Type>
+        <Rank>Heroic</Rank>
+        <Target>Single</Target>
+        <content>댄싱 스네이크</content>
+        <SkillDescription>구불거리며 날아가는 화살을 발사한다.\n맞은 대상에게 화살이 3초동안 회전하며\n1초에 한번씩 10% 데미지</SkillDescription>
+        <SkillIconSpriteIndex>2090</SkillIconSpriteIndex>
+        <NeedLevel>45</NeedLevel>
+        <Mana>35</Mana>
+        <CoolTime>40</CoolTime>
+    </Record> -->
+    <!-- <Record>
+        <KEY>192100</KEY>
+        <Type>Buff</Type>
+        <Rank>Heroic</Rank>
+        <Target>Player</Target>
+        <content>고로스의 눈</content>
+        <SkillDescription>40초동안 공격속도 10%상승, 이동속도 10%</SkillDescription>
+        <SkillIconSpriteIndex>2090</SkillIconSpriteIndex>
+        <NeedLevel>50</NeedLevel>
+        <Mana>30</Mana>
+        <CoolTime>100</CoolTime>
+    </Record> -->
+    <!-- <Record>
+        <KEY>192110</KEY>
+        <Type>Active</Type>
+        <Rank>Heroic</Rank>
+        <Target>Range</Target>
+        <content>슈팅스타 샷</content>
+        <SkillDescription>사선으로 위를 바라보며 화살을 발사하고\n잠시 후 포커싱된 몬스터의\n머리위에 화살이 떨어트려 4번 공격한다.</SkillDescription>
+        <SkillIconSpriteIndex>2090</SkillIconSpriteIndex>
+        <NeedLevel>55</NeedLevel>
+        <Mana>40</Mana>
+        <CoolTime>40</CoolTime>
+    </Record> -->
+    <!-- <Record>
+        <KEY>192120</KEY>
+        <Type>Active</Type>
+        <Rank>Legendary</Rank>
+        <Target>Range</Target>
+        <content>마하 스톰</content>
+        <SkillDescription>2초간 기를 모은 후 전방에 강한화살1발을\n발사하여 데미지를 준다.\n적의 남은 HP가 20%이하일 경우 데미지가\n10%높아진다.</SkillDescription>
+        <SkillIconSpriteIndex>2090</SkillIconSpriteIndex>
+        <NeedLevel>60</NeedLevel>
+        <Mana>30</Mana>
+        <CoolTime>45</CoolTime>
+    </Record> -->
+
+        <!--궁수 패시브-->
+        <Record>
+            <KEY>192500</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>슈팅 글러브</content>
+            <SkillDescription>공격속도가 a% 증가한다.</SkillDescription>
+            <SkillIconSpriteIndex>2500</SkillIconSpriteIndex>
+            <NeedLevel>8</NeedLevel>
+            <Ability>15</Ability>
+        </Record>
+        <Record>
+            <KEY>192510</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>데저트 스카우터</content>
+            <SkillDescription>기본 공격 사거리가 a 증가한다.</SkillDescription>
+            <SkillIconSpriteIndex>2510</SkillIconSpriteIndex>
+            <NeedLevel>10</NeedLevel>
+            <Ability>1</Ability>
+        </Record>
+        <Record>
+            <KEY>192520</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>체스트 가드</content>
+            <SkillDescription>방어력이 a 증가한다.</SkillDescription>
+            <SkillIconSpriteIndex>2520</SkillIconSpriteIndex>
+            <NeedLevel>13</NeedLevel>
+            <Ability>10</Ability>
+        </Record>
+        <Record>
+            <KEY>192530</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>보우 마스터리</content>
+            <SkillDescription>추가 공격력이 a 상승한다.</SkillDescription>
+            <SkillIconSpriteIndex>2530</SkillIconSpriteIndex>
+            <NeedLevel>23/35/50</NeedLevel>
+            <Ability>20/45/70</Ability>
+        </Record>
+        <Record>
+            <KEY>192540</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>가벼운 한 잔</content>
+            <SkillDescription>체력 포션 사용 시 a 만큼 추가 회복 효과가 부여된다.</SkillDescription>
+            <SkillIconSpriteIndex>2540</SkillIconSpriteIndex>
+            <NeedLevel>27/50/70</NeedLevel>
+            <Ability>3/5/10</Ability>
+        </Record>
+        <Record>
+            <KEY>192550</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>에로우 리사이클</content>
+            <SkillDescription>적 처치 시 a%의 확률로 마나가 b 회복된다.</SkillDescription>
+            <SkillIconSpriteIndex>2550</SkillIconSpriteIndex>
+            <NeedLevel>30</NeedLevel>
+            <Ability>30,75</Ability>
+        </Record>
+        <Record>
+            <KEY>192560</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>트위스트 무브</content>
+            <SkillDescription>이동 속도가 a% 상승한다.</SkillDescription>
+            <SkillIconSpriteIndex>2560</SkillIconSpriteIndex>
+            <NeedLevel>47</NeedLevel>
+            <Ability>10</Ability>
+        </Record>
+        <Record>
+            <KEY>192570</KEY>
+            <Type>Passive</Type>
+            <Target>Player</Target>
+            <content>라스트 챈스</content>
+            <SkillDescription>체력이 a% 미만일 때 데미지가 b% 상승한다.</SkillDescription>
+            <SkillIconSpriteIndex>2570</SkillIconSpriteIndex>
+            <NeedLevel>50</NeedLevel>
+            <Ability>25,10</Ability>
+        </Record>
+    
+    <Record>
+        <KEY>193000</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>마법사 평타 1</content>
+        <SkillDescription>마법사 평타 1</SkillDescription>
+        <SkillIconSpriteIndex>3000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>193001</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>마법사 평타 2</content>
+        <SkillDescription>마법사 평타 2</SkillDescription>
+        <SkillIconSpriteIndex>3000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>193002</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>마법사 평타 3</content>
+        <SkillDescription>마법사 평타 3</SkillDescription>
+        <SkillIconSpriteIndex>3000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>193003</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>마법사 평타 4</content>
+        <SkillDescription>마법사 평타 4</SkillDescription>
+        <SkillIconSpriteIndex>3000</SkillIconSpriteIndex>
+    </Record>
+    
+    <!--법사 액티브-->
+    <Record>
+        <KEY>193010</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>스피드 스타</content>
+        <SkillDescription>손안에서 빠르게 마력으로\n만들어낸 별을 발사한다.</SkillDescription>
+        <SkillIconSpriteIndex>3010</SkillIconSpriteIndex>
+        <NeedLevel>1</NeedLevel>
+        <Mana>6</Mana>
+        <CoolTime>8</CoolTime>
+    </Record>
+    <!--
+    <Record>
+        <KEY>193011</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Single</Target>
+        <content>밀키 웨이</content>
+        <SkillDescription>여러발을 손안에서 발사한다.</SkillDescription>
+        <SkillIconSpriteIndex>3011</SkillIconSpriteIndex>
+        <NeedLevel>15</NeedLevel>
+        <Mana>6</Mana>
+        <CoolTime>7</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193020</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>아이스 스피어</content>
+        <SkillDescription>얼음의 창을 발사하여 맞은 대상에게 데미지</SkillDescription>
+        <SkillIconSpriteIndex>3020</SkillIconSpriteIndex>
+        <NeedLevel>1</NeedLevel>
+        <Mana>14</Mana>
+        <CoolTime>15</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193030</KEY>
+        <Type>Buff</Type>
+        <Rank>Common</Rank>
+        <Target>Player</Target>
+        <content>황혼의 육망성</content>
+        <SkillDescription>15분동안 물리 방어력2, 마법 방어력2 상승</SkillDescription>
+        <SkillIconSpriteIndex>3030</SkillIconSpriteIndex>
+        <NeedLevel>5</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>100</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193040</KEY>
+        <Type>Active</Type>
+        <Rank>Common</Rank>
+        <Target>Single</Target>
+        <content>코즈믹 트위스터</content>
+        <SkillDescription>두가지 색상의 회오리를 대상을 향해 발사하여\n데미지</SkillDescription>
+        <SkillIconSpriteIndex>3040</SkillIconSpriteIndex>
+        <NeedLevel>10</NeedLevel>
+        <Mana>10</Mana>
+        <CoolTime>12</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193041</KEY>
+        <Type>Active</Type>
+        <Rank>Heroic</Rank>
+        <Target>Range</Target>
+        <content>허리케인</content>
+        <SkillDescription>두가지의 색이 섞인 듯한 소용돌이를 적의 위치의\n바닥에서 발생시켜 3초간 1초에 한번 씩 데미지</SkillDescription>
+        <SkillIconSpriteIndex>3041</SkillIconSpriteIndex>
+        <NeedLevel>45</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>11</CoolTime>
+    </Record>
+    -->
+    <Record>
+        <KEY>193050</KEY>
+        <Type>Active</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Range</Target>
+        <content>콜드 스파이크</content>
+        <SkillDescription>바닥에서 얼음을 솟아나게 하여 데미지\n70%확률로 대상에게 슬로우50~60% 적용\n슬로우는 3~5초동안 지속된다.</SkillDescription>
+        <SkillIconSpriteIndex>3050</SkillIconSpriteIndex>
+        <NeedLevel>20</NeedLevel>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <Mana>14</Mana>
+        <CoolTime>15</CoolTime>
+    </Record>
+    <!--
+    <Record>
+        <KEY>193060</KEY>
+        <Type>Buff</Type>
+        <Rank>Luxurious</Rank>
+        <Target>Single</Target>
+        <content>루나틱</content>
+        <SkillDescription>15분동안 스킬데미지 5%상승</SkillDescription>
+        <SkillIconSpriteIndex>3060</SkillIconSpriteIndex>
+        <NeedLevel>25</NeedLevel>
+        <Mana>40</Mana>
+        <CoolTime>100</CoolTime>
+    </Record>
+     -->
+    <Record>
+        <KEY>193070</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Single</Target>
+        <content>스타 블레이저</content>
+        <SkillDescription>전방의 단일적을 빠르게 관통하는 레이저를\n발사한다.\n슬로우, 빙결상태의 적에게 사용 했을 경우\n10%데미지 상승</SkillDescription>
+        <SkillIconSpriteIndex>3070</SkillIconSpriteIndex>
+        <NeedLevel>30</NeedLevel>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <Mana>14</Mana>
+        <CoolTime>17</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193080</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Single</Target>
+        <content>스노우 엔젤</content>
+        <SkillDescription>100%의 확률로 적을 2초동안\n빙결상태로 만든다.</SkillDescription>
+        <SkillIconSpriteIndex>3080</SkillIconSpriteIndex>
+        <NeedLevel>35</NeedLevel>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <Mana>20</Mana>
+        <CoolTime>45</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193090</KEY>
+        <Type>Active</Type>
+        <Rank>Rarely</Rank>
+        <Target>Range</Target>
+        <content>코즈믹 블리자드</content>
+        <SkillDescription>적의 위치에 2초동안 얼음 소용돌이를\n만들고 범위 안의 적들에게\n초당 30%의 데미지를 주고\n맞으면 30%확률로 빙결상태가 되는 폭발을 일으키며\n100%의 데미지를 준다.\n적은 2초동안 빙결상태가 된다.</SkillDescription>
+        <SkillIconSpriteIndex>3090</SkillIconSpriteIndex>
+        <NeedLevel>40</NeedLevel>
+        <!-- <NeedLevel>1</NeedLevel> -->
+        <Mana>30</Mana>
+        <CoolTime>40</CoolTime>
+    </Record>
+    <!-- 
+    <Record>
+        <KEY>193100</KEY>
+        <Type>Buff</Type>
+        <Rank>Heroic</Rank>
+        <Target>Player</Target>
+        <content>프로즌 티아라</content>
+        <SkillDescription>40초동안 상태이상 적중률 2%상승\nMP소비 3감소</SkillDescription>
+        <SkillIconSpriteIndex>3100</SkillIconSpriteIndex>
+        <NeedLevel>50</NeedLevel>
+        <Mana>20</Mana>
+        <CoolTime>100</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193110</KEY>
+        <Type>Active</Type>
+        <Rank>Heroic</Rank>
+        <Target>Single</Target>
+        <content>비전 라이트닝</content>
+        <SkillDescription>3초 동안 대상에게 연속으로 번개를 발사하여\n데미지를 준다. 데미지를 준 만큼의\n10%의 마나를 회복한다.</SkillDescription>
+        <SkillIconSpriteIndex>3110</SkillIconSpriteIndex>
+        <NeedLevel>55</NeedLevel>
+        <Mana>1</Mana>
+        <CoolTime>40</CoolTime>
+    </Record>
+    <Record>
+        <KEY>193120</KEY>
+        <Type>Buff</Type>
+        <Rank>Legendary</Rank>
+        <Target>Range</Target>
+        <content>로스트 문</content>
+        <SkillDescription>1초의 대기 시간 후 마법으로 만들어낸\n작은 달을 떨어트려 대상에게 데미지를 준다.</SkillDescription>
+        <SkillIconSpriteIndex>3120</SkillIconSpriteIndex>
+        <NeedLevel>60</NeedLevel>
+        <Mana>40</Mana>
+        <CoolTime>50</CoolTime>
+    </Record>
+    -->
+
+    <!--법사 패시브-->
+    <Record>
+        <KEY>193500</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>메디테이션</content>
+        <SkillDescription>명상을 통해 마나를 a 회복한다.</SkillDescription>
+        <SkillIconSpriteIndex>3500</SkillIconSpriteIndex>
+        <NeedLevel>8</NeedLevel>
+        <Ability>50</Ability>
+    </Record>
+    <Record>
+        <KEY>193510</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>마력 각성</content>
+        <SkillDescription>명중률이 a, 마법 공격력이 b 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>3510</SkillIconSpriteIndex>
+        <NeedLevel>10</NeedLevel>
+        <Ability>2,10</Ability>
+    </Record>
+    <Record>
+        <KEY>193520</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>매직 부스터</content>
+        <SkillDescription>공격속도가 a% 증가한다.</SkillDescription>
+        <SkillIconSpriteIndex>3520</SkillIconSpriteIndex>
+        <NeedLevel>13</NeedLevel>
+        <Ability>10</Ability>
+    </Record>
+    <Record>
+        <KEY>193530</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>스태프 마스터리</content>
+        <SkillDescription>추가 공격력이 a 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>3530</SkillIconSpriteIndex>
+        <NeedLevel>23/35/50</NeedLevel>
+        <Ability>15/30/50</Ability>
+    </Record>
+    <Record>
+        <KEY>193540</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>가벼운 한 잔</content>
+        <SkillDescription>체력 포션 사용 시 a 만큼 추가 회복 효과가 부여된다.</SkillDescription>
+        <SkillIconSpriteIndex>3540</SkillIconSpriteIndex>
+        <NeedLevel>27/50/70</NeedLevel>
+        <Ability>3/5/10</Ability>
+    </Record>
+    <Record>
+        <KEY>193550</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>마나 리게인</content>
+        <SkillDescription>마나가 a 회복된다.</SkillDescription>
+        <SkillIconSpriteIndex>3550</SkillIconSpriteIndex>
+        <NeedLevel>30</NeedLevel>
+        <Ability>5</Ability>
+    </Record>
+    <Record>
+        <KEY>193560</KEY>
+        <Type>Passive</Type>
+        <Target>Player</Target>
+        <content>스펠 마스터</content>
+        <SkillDescription>마법 치명타가 a% 상승한다.</SkillDescription>
+        <SkillIconSpriteIndex>3560</SkillIconSpriteIndex>
+        <NeedLevel>47</NeedLevel>
+        <Ability>5</Ability>
+    </Record>
+
+    <!-- UnWeapon -->
+    <Record>
+        <KEY>195000</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>주먹 공격</content>
+        <SkillDescription>플레이어 주먹 공격</SkillDescription>
+        <SkillIconSpriteIndex>5000</SkillIconSpriteIndex>
+    </Record>
+    
+    <!-- Monster -->
+    <Record>
+        <KEY>195001</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>찌르기 찌르기</content>
+        <SkillDescription>스켈레톤 기본 공격</SkillDescription>
+        <SkillIconSpriteIndex>0</SkillIconSpriteIndex>
+    </Record>
+
+    <!--  Pet -->
+    <Record>
+        <KEY>196000</KEY>
+        <Type>Normal</Type>
+        <Target>Single</Target>
+        <content>스킬 미구현</content>
+        <SkillDescription>펫 보유 버프가 없습니다</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>196004</KEY>
+        <Type>Normal</Type>
+        <Target>Player</Target>
+        <content>마법공격 증강</content>
+        <SkillDescription>마법 공격력과 마법 크리티컬을 증가 시킵니다</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>196006</KEY>
+        <Type>Normal</Type>
+        <Target>Player</Target>
+        <content>물리공격 증강</content>
+        <SkillDescription>물리 공격력과 물리 크리티컬을 증가 시킵니다</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+    <Record>
+        <KEY>196009</KEY>
+        <Type>Normal</Type>
+        <Target>Player</Target>
+        <content>신속</content>
+        <SkillDescription>공격 속도와 이동 속도를 증가 시킵니다</SkillDescription>
+        <SkillIconSpriteIndex>1000</SkillIconSpriteIndex>
+    </Record>
+</Table>

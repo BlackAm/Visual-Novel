@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>ReleaseMode</KEY>
+    <Flag>False</Flag>
+    <IntValue>0</IntValue>
+  </Record>
+  <Record>
+    <KEY>ReleasedVersion</KEY>
+    <Flag>False</Flag>
+    <IntValue>0</IntValue>
+  </Record>
+  <Record>
+    <KEY>AutoPatchMode</KEY>
+    <Flag>False</Flag>
+    <IntValue>0</IntValue>
+  </Record>
+  <Record>
+    <KEY>ResourceListAutoUpdate</KEY>
+    <Flag>False</Flag>
+    <IntValue>0</IntValue>
+  </Record>
+  <Record>
+    <KEY>UsingByteByteCode</KEY>
+    <Flag>False</Flag>
+    <IntValue>0</IntValue>
+  </Record>
+</Table>

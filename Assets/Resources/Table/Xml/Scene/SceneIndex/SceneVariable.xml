@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Table>
+  <Record>
+    <!-- 키 값, SceneSetting 테이블에서 SceneVariableIndexList가 참조하는 값 -->
+    <KEY>0</KEY>
+    <!-- 해당 씬 설정에 대한 요약 -->
+    <StageDescription>플레이어 스폰 위치, 플레이어 카메라 포커스 정보, 해당 설정일 때 적용할 PPS 효과, 배경음</StageDescription>
+    <!-- [레이어 타입#거리] ~ 지정한 레이어의 오브젝트가 카메라로부터 거리만큼 벗어나면 카메라에 랜더링하지 않음 -->
+    <FarCullingDistances>UnitA#50\UnitB#50\UnitC#50\UnitD#50</FarCullingDistances>
+    <!-- 해당 씬의 속성 
+    <SceneVariableFlagMask></SceneVariableFlagMask>-->
+
+    <!-- 플레이어 스폰 좌표 -->
+    <PlayerStartPosition>0,0,0</PlayerStartPosition>
+    <!-- 플레이어 스폰 회전값 -->
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <!-- 플레이어 카메라 전후 기울기 ~ 해당 카메라는 앞으로 60도 회전해 있다.-->
+    <CameraRootWrapperTiltDegree>0</CameraRootWrapperTiltDegree>
+    <!-- 플레이어 카메라 좌우 기울기 ~ 해당 카메라는 반시계 방향으로 0도 만큼 회전해 있다. -->
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <!-- 플레이어와 카메라 사이의 기본 거리 -->
+    <CameraDistance>18</CameraDistance>
+    <!-- 플레이어 위치와 카메라 초점 사이의 Offset ~ 해당 카메라는 플레이어 위치로부터 (0, 1.5, 0) 더한 위치를 초점으로 가진다." -->
+    <TraceOffset>0,0,0</TraceOffset>
+    <!-- 해당 씬에 적용될 PostProcessLayer 및 Profile 제어 컴포넌트 타입
+    <PostProcessVolumeType></PostProcessVolumeType> -->
+    <!-- 해당 씬에 적용될 PostProcessorProfile 이름 리스트
+    <PostProcessorProfileList></PostProcessorProfileList> -->
+    <!-- 인게임 씬 이름 -->
+    <SceneNameIndex>0</SceneNameIndex>
+    <!-- 해당 씬에서 재생할 배경음 테이블 인덱스 -->
+    <BackGroundSound>0</BackGroundSound>
+    <!-- 해당 씬에 적용할 스폰 이벤트 -->
+    <PopIndex>0</PopIndex>
+    <!-- 해당 씬을 관리할 로컬 오브젝트 인덱스 -->b
+    <SceneEnvironmentTypeIndex>0</SceneEnvironmentTypeIndex>
+  </Record>
+
+  <Record>
+    <KEY>1</KEY>
+    <PlayerStartPosition>47.913,7.432,58.104</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>500</BackGroundSound>
+    <SubBackGroundSound>600</SubBackGroundSound>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <SceneName>141000</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>마을/사비스 성 마을</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80020</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>2</KEY>
+    <PlayerStartPosition>48.500,8,58</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>500</BackGroundSound>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <SceneName>0</SceneName>
+    <StageDescription>401번 마을 : 150 vs 150 프로모션용 설정.</StageDescription>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <SceneEnvironmentTypeIndex>514</SceneEnvironmentTypeIndex>
+  </Record>
+  <Record>
+    <KEY>100</KEY>
+    <PlayerStartPosition>197.716,5.039,193.197</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-109.1</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>141001</SceneName>
+    <PostProcessorPrefabList>512_hunting_A.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>100</StageDescription>
+  </Record>
+  <Record>
+    <KEY>101</KEY>
+    <PlayerStartPosition>-187.500,16.100,-183.200</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>141013</SceneName>
+    <PostProcessorPrefabList>512_Hunting_B_Volum.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>101</StageDescription>
+    <EffectSoundIndex>80032</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>102</KEY>
+    <PlayerStartPosition>190.433,-33.429,-370.327</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>10.05</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>102</StageDescription>
+  </Record>
+  <Record>
+    <KEY>103</KEY>
+    <PlayerStartPosition>325.283,-34.357,206.055</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>205.84</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>141003</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>103</StageDescription>
+    <EffectSoundIndex>80020</EffectSoundIndex>
+  </Record>
+
+  <Record>
+    <KEY>105</KEY>
+    <PlayerStartPosition>-70.931,-3.481,115.968</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>196.1</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>105</StageDescription>
+  </Record>
+  <Record>
+    <KEY>106</KEY>
+    <PlayerStartPosition>-44.628,43.891,164.431</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>177.4</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1009</BackGroundSound>
+    <SceneName>141012</SceneName>
+    <PostProcessorPrefabList>512_hunting_E_PostProcessing.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>106</StageDescription>
+    <EffectSoundIndex>80031</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>107</KEY>
+    <PlayerStartPosition>-345.762,-39.510,221.805</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>67.3</CameraRootWrapperSightDegree>
+    <TraceOffset>0,1,0</TraceOffset>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1004</BackGroundSound>
+    <SceneName>141014</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>107</StageDescription>
+    <EffectSoundIndex>80032</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>108</KEY>
+    <PlayerStartPosition>1184.168,128.095,1015.462</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1004</BackGroundSound>
+    <SceneName>141015</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>108</StageDescription>
+    <EffectSoundIndex>80032</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>109</KEY>
+    <PlayerStartPosition>60.249,0,104.551</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>179.43</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>141016</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>109</StageDescription>
+  </Record>
+  <Record>
+    <KEY>600</KEY>
+    <PlayerStartPosition>24.229,3.495,28.343</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-140.1</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>600</StageDescription>
+  </Record>
+  <Record>
+    <KEY>601</KEY>
+    <PlayerStartPosition>15.823,12.019,-9.299</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>601</StageDescription>
+  </Record>
+  <Record>
+    <KEY>602</KEY>
+    <PlayerStartPosition>42.384,-0.294,6.697</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>602</StageDescription>
+  </Record>
+  <Record>
+    <KEY>603</KEY>
+    <PlayerStartPosition>15.858,9.45,-14.96</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>205.84</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>603</StageDescription>
+  </Record>
+  <Record>
+    <KEY>604</KEY>
+    <PlayerStartPosition>12.739,-5.624,23.645</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>188.8</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>604</StageDescription>
+  </Record>
+  <Record>
+    <KEY>605</KEY>
+    <PlayerStartPosition>-341.693,-41.349,208.173</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-2.29</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>196.1</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>605</StageDescription>
+  </Record>
+  <Record>
+    <KEY>606</KEY>
+    <PlayerStartPosition>148.197,-26.632,-63.405</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-3.09</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>177.4</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>606</StageDescription>
+  </Record>
+  <Record>
+    <KEY>607</KEY>
+    <PlayerStartPosition>36.856,5.300,-36.940</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>0.83</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>67.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>607</StageDescription>
+  </Record>
+  <Record>
+    <KEY>608</KEY>
+    <PlayerStartPosition>4.947,26.287,-67.356</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-6.55</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>608</StageDescription>
+  </Record>
+
+  <!-- Test -->
+  <Record>
+    <KEY>901</KEY>
+    <PlayerStartPosition>55.336,88.842,-6.794</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>0</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>Higher's High</StageDescription>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <TextureType>Forest</TextureType>
+  </Record>
+
+  <Record>
+    <KEY>1002</KEY>
+    <PlayerStartPosition>-451.26,-25.37,67.35</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>141007</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/608</StageDescription>
+    <EffectSoundIndex>80011</EffectSoundIndex>
+  </Record>
+
+  <Record>
+    <KEY>1004</KEY>
+    <PlayerStartPosition>0,0,0</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>608</StageDescription>
+  </Record>
+  <Record>
+    <KEY>1005</KEY>
+    <PlayerStartPosition>-337.6,-40.78,196.3</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>608</StageDescription>
+  </Record>
+  <Record>
+    <KEY>1006</KEY>
+    <PlayerStartPosition>0,0,0</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>608</StageDescription>
+  </Record>
+  <Record>
+    <KEY>1007</KEY>
+    <PlayerStartPosition>0,0,0</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>608</StageDescription>
+  </Record>
+  <Record>
+    <KEY>1010</KEY>
+    <PlayerStartPosition>0,0,0</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-5.3</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50#Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>0</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>608</StageDescription>
+  </Record>
+  <Record>
+    <KEY>1301</KEY>
+    <PlayerStartPosition>-192.06,18.79,-190.41</PlayerStartPosition>
+    <PlayerStartRotation>0,90,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1004</BackGroundSound>
+    <SceneName>141013</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_Hunting_B_Volum.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/겨울의 전초</StageDescription>
+    <TextureType>Snow</TextureType>
+    <EffectSoundIndex>80032</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>1302</KEY>
+    <PlayerStartPosition>-191.13,18.87,-199.29</PlayerStartPosition>
+    <PlayerStartRotation>0,90,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1008</BackGroundSound>
+    <SceneName>141002</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>Field_01_VolumePrefab.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/고요한 평원</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80021</EffectSoundIndex>
+  </Record>
+  <Record>
+    <KEY>1303</KEY>
+    <PlayerStartPosition>-42.55,43.9,163.22</PlayerStartPosition>
+    <PlayerStartRotation>0,90,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-20</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-170</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1100</BackGroundSound>
+    <SceneName>141012</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_E_PostProcessing.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/메마른 땅</StageDescription>
+    <TextureType>Sand</TextureType>
+    <EffectSoundIndex>80048</EffectSoundIndex>
+  </Record>
+  <!--튜토리얼-->
+  <Record>
+    <KEY>1304</KEY>
+    <PlayerStartPosition>24.22901,4,28.34301</PlayerStartPosition>
+    <PlayerStartRotation>0,180,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-40</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-170</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#100</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>2</BackGroundSound>
+    <SceneName>141017</SceneName>
+    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>연습/튜토리얼맵입니다.</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80020</EffectSoundIndex>
+  </Record>
+  <!--사비스 성 외곽-->
+  <Record>
+    <KEY>1305</KEY>
+    <PlayerStartPosition>-450.85,-24.85,68.25</PlayerStartPosition>
+    <PlayerStartRotation>0,90,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>501</BackGroundSound>
+    <SceneName>141007</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>Field_02_VolumePrefab.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/사비스 성 외곽</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80011</EffectSoundIndex>
+  </Record>
+  <!--초원의 녹지-->
+  <Record>
+    <KEY>1306</KEY>
+    <!--<PlayerStartPosition>78.9,-44.67,-170.63</PlayerStartPosition>-->
+    <PlayerStartPosition>320.73,-34.35,204.23</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1007</BackGroundSound>
+    <SceneName>141003</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>Field_01_VolumePrefab.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/초원의 녹지</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80020</EffectSoundIndex>
+  </Record>
+  <!--다릉딘 습지-->
+  <Record>
+    <KEY>1307</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-40</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-170</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1006</BackGroundSound>
+    <SceneName>141009</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/다릉딘 습지</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80030</EffectSoundIndex>
+  </Record>
+
+  <!--시련의탑 1층-->
+  <Record>
+    <KEY>1309</KEY>
+    <PlayerStartPosition>114.5, 2.0, 19.9</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>-40</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>-170</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1005</BackGroundSound>
+    <SceneName>141021</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/시련의 탑</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80033</EffectSoundIndex>
+  </Record>
+
+
+
+  <!--설원의 성지 -->
+  <Record>
+    <KEY>1310</KEY>
+    <PlayerStartPosition>-5.83,8.95,-145.81</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1110</BackGroundSound>
+    <SceneName>141015</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_castle_A_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <TextureType>Snow</TextureType>
+    <StageDescription>일반/설원의 성지</StageDescription>
+    <EffectSoundIndex>80044</EffectSoundIndex>
+  </Record>
+
+  <!--메마른 땅 -->
+  <Record>
+    <KEY>1311</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1006</BackGroundSound>
+    <SceneName>141020</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/메마른 땅</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80048</EffectSoundIndex>
+  </Record>
+
+  <!--엘윈의 숲 -->
+  <Record>
+    <KEY>1312</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1120</BackGroundSound>
+    <SceneName>141019</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/엘윈의 숲</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80030</EffectSoundIndex>
+  </Record>
+
+  <!--절망의 탑 -->
+  <Record>
+    <KEY>1313</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1011</BackGroundSound>
+    <SceneName>141016</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/절망의 탑</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80047</EffectSoundIndex>
+  </Record>
+
+  <!--시련의 탑2층 -->
+  <Record>
+    <KEY>1314</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1010</BackGroundSound>
+    <SceneName>141022</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/시련의 탑2층</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80033</EffectSoundIndex>
+  </Record>
+
+  <!--다릉딘 신전 -->
+  <Record>
+    <KEY>1315</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1012</BackGroundSound>
+    <SceneName>141008</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/다릉딘 신전</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80033</EffectSoundIndex>
+  </Record>
+
+  <!--숨겨진 던전 -->
+  <Record>
+    <KEY>1316</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1005</BackGroundSound>
+    <SceneName>141005</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/숨겨진 던전</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80047</EffectSoundIndex>
+  </Record>
+
+  <!--폐허가된 고성 -->
+  <Record>
+    <KEY>1317</KEY>
+    <PlayerStartPosition>510.9, 30.8, 588.7</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>500</BackGroundSound>
+    <SceneName>141023</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/폐허가 된 고성</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80020</EffectSoundIndex>
+  </Record>
+  <!--라미에르 성 마을-->
+  <Record>
+    <KEY>1318</KEY>
+    <PlayerStartPosition>182.310,-18.998,177.654</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>600</BackGroundSound>
+    <SceneName>141024</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>마을/라미에르 성 마을</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80046</EffectSoundIndex>
+  </Record>
+
+  <!--테스트 인던-->
+  <Record>
+    <KEY>1319</KEY>
+    <PlayerStartPosition>16.3,14.51,15.8</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1013</BackGroundSound>
+    <SceneName>141032</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>인던/테스트인던</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80033</EffectSoundIndex>
+  </Record>
+
+  <!--메마른 오아시스-->
+  <Record>
+    <KEY>1320</KEY>
+    <PlayerStartPosition>832.53,12.283,687.55</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1101</BackGroundSound>
+    <SceneName>141033</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>필드/메마른 오아시스</StageDescription>
+    <TextureType>Forest</TextureType>
+    <EffectSoundIndex>80048</EffectSoundIndex>
+  </Record>
+
+  <!-- 얼어붙은 마을 -->
+  <Record>
+    <KEY>1321</KEY>
+    <PlayerStartPosition>339.9, 69.8, 603.4</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1111</BackGroundSound>
+    <SceneName>141034</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>필드/얼어붙은 마을</StageDescription>
+    <TextureType>Forest</TextureType>
+    <!---->
+    <EffectSoundIndex>80044</EffectSoundIndex>
+  </Record>
+
+  <!-- 계승의 전장 -->
+  <Record>
+    <KEY>1322</KEY>
+    <PlayerStartPosition>339.9, 69.8, 603.4</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1014</BackGroundSound>
+    <SceneName>141035</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>필드/계승의 전장</StageDescription>
+    <TextureType>Forest</TextureType>
+    <!---->
+    <EffectSoundIndex>80049</EffectSoundIndex>
+  </Record>
+
+  <!-- 고룡의 활화산 -->
+  <Record>
+    <KEY>1323</KEY>
+    <PlayerStartPosition>339.9, 69.8, 603.4</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1015</BackGroundSound>
+    <SceneName>141036</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>인던/고룡의 활화산</StageDescription>
+    <TextureType>Forest</TextureType>
+    <!---->
+    <EffectSoundIndex>80050</EffectSoundIndex>
+  </Record>
+
+  <!--테스트맵 -->
+  <Record>
+    <KEY>1500</KEY>
+    <PlayerStartPosition>498,1,489</PlayerStartPosition>
+    <PlayerStartRotation>0,0,0</PlayerStartRotation>
+    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
+    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
+    <CameraDistance>11</CameraDistance>
+    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
+    <TraceOffset>0,1,0</TraceOffset>
+    <BackGroundSound>1009</BackGroundSound>
+    <SceneName>141030</SceneName>
+    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
+    <PostProcessorPrefabList>512_hunting_C_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
+    <StageDescription>일반/테스트맵</StageDescription>
+    <TextureType>Sand</TextureType>
+    <EffectSoundIndex>80031</EffectSoundIndex>
+  </Record>
+
+
+</Table>

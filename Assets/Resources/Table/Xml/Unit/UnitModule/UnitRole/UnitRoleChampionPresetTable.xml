@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>200</KEY>
+        <HeroAttribute>None</HeroAttribute>
+        <UnitScale>1</UnitScale>
+        <BaseStatusAdditiveRate>0.2</BaseStatusAdditiveRate>
+        <ExtraBaseStatusIndex>0</ExtraBaseStatusIndex>
+        <ExtraBattleStatusIndex>0</ExtraBattleStatusIndex>
+    </Record>
+    <Record>
+        <KEY>201</KEY>
+        <UnitScale>1</UnitScale>
+        <BaseStatusAdditiveRate>0.2</BaseStatusAdditiveRate>
+        <ExtraBaseStatusIndex>0</ExtraBaseStatusIndex>
+        <ExtraBattleStatusIndex>0</ExtraBattleStatusIndex>
+    </Record>
+    <Record>
+        <KEY>202</KEY>
+        <UnitScale>1</UnitScale>
+        <BaseStatusAdditiveRate>0.2</BaseStatusAdditiveRate>
+        <ExtraBaseStatusIndex>0</ExtraBaseStatusIndex>
+        <ExtraBattleStatusIndex>0</ExtraBattleStatusIndex>
+    </Record>
+    <Record>
+        <KEY>203</KEY>
+        <UnitScale>1</UnitScale>
+        <BaseStatusAdditiveRate>0.2</BaseStatusAdditiveRate>
+        <ExtraBaseStatusIndex>0</ExtraBaseStatusIndex>
+        <ExtraBattleStatusIndex>0</ExtraBattleStatusIndex>
+    </Record>
+</Table>

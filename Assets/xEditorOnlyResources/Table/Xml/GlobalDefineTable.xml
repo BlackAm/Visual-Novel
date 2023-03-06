@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>RESOURCE_LIST_TABLE_INTO_GAMETABLE</KEY>
+    <Description></Description>
+  </Record>
+  <Record>
+    <KEY>OVERRAP_DEADLOCK_ARROWTYPE</KEY>
+    <Description></Description>
+  </Record>
+  <Record>
+    <KEY>ON_GUI</KEY>
+    <Description></Description>
+  </Record>
+  <Record>
+    <KEY>KEEP_VIEW_DRAG_DIRECTION</KEY>
+    <Description></Description>
+  </Record>
+  <Record>
+    <KEY>AUTO_ASSEMBLE_SCENE_INDEX_TABLE</KEY>
+    <Description></Description>
+  </Record>
+  <Record>
+    <KEY>SERVER_DRIVE</KEY>
+    <Description></Description>
+  </Record>
+  <Record>
+    <KEY>APPLY_PPS</KEY>
+    <Description></Description>
+  </Record>
+</Table>

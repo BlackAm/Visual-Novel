@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>100</KEY>
+        <KeyCode>Z</KeyCode>
+    </Record>
+    <Record>
+        <KEY>101</KEY>
+        <KeyCode>X</KeyCode>
+    </Record>
+    <Record>
+        <KEY>102</KEY>
+        <KeyCode>V</KeyCode>
+    </Record>
+    <Record>
+        <KEY>103</KEY>
+        <KeyCode>B</KeyCode>
+    </Record>
+    <Record>
+        <KEY>104</KEY>
+        <KeyCode>LeftControl</KeyCode>
+    </Record>
+    <Record>
+        <KEY>105</KEY>
+        <KeyCode>LeftShift</KeyCode>
+    </Record>
+    <Record>
+        <KEY>106</KEY>
+        <KeyCode>Space</KeyCode>
+    </Record>
+    <Record>
+        <KEY>107</KEY>
+        <KeyCode>RightShift</KeyCode>
+    </Record>
+    
+    <!--
+    momo6346 - 퀵슬롯 전용 커맨드 입니다.
+    -->
+    <Record>
+        <KEY>108</KEY>
+        <KeyCode>Q</KeyCode>
+    </Record>
+    <Record>
+        <KEY>109</KEY>
+        <KeyCode>W</KeyCode>
+    </Record>
+    <Record>
+        <KEY>110</KEY>
+        <KeyCode>E</KeyCode>
+    </Record>
+    <Record>
+        <KEY>111</KEY>
+        <KeyCode>R</KeyCode>
+    </Record>
+    <Record>
+        <KEY>112</KEY>
+        <KeyCode>T</KeyCode>
+    </Record>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>6</KEY>
+        <ManagerTypeMask>Theater</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>7</KEY>
+        <ManagerTypeMask>Theater</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>9</KEY>
+        <ManagerTypeMask>TestScreenWrapper</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>10</KEY>
+        <ManagerTypeMask>TestTouchPanel</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>11</KEY>
+        <ManagerTypeMask>GameLogin | MainGame</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>12</KEY>
+        <ManagerTypeMask>MessageBoxController</ManagerTypeMask>
+    </Record>
+    
+    <Record>
+        <KEY>48</KEY>
+        <ManagerTypeMask>TestLoading</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>49</KEY>
+        <ManagerTypeMask>Fader</ManagerTypeMask>
+    </Record>
+</Table>

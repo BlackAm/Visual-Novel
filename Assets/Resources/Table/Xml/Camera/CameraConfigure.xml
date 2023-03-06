@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+        <CameraRotationSpeedRateMask>-1,-1.5</CameraRotationSpeedRateMask>
+        <ZoomSpeed>15</ZoomSpeed>
+        <RotationSpeed>124</RotationSpeed>
+        <RotationSpeedMinRate>1</RotationSpeedMinRate>
+        <RotationSpeedRate>0.1</RotationSpeedRate>
+        <RotationSpeedMaxRate>1.1</RotationSpeedMaxRate>
+        <ResetLerpPreMsec>200</ResetLerpPreMsec>
+        <ResetLerpMsec>150</ResetLerpMsec>
+        <SmoothLerpRadiusIncreaseSpeed>2</SmoothLerpRadiusIncreaseSpeed>
+        <SmoothLerpRadiusDecreaseSpeed>6</SmoothLerpRadiusDecreaseSpeed>
+        <TraceTargetPreset>2.5,10</TraceTargetPreset>
+        <CameraClearFlags>SolidColor</CameraClearFlags>
+    </Record>
+</Table>

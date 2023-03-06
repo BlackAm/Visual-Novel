@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <!-- Test -->
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+
+    <!-- 플레이어블 -->
+    <Record>
+        <KEY>1</KEY>
+        <SearchDistance>20</SearchDistance>
+        <FindTargetWhenActSpellFlag>true</FindTargetWhenActSpellFlag>
+        <DefaultUnitFindType>NearestPosition</DefaultUnitFindType>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <SearchDistance>20</SearchDistance>
+        <FindTargetWhenActSpellFlag>true</FindTargetWhenActSpellFlag>
+        <DefaultUnitFindType>NearestPosition</DefaultUnitFindType>
+    </Record>
+</Table>

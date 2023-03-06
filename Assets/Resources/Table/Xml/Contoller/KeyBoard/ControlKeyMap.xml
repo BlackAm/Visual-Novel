@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <!-- Null 키 -->    
+    <!-- flag 연산에서 0은 해당 사항 없을을 나타내므로, 특정한 데이터를 담기 부적합해서 로직에서 사용하지 못한다. 따라서, 자리만 채워놓는다. -->
+    <Record>
+        <KEY>None</KEY>
+        <Value>0</Value>
+    </Record>
+    
+    <!-- 방향키 & 연계 가능한 키 -->
+    <Record>
+        <KEY>UpArrow</KEY>
+        <Value>1</Value>
+    </Record>
+    <Record>
+        <KEY>LeftArrow</KEY>
+        <Value>2</Value>
+    </Record>
+    <Record>
+        <KEY>DownArrow</KEY>
+        <Value>3</Value>
+    </Record>
+    <Record>
+        <KEY>RightArrow</KEY>
+        <Value>4</Value>
+    </Record>
+    
+    <!-- 연계 가능한 키 -->
+    <Record>
+        <KEY>Z</KEY>
+        <Value>5</Value>
+    </Record>
+    <Record>
+        <KEY>X</KEY>
+        <Value>6</Value>
+    </Record>
+    <Record>
+        <KEY>C</KEY>
+        <Value>7</Value>
+    </Record>
+    <Record>
+        <KEY>V</KEY>
+        <Value>8</Value>
+    </Record>
+    <Record>
+        <KEY>Space</KEY>
+        <Value>9</Value>
+    </Record>
+
+    <!-- 연계가 불가능한 단일 키 -->
+    <!-- 플래그 연산을 위해 최대 31번까지만 할당할 수 있다. -->
+    <Record>
+        <KEY>A</KEY>
+        <Value>10</Value>
+    </Record>
+    <Record>
+        <KEY>S</KEY>
+        <Value>11</Value>
+    </Record>
+    <Record>
+        <KEY>D</KEY>
+        <Value>12</Value>
+    </Record>
+    <Record>
+        <KEY>F</KEY>
+        <Value>13</Value>
+    </Record>
+    <Record>
+        <KEY>G</KEY>
+        <Value>14</Value>
+    </Record>
+    <Record>
+        <KEY>H</KEY>
+        <Value>15</Value>
+    </Record>
+
+    <Record>
+        <KEY>Q</KEY>
+        <Value>16</Value>
+    </Record>
+    <Record>
+        <KEY>W</KEY>
+        <Value>17</Value>
+    </Record>
+    <Record>
+        <KEY>E</KEY>
+        <Value>18</Value>
+    </Record>
+    <Record>
+        <KEY>R</KEY>
+        <Value>19</Value>
+    </Record>
+    <Record>
+        <KEY>T</KEY>
+        <Value>20</Value>
+    </Record>
+
+    <Record>
+        <KEY>LeftControl</KEY>
+        <Value>21</Value>
+    </Record>
+    <Record>
+        <KEY>LeftShift</KEY>
+        <Value>22</Value>
+    </Record>
+
+    <Record>
+        <KEY>RightShift</KEY>
+        <Value>23</Value>
+    </Record>
+
+    <Record>
+        <KEY>Alpha1</KEY>
+        <Value>24</Value>
+    </Record>
+    <Record>
+        <KEY>Alpha2</KEY>
+        <Value>25</Value>
+    </Record>
+    <Record>
+        <KEY>Alpha3</KEY>
+        <Value>26</Value>
+    </Record>
+    <Record>
+        <KEY>Alpha4</KEY>
+        <Value>27</Value>
+    </Record>
+    <Record>
+        <KEY>Alpha5</KEY>
+        <Value>28</Value>
+    </Record>
+    <Record>
+        <KEY>Alpha6</KEY>
+        <Value>29</Value>
+    </Record>
+    <Record>
+        <KEY>B</KEY>
+        <Value>30</Value>
+    </Record>
+</Table>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>Patch_TryNetworkConnection</KEY>
+    <content>서버와 연결중입니다.</content>
+  </Record>
+  <Record>
+    <KEY>Patch_CompareVersion</KEY>
+    <content>버전을 비교중입니다.</content>
+  </Record>
+  <Record>
+    <KEY>Patch_DownloadFile</KEY>
+    <content>패치파일을 다운로드 중입니다.</content>
+  </Record>
+  <Record>
+    <KEY>Patch_Terminate</KEY>
+    <content>패치모듈 종료중</content>
+  </Record>
+  <Record>
+    <KEY>Patch_Fail</KEY>
+    <content>패치에 실패했습니다.</content>
+  </Record>
+</Table>

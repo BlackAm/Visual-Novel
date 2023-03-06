@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>SingleNetwork</KEY>
+    <SystemEntryPreset>[SingleNetwork],0,,</SystemEntryPreset>
+  </Record>
+  <Record>
+    <KEY>MultiNetwork</KEY>
+    <SystemEntryPreset>[MultiNetwork],0,,</SystemEntryPreset>
+  </Record>
+  <Record>
+    <KEY>MultiNetworkForTest</KEY>
+    <SystemEntryPreset>[MultiNetworkForTest],0,DefaultName,DefaultPassword</SystemEntryPreset>
+  </Record>
+</Table>

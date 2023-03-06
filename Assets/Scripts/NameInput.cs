@@ -86,7 +86,7 @@ public class NameInput : MonoBehaviour
 
     void OKButtonClicked() // 이름 OK 버튼
     {
-        GameManager.instance.HeroName = inputName.text;
+        // GameManager.instance.HeroName = inputName.text;
         PlayerPrefs.SetString("Name", inputName.text); // InputField에서 받은 값을 데이터로 저장     
         SceneController.instance.LoadSceneClicked();
     }

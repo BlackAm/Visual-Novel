@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>UnitA</KEY>
+        <CollisionGameLayerSet>Default/Boundary/Terrain/Obstacle/Block/UnitA/UnitB/Vfx</CollisionGameLayerSet>
+    </Record>
+    <Record>
+        <KEY>UnitB</KEY>
+        <CollisionGameLayerSet>Default/Boundary/Terrain/Obstacle/Block/Vfx</CollisionGameLayerSet>
+    </Record>
+    <Record>
+        <KEY>UnitC</KEY>
+        <CollisionGameLayerSet>Default/Boundary/Terrain/Obstacle/Block</CollisionGameLayerSet>
+    </Record>
+    <Record>
+        <KEY>Location</KEY>
+        <CollisionGameLayerSet>Location</CollisionGameLayerSet>
+    </Record>
+</Table>

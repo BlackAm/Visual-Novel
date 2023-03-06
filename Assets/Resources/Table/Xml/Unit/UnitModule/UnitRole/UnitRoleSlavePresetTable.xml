@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>100</KEY>
+        <UnitScale>0.5</UnitScale>
+        <BaseStatusAdditiveRate>0</BaseStatusAdditiveRate>
+        <ExtraBaseStatusIndex>0</ExtraBaseStatusIndex>
+        <ExtraBattleStatusIndex>0</ExtraBattleStatusIndex>
+    </Record>
+</Table>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <!-- 0번 인덱스는 로직에서 예외 처리 -->
+  <Record>
+    <KEY>200000</KEY>
+  </Record>
+  <!-- Sphere_Smelter(0)/Sound_Main(0)-->
+  <Record>
+    <!-- 터치 사운드-->
+    <KEY>200001</KEY>
+    <NameList>Basic_Click_01.wav/Basic_Click_02.wav/Basic_Click_03.wav/Basic_Click_04.wav/Basic_Click_05.wav/Basic_Click_06.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 서버 변경 열기/창 열기-->
+    <KEY>200002</KEY>
+    <NameList>List_Open_01.wav/List_Open_02.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+
+  <!-- Sphere_Smelter(0)/Sound_Spear(1)/Sound_Spear_Enhance(1)-->
+  <Record>
+    <!-- 안전 강화-->
+    <KEY>200110</KEY>
+    <NameList>Safety_Success_01.wav/Safety_Success_02.wav/Safety_Success_03.wav/Safety_Success_04.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 강화 실패-->
+    <KEY>200111</KEY>
+    <NameList>Reinforcement_Fail.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 강화 성공 (5단계 이상)-->
+    <KEY>200112</KEY>
+    <NameList>Reinforcement_Success.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 강화 대성공-->
+    <KEY>200113</KEY>
+    <NameList>Reinforcement_Success_High.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <!-- Sphere_Smelter(0)/Sound_Spear(1)/Sound_Spear_Production(2)-->
+  <Record>
+    <!-- 제작 실패-->
+    <KEY>200120</KEY>
+    <NameList>Manufacture_Fail.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 제작 성공-->
+    <KEY>200121</KEY>
+    <NameList>Manufacture_Success.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 제작 대성공-->
+    <KEY>200122</KEY>
+    <NameList>Manufacture_Success_High.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <!-- Sphere_Smelter(0)/Sound_Spear(1)/Sound_Spear_Decom(3)-->
+  <Record>
+    <!-- 분해 결과 / 소켓 뚫기-->
+    <KEY>200130</KEY>
+    <NameList>Disassemble_Result_01.wav/Disassemble_Result_02.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <!-- Sphere_Smelter(0)/Sound_Spear(1)/Sound_Spear_Option(4)-->
+  <Record>
+    <!-- 옵션 변경-->
+    <KEY>200140</KEY>
+    <NameList>Alternation.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 옵션 잠금-->
+    <KEY>200141</KEY>
+    <NameList>Option_Lock.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 옵션 잠금 해제-->
+    <KEY>200142</KEY>
+    <NameList>Option_UnLock.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  
+  <!-- Sphere_Smelter(0)/Sound_Spear(1)/Sound_Spear_Socket(5)-->
+  <Record>
+    <!-- 적용 소켓-->
+    <KEY>200150</KEY>
+    <NameList>Socket_In_01.wav/Socket_In_02.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  
+  <!-- Sphere_Smelter(0)/Sound_Spear(1)/Sound_Spear_Syntheic(6)-->
+  <Record>
+    <!-- 적용 소켓-->
+    <KEY>200160</KEY>
+    <NameList>Gem_In_01.wav/Gem_In_02.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 보석 제거-->
+    <KEY>200161</KEY>
+    <NameList>Gem_Out_01.wav/Gem_Out_02.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 합성 유지-->
+    <KEY>200162</KEY>
+    <NameList>Gem_Compose_Maintain.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 합성 성공-->
+    <KEY>200163</KEY>
+    <NameList>Gem_Compose_Success.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 합성 대성공-->
+    <KEY>200164</KEY>
+    <NameList>Gem_Compose_Success_High.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+
+  <!-- New_UI_Sound(1)-->
+  <Record>
+    <!-- 레벨업-->
+    <KEY>201000</KEY>
+    <NameList>Level_Up.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 대화상자-->
+    <KEY>201001</KEY>
+    <NameList>NPC_Talk.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+
+  <!-- Store(2)-->
+  <Record>
+    <!-- 구매 확정 클릭-->
+    <KEY>202000</KEY>
+    <NameList>Confirm_Click.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 구매 버튼클릭-->
+    <KEY>202001</KEY>
+    <NameList>Decision_Click.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 상점 열리는 소리-->
+    <KEY>202002</KEY>
+    <NameList>Store_In.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <!-- 상점 닫히는 소리-->
+    <KEY>202003</KEY>
+    <NameList>Store_Out.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+
+  <!-- Inventory_sound(3)-->
+  <!-- 장비 착용/해제 -->
+  <Record>
+    <KEY>203000</KEY>
+    <NameList>Equiped_Weapon_01.wav/Equiped_Weapon_02.wav/Equiped_Weapon_03.wav/Equiped_Weapon_04.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+  <Record>
+    <KEY>203001</KEY>
+    <NameList>Unequiped_Weapon_01.wav/Unequiped_Weapon_02.wav/Unequiped_Weapon_03.wav/Unequiped_Weapon_04.wav</NameList>
+    <Type>Random</Type>
+  </Record>
+
+</Table>

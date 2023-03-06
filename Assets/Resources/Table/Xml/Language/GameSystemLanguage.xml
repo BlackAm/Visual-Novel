@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+<!-- 시스템 관련 문자열을 0 ~ 9999번 -->
+    <record>
+        <KEY>0</KEY>
+        <content>Null</content>
+    </record>
+    <record>
+        <KEY>1</KEY>
+        <content>버전 체크 중…</content>
+    </record>
+    <record>
+        <KEY>2</KEY>
+        <content>패치파일 다운로드 중…</content>
+    </record>
+    <record>
+        <KEY>3</KEY>
+        <content>로컬파일 업데이트 중…</content>
+    </record>
+    <record>
+        <KEY>4</KEY>
+        <content>데이터 읽는 중…</content>
+    </record>
+    <record>
+        <KEY>5</KEY>
+        <content>계속 사용하면 데이터가 소모됩니다</content>
+    </record>
+    <record>
+        <KEY>6</KEY>
+        <content>계속 다운로드 진행</content>
+    </record>
+    <record>
+        <KEY>7</KEY>
+        <content>나가기</content>
+    </record>
+    <record>
+        <KEY>8</KEY>
+        <content>인터넷 접속 타임아웃…다시 연결하세요</content>
+    </record>
+    <record>
+        <KEY>9</KEY>
+        <content>인터넷 접속 실패…탈퇴 중</content>
+    </record>
+    <record>
+        <KEY>10</KEY>
+        <content>소스파일 익스폴트 중:{0}</content>
+    </record>
+    <record>
+        <KEY>11</KEY>
+        <content>설치</content>
+    </record>
+    <record>
+        <KEY>12</KEY>
+        <content>설치파일이 다운로드 완료되었습니다. 잠시 후 다시 실행하세요</content>
+    </record>
+    <record>
+        <KEY>13</KEY>
+        <content>네트워크 체크 중</content>
+    </record>
+    <record>
+        <KEY>14</KEY>
+        <content>서버 유지 중…잠시 후 접속하세요</content>
+    </record>
+    <record>
+        <KEY>15</KEY>
+        <content>인터넷 파동</content>
+    </record>
+    <record>
+        <KEY>16</KEY>
+        <content>네트워크 오류</content>
+    </record>
+    <record>
+        <KEY>17</KEY>
+        <content>네트워크 연결 상태를 확인해주세요.</content>
+    </record>
+    <record>
+        <KEY>18</KEY>
+        <content>게임 첫 실행 초기화 중… 시간이 오래 걸릴 수도 있습니다</content>
+    </record>
+    
+    <record>
+        <KEY>53</KEY>
+        <content>SD카드 공간이 부족합니다</content>
+    </record>
+    <record>
+        <KEY>54</KEY>
+        <content>테이블 읽기 실패</content>
+    </record>
+    <record>
+        <KEY>55</KEY>
+        <content>게임 업데이트 오류</content>
+    </record>
+    <record>
+        <KEY>56</KEY>
+        <content>최신 버전:{0}</content>
+    </record>
+</Table>

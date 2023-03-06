@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <!-- 0번 인덱스는 로직에서 예외 처리 -->
+    <Record>
+        <KEY>100000</KEY>
+    </Record>
+    <Record>
+        <!-- 튜토리얼 알림-->
+        <KEY>100001</KEY>
+        <NameList>Tip_Box.wav</NameList>
+        <Type>Random</Type>
+    </Record>
+</Table>

@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Record>
+    <KEY>90000</KEY>
+    <content>플레이어</content>
+  </Record>
+  <Record>
+    <KEY>90010</KEY>
+    <content>가프</content>
+  </Record>
+  <Record>
+    <KEY>90020</KEY>
+    <content>리르</content>
+  </Record>
+  <Record>
+    <KEY>90030</KEY>
+    <content>조마</content>
+  </Record>
+  <Record>
+    <KEY>90100</KEY>
+    <content>APC</content>
+  </Record>
+  
+  <!--NPC-->
+  <Record>
+    <KEY>91000</KEY>
+    <content>APC</content>
+  </Record>
+  <Record>
+    <KEY>91051</KEY>
+    <content>레이첼</content>
+  </Record>
+  <Record>
+    <KEY>91052</KEY>
+    <content>바그다</content>
+  </Record>
+  <Record>
+    <KEY>91053</KEY>
+    <content>히스</content>
+  </Record>
+  <Record>
+    <KEY>91054</KEY>
+    <content>대장장이</content>
+  </Record>
+  <Record>
+    <KEY>91055</KEY>
+    <content>부관</content>
+  </Record>
+  <Record>
+    <KEY>91056</KEY>
+    <content>대장장이 동생</content>
+  </Record>
+
+  <!-- 몬스터 Start -->
+  <Record>
+		<KEY>100000</KEY>
+		<content>흑색늑대</content>
+	</Record>
+	<Record>
+		<KEY>100001</KEY>
+		<content>뒤틀린 망자</content>
+	</Record>
+	<Record>
+		<KEY>100002</KEY>
+		<content>뒤틀린 망자 장교</content>
+	</Record>
+	<Record>
+		<KEY>100003</KEY>
+		<content>뒤틀린 망자 군주</content>
+	</Record>
+	<Record>
+		<KEY>100004</KEY>
+		<content>반란군 병사</content>
+	</Record>
+	<Record>
+		<KEY>100005</KEY>
+		<content>반란군 부사관</content>
+	</Record>
+	<Record>
+		<KEY>100006</KEY>
+		<content>반란군 장교</content>
+	</Record>
+	<Record>
+		<KEY>100007</KEY>
+		<content>벨라루크</content>
+	</Record>
+	<Record>
+		<KEY>100008</KEY>
+		<content>되살아난 호른들</content>
+	</Record>
+	<Record>
+		<KEY>100009</KEY>
+		<content>되살아난 호른들 장교</content>
+	</Record>
+	<Record>
+		<KEY>100010</KEY>
+		<content>되살아난 호른들 군주</content>
+	</Record>
+	<Record>
+		<KEY>100011</KEY>
+		<content>늑대</content>
+	</Record>
+	<Record>
+		<KEY>100012</KEY>
+		<content>흰뿔 늑대</content>
+	</Record>
+	<Record>
+		<KEY>100013</KEY>
+		<content>흑색늑대</content>
+	</Record>
+	<Record>
+		<KEY>100014</KEY>
+		<content>피갈퀴 늑대</content>
+	</Record>
+	<Record>
+		<KEY>100015</KEY>
+		<content>암영 늑대</content>
+	</Record>
+	<Record>
+		<KEY>100016</KEY>
+		<content>시체 수확자</content>
+	</Record>
+	<Record>
+		<KEY>100017</KEY>
+		<content>오토메틱</content>
+	</Record>
+	<Record>
+		<KEY>100018</KEY>
+		<content>오토메틱 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100019</KEY>
+		<content>오토메틱 캡틴</content>
+	</Record>
+	<Record>
+		<KEY>100020</KEY>
+		<content>스켈레톤 궁병</content>
+	</Record>
+	<Record>
+		<KEY>100021</KEY>
+		<content>스켈레톤 기사</content>
+	</Record>
+	<Record>
+		<KEY>100022</KEY>
+		<content>스켈레톤 전사</content>
+	</Record>
+	<Record>
+		<KEY>100023</KEY>
+		<content>스켈레톤 창병</content>
+	</Record>
+	<Record>
+		<KEY>100024</KEY>
+		<content>스켈레톤 군장</content>
+	</Record>
+	<Record>
+		<KEY>100025</KEY>
+		<content>네메크라 창병</content>
+	</Record>
+	<Record>
+		<KEY>100026</KEY>
+		<content>네메크라 기수</content>
+	</Record>
+	<Record>
+		<KEY>100027</KEY>
+		<content>네메크라 호위병</content>
+	</Record>
+	<Record>
+		<KEY>100028</KEY>
+		<content>황혼의 속박자</content>
+	</Record>
+	<Record>
+		<KEY>100029</KEY>
+		<content>황혼의 오명</content>
+	</Record>
+	<Record>
+		<KEY>100030</KEY>
+		<content>스톤 골램</content>
+	</Record>
+	<Record>
+		<KEY>100031</KEY>
+		<content>스톤 브레이커</content>
+	</Record>
+	<Record>
+		<KEY>100032</KEY>
+		<content>스톤 타이탄</content>
+	</Record>
+	<Record>
+		<KEY>100033</KEY>
+		<content>리자드맨 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100034</KEY>
+		<content>리자드맨 지휘관</content>
+	</Record>
+	<Record>
+		<KEY>100035</KEY>
+		<content>리자드맨 대장</content>
+	</Record>
+	<Record>
+		<KEY>100036</KEY>
+		<content>미노타우르스</content>
+	</Record>
+	<Record>
+		<KEY>100037</KEY>
+		<content>미노타우르스 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100038</KEY>
+		<content>미노타우르스 지휘관</content>
+	</Record>
+	<Record>
+		<KEY>100039</KEY>
+		<content>길 잃은 망자</content>
+	</Record>
+	<Record>
+		<KEY>100040</KEY>
+		<content>길 잃은 기사</content>
+	</Record>
+	<Record>
+		<KEY>100041</KEY>
+		<content>길 잃은 장군</content>
+	</Record>
+	<Record>
+		<KEY>100042</KEY>
+		<content>자이언트 비틀</content>
+	</Record>
+	<Record>
+		<KEY>100043</KEY>
+		<content>오크 병사</content>
+	</Record>
+	<Record>
+		<KEY>100044</KEY>
+		<content>오크 사수</content>
+	</Record>
+	<Record>
+		<KEY>100045</KEY>
+		<content>오크 순찰대</content>
+	</Record>
+	<Record>
+		<KEY>100046</KEY>
+		<content>오크 수비대</content>
+	</Record>
+	<Record>
+		<KEY>100047</KEY>
+		<content>오크 근위대</content>
+	</Record>
+	<Record>
+		<KEY>100048</KEY>
+		<content>오크 명사수</content>
+	</Record>
+	<Record>
+		<KEY>100049</KEY>
+		<content>오크 수도승</content>
+	</Record>
+	<Record>
+		<KEY>100050</KEY>
+		<content>오크 돌격대</content>
+	</Record>
+	<Record>
+		<KEY>100051</KEY>
+		<content>자이언트 바비</content>
+	</Record>
+	<Record>
+		<KEY>100052</KEY>
+		<content>라미독</content>
+	</Record>
+	<Record>
+		<KEY>100053</KEY>
+		<content>라미독 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100054</KEY>
+		<content>라미독 캡틴</content>
+	</Record>
+	<Record>
+		<KEY>100055</KEY>
+		<content>네헤카라</content>
+	</Record>
+	<Record>
+		<KEY>100056</KEY>
+		<content>네헤카라 프레데터 </content>
+	</Record>
+	<Record>
+		<KEY>100057</KEY>
+		<content>네헤카라 쵸즌</content>
+	</Record>
+	<Record>
+		<KEY>100058</KEY>
+		<content>박쥐</content>
+	</Record>
+	<Record>
+		<KEY>100059</KEY>
+		<content>마운틴 베어</content>
+	</Record>
+	<Record>
+		<KEY>100060</KEY>
+		<content>마운트 챔피언</content>
+	</Record>
+	<Record>
+		<KEY>100061</KEY>
+		<content>초즌 오브 베어</content>
+	</Record>
+	<Record>
+		<KEY>100062</KEY>
+		<content>피그뮐러</content>
+	</Record>
+	<Record>
+		<KEY>100063</KEY>
+		<content>피그뮐러 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100064</KEY>
+		<content>피그뮐러 캡틴</content>
+	</Record>
+	<Record>
+		<KEY>100065</KEY>
+		<content>오로스 보어</content>
+	</Record>
+	<Record>
+		<KEY>100066</KEY>
+		<content>레나족 도둑</content>
+	</Record>
+	<Record>
+		<KEY>100067</KEY>
+		<content>레나족 습격자</content>
+	</Record>
+	<Record>
+		<KEY>100068</KEY>
+		<content>레나족 우두머리</content>
+	</Record>
+	<Record>
+		<KEY>100069</KEY>
+		<content>학살자 코른</content>
+	</Record>
+	<Record>
+		<KEY>100070</KEY>
+		<content>기만자 셀틱</content>
+	</Record>
+	<Record>
+		<KEY>100071</KEY>
+		<content>디노사우르스</content>
+	</Record>
+	<Record>
+		<KEY>100072</KEY>
+		<content>샤오롱</content>
+	</Record>
+	<Record>
+		<KEY>100073</KEY>
+		<content>이터</content>
+	</Record>
+	<Record>
+		<KEY>100074</KEY>
+		<content>시언자</content>
+	</Record>
+	<Record>
+		<KEY>100075</KEY>
+		<content>시언자2</content>
+	</Record>
+	<Record>
+		<KEY>100076</KEY>
+		<content>요정새</content>
+	</Record>
+	<Record>
+		<KEY>100077</KEY>
+		<content>요정새2</content>
+	</Record>
+	<Record>
+		<KEY>100078</KEY>
+		<content>요정</content>
+	</Record>
+	<Record>
+		<KEY>100079</KEY>
+		<content>고블린 수습법사</content>
+	</Record>
+	<Record>
+		<KEY>100080</KEY>
+		<content>고블린 마법사</content>
+	</Record>
+	<Record>
+		<KEY>100081</KEY>
+		<content>고블린 장로</content>
+	</Record>
+	<Record>
+		<KEY>100082</KEY>
+		<content>고블린 병사</content>
+	</Record>
+	<Record>
+		<KEY>100083</KEY>
+		<content>고블린 장교</content>
+	</Record>
+	<Record>
+		<KEY>100084</KEY>
+		<content>고블린 호위장</content>
+	</Record>
+	<Record>
+		<KEY>100085</KEY>
+		<content>고블린 도끼병</content>
+	</Record>
+	<Record>
+		<KEY>100086</KEY>
+		<content>고블린 광전사</content>
+	</Record>
+	<Record>
+		<KEY>100087</KEY>
+		<content>고블린 군단장</content>
+	</Record>
+	<Record>
+		<KEY>100088</KEY>
+		<content>예티</content>
+	</Record>
+	<Record>
+		<KEY>100089</KEY>
+		<content>예티 정예대</content>
+	</Record>
+	<Record>
+		<KEY>100090</KEY>
+		<content>예티 족장</content>
+	</Record>
+	<Record>
+		<KEY>100091</KEY>
+		<content>데빌리안</content>
+	</Record>
+	<Record>
+		<KEY>100092</KEY>
+		<content>쇼틀렉</content>
+	</Record>
+	<Record>
+		<KEY>100093</KEY>
+		<content>스켈레톤 사냥꾼</content>
+	</Record>
+	<Record>
+		<KEY>100094</KEY>
+		<content>아몬</content>
+	</Record>
+	<Record>
+		<KEY>100095</KEY>
+		<content>지옥의 안내자</content>
+	</Record>
+	<Record>
+		<KEY>100096</KEY>
+		<content>지옥의 검열관</content>
+	</Record>
+	<Record>
+		<KEY>100097</KEY>
+		<content>지옥의 심판자</content>
+	</Record>
+	<Record>
+		<KEY>100098</KEY>
+		<content>고로스 수습사제</content>
+	</Record>
+	<Record>
+		<KEY>100099</KEY>
+		<content>고로스 사제</content>
+	</Record>
+	<Record>
+		<KEY>100100</KEY>
+		<content>선택받은 고로스 사제</content>
+	</Record>
+	<Record>
+		<KEY>100101</KEY>
+		<content>블러드 영링</content>
+	</Record>
+	<Record>
+		<KEY>100102</KEY>
+		<content>블러드 파다완</content>
+	</Record>
+	<Record>
+		<KEY>100103</KEY>
+		<content>블러드 나이트</content>
+	</Record>
+	<Record>
+		<KEY>100104</KEY>
+		<content>블러드 팔라딘</content>
+	</Record>
+	<Record>
+		<KEY>100105</KEY>
+		<content>아이스 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100106</KEY>
+		<content>아이스 나이트</content>
+	</Record>
+	<Record>
+		<KEY>100107</KEY>
+		<content>아이스 팔라딘</content>
+	</Record>
+	<Record>
+		<KEY>100108</KEY>
+		<content>부패된 좀비</content>
+	</Record>
+	<Record>
+		<KEY>100109</KEY>
+		<content>갓 부활한 좀비</content>
+	</Record>
+	<Record>
+		<KEY>100110</KEY>
+		<content>좀비장수</content>
+	</Record>
+	<Record>
+		<KEY>100111</KEY>
+		<content>베이스먼트 비스트</content>
+	</Record>
+	<Record>
+		<KEY>100112</KEY>
+		<content>베이스먼트 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100113</KEY>
+		<content>베이스먼트 버서커</content>
+	</Record>
+	<Record>
+		<KEY>100114</KEY>
+		<content>크랩맨</content>
+	</Record>
+	<Record>
+		<KEY>100115</KEY>
+		<content>랩터크럽맨</content>
+	</Record>
+	<Record>
+		<KEY>100116</KEY>
+		<content>타락한 크럽맨</content>
+	</Record>
+	<Record>
+		<KEY>100117</KEY>
+		<content>붉은버섯</content>
+	</Record>
+	<Record>
+		<KEY>100118</KEY>
+		<content>푸른버섯</content>
+	</Record>
+	<Record>
+		<KEY>100119</KEY>
+		<content>혼종버섯</content>
+	</Record>
+	<Record>
+		<KEY>100120</KEY>
+		<content>트리엔트</content>
+	</Record>
+	<Record>
+		<KEY>100121</KEY>
+		<content>포악한 트리엔트</content>
+	</Record>
+	<Record>
+		<KEY>100122</KEY>
+		<content>타락한 트리엔트</content>
+	</Record>
+	<Record>
+		<KEY>100123</KEY>
+		<content>하이에나</content>
+	</Record>
+	<Record>
+		<KEY>100124</KEY>
+		<content>굶주린 하이에나</content>
+	</Record>
+	<Record>
+		<KEY>100125</KEY>
+		<content>포악한 하이에나</content>
+	</Record>
+	<Record>
+		<KEY>100126</KEY>
+		<content>타락한 코알리브</content>
+	</Record>
+	<Record>
+		<KEY>100127</KEY>
+		<content>진화된 코알리브</content>
+	</Record>
+	<Record>
+		<KEY>100128</KEY>
+		<content>백색의 코알리브</content>
+	</Record>
+	<Record>
+		<KEY>100129</KEY>
+		<content>코알리브</content>
+	</Record>
+	<Record>
+		<KEY>100130</KEY>
+		<content>코알리브 병사</content>
+	</Record>
+	<Record>
+		<KEY>100131</KEY>
+		<content>각성한 코알리브</content>
+	</Record>
+	<Record>
+		<KEY>100132</KEY>
+		<content>서류인 졸개</content>
+	</Record>
+	<Record>
+		<KEY>100133</KEY>
+		<content>서류인 상인</content>
+	</Record>
+	<Record>
+		<KEY>100134</KEY>
+		<content>서류인 기사</content>
+	</Record>
+	<Record>
+		<KEY>100135</KEY>
+		<content>서류인 단장</content>
+	</Record>
+	<Record>
+		<KEY>100136</KEY>
+		<content>아르트 피그</content>
+	</Record>
+	<Record>
+		<KEY>100137</KEY>
+		<content>아르트 브라운 피그</content>
+	</Record>
+	<Record>
+		<KEY>100138</KEY>
+		<content>아르트 다크 피그</content>
+	</Record>
+	<Record>
+		<KEY>100139</KEY>
+		<content>췹 먼트</content>
+	</Record>
+	<Record>
+		<KEY>100140</KEY>
+		<content>약에 취한 췹 먼트</content>
+	</Record>
+	<Record>
+		<KEY>100141</KEY>
+		<content>췹 먼트 사냥꾼</content>
+	</Record>
+	<Record>
+		<KEY>100142</KEY>
+		<content>타락한 헤츨링</content>
+	</Record>
+	<Record>
+		<KEY>100143</KEY>
+		<content>타락한 에안</content>
+	</Record>
+	<Record>
+		<KEY>100144</KEY>
+		<content>변절된 에안</content>
+	</Record>
+	<Record>
+		<KEY>100145</KEY>
+		<content>지옥의 기사</content>
+	</Record>
+	<Record>
+		<KEY>100146</KEY>
+		<content>지옥의 성기사</content>
+	</Record>
+	<Record>
+		<KEY>100147</KEY>
+		<content>레드 타르칸 </content>
+	</Record>
+	<Record>
+		<KEY>100148</KEY>
+		<content>죽음의 전사</content>
+	</Record>
+	<Record>
+		<KEY>100149</KEY>
+		<content>죽음의 광전사</content>
+	</Record>
+	<Record>
+		<KEY>100150</KEY>
+		<content>아이론본</content>
+	</Record>
+	<Record>
+		<KEY>100151</KEY>
+		<content>자이언트</content>
+	</Record>
+	<Record>
+		<KEY>100152</KEY>
+		<content>자이언트 전사</content>
+	</Record>
+	<Record>
+		<KEY>100153</KEY>
+		<content>자이언트 군단장</content>
+	</Record>
+	<Record>
+		<KEY>100154</KEY>
+		<content>황빛의 베어</content>
+	</Record>
+	<Record>
+		<KEY>100155</KEY>
+		<content>레드홍 베어</content>
+	</Record>
+	<Record>
+		<KEY>100156</KEY>
+		<content>프라츠베어</content>
+	</Record>
+	<Record>
+		<KEY>100157</KEY>
+		<content>버짓</content>
+	</Record>
+	<Record>
+		<KEY>100158</KEY>
+		<content>버짓 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100159</KEY>
+		<content>오염된 버짓</content>
+	</Record>
+	<Record>
+		<KEY>100160</KEY>
+		<content>엘리펀트 전사</content>
+	</Record>
+	<Record>
+		<KEY>100161</KEY>
+		<content>엘리펀트기사</content>
+	</Record>
+	<Record>
+		<KEY>100162</KEY>
+		<content>엘리펀트 군단장</content>
+	</Record>
+	<Record>
+		<KEY>100163</KEY>
+		<content>다크엘프 사냥꾼</content>
+	</Record>
+	<Record>
+		<KEY>100164</KEY>
+		<content>다크궁수 정규병</content>
+	</Record>
+	<Record>
+		<KEY>100165</KEY>
+		<content>다크엘프 레인저</content>
+	</Record>
+	<Record>
+		<KEY>100166</KEY>
+		<content>다크 수습병</content>
+	</Record>
+	<Record>
+		<KEY>100167</KEY>
+		<content>다크엘프 저격병</content>
+	</Record>
+	<Record>
+		<KEY>100168</KEY>
+		<content>어둠의 전사</content>
+	</Record>
+	<Record>
+		<KEY>100169</KEY>
+		<content>어둠의 기사</content>
+	</Record>
+	<Record>
+		<KEY>100170</KEY>
+		<content>다크 킹</content>
+	</Record>
+	<Record>
+		<KEY>100171</KEY>
+		<content>데빌 드래곤</content>
+	</Record>
+	<Record>
+		<KEY>100172</KEY>
+		<content>데빌 드래곤 단장</content>
+	</Record>
+	<Record>
+		<KEY>100173</KEY>
+		<content>드레고니안</content>
+	</Record>
+	<Record>
+		<KEY>100174</KEY>
+		<content>뒤틀린 에안 떠돌이</content>
+	</Record>
+	<Record>
+		<KEY>100175</KEY>
+		<content>뒤틀린 에안 예언가</content>
+	</Record>
+	<Record>
+		<KEY>100176</KEY>
+		<content>에안 '드라고노트'</content>
+	</Record>
+	<Record>
+		<KEY>100177</KEY>
+		<content>감정이 사라진 전사</content>
+	</Record>
+	<Record>
+		<KEY>100178</KEY>
+		<content>감정이 사라진 기사</content>
+	</Record>
+	<Record>
+		<KEY>100179</KEY>
+		<content>버서커 진</content>
+	</Record>
+	<Record>
+		<KEY>100180</KEY>
+		<content>황제의 병사</content>
+	</Record>
+	<Record>
+		<KEY>100181</KEY>
+		<content>황제의 호위병</content>
+	</Record>
+	<Record>
+		<KEY>100182</KEY>
+		<content>황제의 가신</content>
+	</Record>
+	<Record>
+		<KEY>100183</KEY>
+		<content>황제 아르거스</content>
+	</Record>
+	<Record>
+		<KEY>100184</KEY>
+		<content>블레스 베어</content>
+	</Record>
+	<Record>
+		<KEY>100185</KEY>
+		<content>데스티니 베어</content>
+	</Record>
+	<Record>
+		<KEY>100186</KEY>
+		<content>레이지 베어</content>
+	</Record>
+	<Record>
+		<KEY>100187</KEY>
+		<content>설인귀</content>
+	</Record>
+	<Record>
+		<KEY>100188</KEY>
+		<content>설인귀 병사</content>
+	</Record>
+	<Record>
+		<KEY>100189</KEY>
+		<content>설인귀 장교</content>
+	</Record>
+	<Record>
+		<KEY>100190</KEY>
+		<content>교단의 열성신도</content>
+	</Record>
+	<Record>
+		<KEY>100191</KEY>
+		<content>교단의 사제</content>
+	</Record>
+	<Record>
+		<KEY>100192</KEY>
+		<content>교단의 사도</content>
+	</Record>
+	<Record>
+		<KEY>100193</KEY>
+		<content>프라이드 솔져</content>
+	</Record>
+	<Record>
+		<KEY>100194</KEY>
+		<content>프라이드 워리어</content>
+	</Record>
+	<Record>
+		<KEY>100195</KEY>
+		<content>프라이드 제네럴</content>
+	</Record>
+	<Record>
+		<KEY>100196</KEY>
+		<content>황혼 전사</content>
+	</Record>
+	<Record>
+		<KEY>100197</KEY>
+		<content>황혼 광전사</content>
+	</Record>
+	<Record>
+		<KEY>100198</KEY>
+		<content>황혼 기사</content>
+	</Record>
+	<Record>
+		<KEY>100199</KEY>
+		<content>얼음 파수꾼</content>
+	</Record>
+	<Record>
+		<KEY>100200</KEY>
+		<content>얼음 파수대</content>
+	</Record>
+	<Record>
+		<KEY>100201</KEY>
+		<content>얼음 선봉대</content>
+	</Record>
+	<Record>
+		<KEY>100202</KEY>
+		<content>자이언트 피스트</content>
+	</Record>
+	<Record>
+		<KEY>100203</KEY>
+		<content>자이언트 피스트2</content>
+	</Record>
+	<Record>
+		<KEY>100204</KEY>
+		<content>대형 자이언트 피스트</content>
+	</Record>
+	<Record>
+		<KEY>100205</KEY>
+		<content>설원의 오크 사냥꾼</content>
+	</Record>
+	<Record>
+		<KEY>100206</KEY>
+		<content>설원의 오크 병사</content>
+	</Record>
+	<Record>
+		<KEY>100207</KEY>
+		<content>설원의 스켈레톤 사냥꾼</content>
+	</Record>
+	<Record>
+		<KEY>100208</KEY>
+		<content>설원의 예티</content>
+	</Record>
+	<Record>
+		<KEY>100209</KEY>
+		<content>설원의 안내자</content>
+	</Record>
+	<Record>
+		<KEY>100210</KEY>
+		<content>얼음 기사</content>
+	</Record>
+	<Record>
+		<KEY>100211</KEY>
+		<content>고블린 사냥꾼</content>
+	</Record>
+	<Record>
+		<KEY>100212</KEY>
+		<content>고블린 레인저</content>
+	</Record>
+	<Record>
+		<KEY>100213</KEY>
+		<content>고블린 저격수</content>
+	</Record>
+	<Record>
+		<KEY>100214</KEY>
+		<content>고블린 병사</content>
+	</Record>
+	<Record>
+		<KEY>100215</KEY>
+		<content>고블린 광전사</content>
+	</Record>
+	<Record>
+		<KEY>100216</KEY>
+		<content>고블린 암살자</content>
+	</Record>
+	<Record>
+		<KEY>100217</KEY>
+		<content>고블린 수습법사</content>
+	</Record>
+	<Record>
+		<KEY>100218</KEY>
+		<content>고블린 마법사</content>
+	</Record>
+	<Record>
+		<KEY>100219</KEY>
+		<content>고블린 장로</content>
+	</Record>
+	<Record>
+		<KEY>100220</KEY>
+	</Record>
+	<Record>
+		<KEY>100221</KEY>
+	</Record>
+	<Record>
+		<KEY>100222</KEY>
+	</Record>
+	<Record>
+		<KEY>100223</KEY>
+		<content>켄타드래곤</content>
+	</Record>
+	<Record>
+		<KEY>100224</KEY>
+		<content>켄타드래곤2</content>
+	</Record>
+	<Record>
+		<KEY>100225</KEY>
+		<content>켄타드래곤3</content>
+	</Record>
+	<Record>
+		<KEY>100226</KEY>
+		<content>독침붕</content>
+	</Record>
+	<Record>
+		<KEY>100227</KEY>
+		<content>맥독침붕</content>
+	</Record>
+	<Record>
+		<KEY>100228</KEY>
+		<content>메가독침붕</content>
+	</Record>
+	<Record>
+		<KEY>100229</KEY>
+		<content>킬러비</content>
+	</Record>
+	<Record>
+		<KEY>100230</KEY>
+		<content>분노한 킬러비</content>
+	</Record>
+	<Record>
+		<KEY>100231</KEY>
+		<content>공포의 킬러비</content>
+	</Record>
+	<Record>
+		<KEY>100232</KEY>
+		<content>Dragon</content>
+	</Record>
+	<Record>
+		<KEY>100233</KEY>
+		<content>Dragon Black</content>
+	</Record>
+	<Record>
+		<KEY>100234</KEY>
+		<content>사막의 지배자</content>
+	</Record>
+	<Record>
+		<KEY>100235</KEY>
+		<content>가시드래곤2</content>
+	</Record>
+	<Record>
+		<KEY>100236</KEY>
+		<content>가시드래곤3</content>
+	</Record>
+	<Record>
+		<KEY>100237</KEY>
+		<content>바실리스크</content>
+	</Record>
+	<Record>
+		<KEY>100238</KEY>
+		<content>맹독의 바실리스크</content>
+	</Record>
+	<Record>
+		<KEY>100239</KEY>
+		<content>지옥의 바실리스크</content>
+	</Record>
+	<Record>
+		<KEY>100240</KEY>
+		<content>무덤 관리자</content>
+	</Record>
+	<Record>
+		<KEY>100241</KEY>
+		<content>Skeleton Knight2</content>
+	</Record>
+	<Record>
+		<KEY>100242</KEY>
+		<content>Skeleton Knight3</content>
+	</Record>
+	<Record>
+		<KEY>100243</KEY>
+		<content>Devil Dragon Woman1</content>
+	</Record>
+	<Record>
+		<KEY>100244</KEY>
+		<content>Devil Dragon Woman2</content>
+	</Record>
+	<Record>
+		<KEY>100245</KEY>
+		<content>Devil Dragon Woman3</content>
+	</Record>
+	<Record>
+		<KEY>100246</KEY>
+		<content>카오스 키퍼1</content>
+	</Record>
+	<Record>
+		<KEY>100247</KEY>
+		<content>카오스 키퍼2</content>
+	</Record>
+	<Record>
+		<KEY>100248</KEY>
+		<content>카오스 키퍼3</content>
+	</Record>
+  <Record>
+    <KEY>100249</KEY>
+	<content>Infectee1</content>
+  </Record>
+  <Record>
+    <KEY>100250</KEY>
+	<content>Infectee2</content>
+  </Record>
+  <Record>
+    <KEY>100251</KEY>
+	<content>Infectee3</content>
+  </Record>
+  <Record>
+    <KEY>100252</KEY>
+	<content>Shadow Knight1</content>
+  </Record>
+  <Record>
+    <KEY>100253</KEY>
+	<content>Shadow Knight2</content>
+  </Record>
+  <Record>
+    <KEY>100254</KEY>
+	<content>Shadow Knight3</content>
+  </Record>
+  <Record>
+    <KEY>100255</KEY>
+	<content>Transfectant1</content>
+  </Record>
+  <Record>
+    <KEY>100256</KEY>
+	<content>Transfectant2</content>
+  </Record>
+  <Record>
+    <KEY>100257</KEY>
+	<content>Transfectant3</content>
+  </Record>
+  <Record>
+    <KEY>100261</KEY>
+	<content>골렘</content>
+  </Record>
+  <Record>
+    <KEY>100262</KEY>
+	<content>에이션트 골렘</content>
+  </Record>
+  <Record>
+    <KEY>100263</KEY>
+	<content>킹 골렘</content>
+  </Record>
+  <Record>
+    <KEY>100264</KEY>
+	<content>Nohead_Soldier1</content>
+  </Record>
+  <Record>
+    <KEY>100265</KEY>
+	<content>Nohead_Soldier2</content>
+  </Record>
+  <Record>
+    <KEY>100266</KEY>
+	<content>Nohead_Soldier3</content>
+  </Record>
+  <Record>
+	<KEY>100270</KEY>
+	<content>Savage_Mouse1</content>
+  </Record>
+  <Record>
+	<KEY>100271</KEY>
+	<content>Savage_Mouse2</content>
+  </Record>
+  <Record>
+	<KEY>100272</KEY>
+	<content>Savage_Mouse3</content>
+  </Record>
+  <Record>
+    <KEY>100273</KEY>
+    <content>키메라</content>
+  </Record>
+  <Record>
+    <KEY>100274</KEY>
+    <content>진화된 키메라</content>
+  </Record>
+  <Record>
+    <KEY>100275</KEY>
+    <content>진화된 키메라</content>
+  </Record>
+  <Record>
+    <KEY>100282</KEY>
+    <content>BomberMachine1</content>
+  </Record>
+  <Record>
+    <KEY>100283</KEY>
+    <content>BomberMachine2</content>
+  </Record>
+  <Record>
+    <KEY>100284</KEY>
+    <content>BomberMachine3</content>
+  </Record>
+  <Record>
+    <KEY>100285</KEY>
+    <content>작은 네헤카라</content>
+  </Record>
+  <Record>
+    <KEY>100286</KEY>
+    <content>작은 네헤카라 프레데터</content>
+  </Record>
+  <Record>
+    <KEY>100290</KEY>
+    <content>ICE 스켈레톤 궁병</content>
+  </Record>
+  <Record>
+	<KEY>100291</KEY>
+	<content>얼어붙은 신도</content>
+  </Record>
+  <Record>
+	<KEY>100292</KEY>
+	<content>얼어붙은 켄타드래곤</content>
+  </Record>
+  <Record>
+	<KEY>100293</KEY>
+	<content>얼어붙은 에안 떠돌이</content>
+</Record>
+<Record>
+	<KEY>100294</KEY>
+	<content>얼어붙은 헤츨링</content>
+</Record>
+<Record>
+	<KEY>100295</KEY>
+	<content>얼어붙은 정규병</content>
+</Record>
+<Record>
+	<KEY>100296</KEY>
+	<content>얼어붙은 늑대</content>
+</Record>
+<Record>
+	<KEY>100297</KEY>
+	<content>얼어붙은 솔져</content>
+</Record>
+<Record>
+	<KEY>100298</KEY>
+	<content>얼어붙은 예티</content>
+</Record>
+<Record>
+	<KEY>100299</KEY>
+	<content>얼어붙은 예티 정예대</content>
+</Record>
+<Record>
+	<KEY>100300</KEY>
+	<content>얼어붙은 예티 족장</content>
+</Record>
+  <Record>
+    <KEY>108000</KEY>
+    <content>매직 고스트</content>
+  </Record>
+  <Record>
+    <KEY>108001</KEY>
+    <content>벨라루크</content>
+  </Record>
+  <Record>
+    <KEY>108002</KEY>
+    <content>프레도토그</content>
+  </Record>
+  <Record>
+    <KEY>108003</KEY>
+    <content>용암 전갈</content>
+  </Record>
+  <Record>
+    <KEY>108004</KEY>
+    <content>도리한</content>
+  </Record>
+  <Record>
+    <KEY>108005</KEY>
+  </Record>
+  <Record>
+    <KEY>108006</KEY>
+  </Record>
+  <Record>
+    <KEY>108007</KEY>
+  </Record>
+  <Record>
+    <KEY>108008</KEY>
+  </Record>
+  <Record>
+    <KEY>109000</KEY>
+    <content>퇴화된 랩터</content>
+  </Record>
+  <Record>
+    <KEY>109001</KEY>
+    <content>리틀 드레곤</content>
+  </Record>
+  <Record>
+    <KEY>109002</KEY>
+    <content>시체 포식 코카스</content>
+  </Record>
+  <Record>
+    <KEY>109003</KEY>
+    <content>수인 사제</content>
+  </Record>
+  <Record>
+    <KEY>109004</KEY>
+    <content>박쥐</content>
+  </Record>
+  <Record>
+    <KEY>109005</KEY>
+    <content>에르 멧돼지</content>
+  </Record>
+  <Record>
+    <KEY>109006</KEY>
+    <content>드라이어드</content>
+  </Record>
+  <Record>
+    <KEY>109007</KEY>
+    <content>영혼 사냥꾼</content>
+  </Record>
+  <Record>
+    <KEY>109008</KEY>
+    <content>각갑충</content>
+  </Record>
+  <Record>
+    <KEY>109009</KEY>
+    <content>데빌리안</content>
+  </Record>
+  <Record>
+    <KEY>109010</KEY>
+    <content>레드 데빌</content>
+  </Record>
+  <Record>
+    <KEY>109011</KEY>
+  </Record>
+  <Record>
+    <KEY>109012</KEY>
+  </Record>
+  <Record>
+    <KEY>109013</KEY>
+  </Record>
+  <Record>
+    <KEY>109014</KEY>
+  </Record>
+  <Record>
+    <KEY>109015</KEY>
+  </Record>
+  <Record>
+    <KEY>109016</KEY>
+  </Record>
+  <Record>
+    <KEY>109017</KEY>
+  </Record>
+  <Record>
+    <KEY>109997</KEY>
+    <content>전사</content>
+  </Record>
+  <Record>
+    <KEY>109998</KEY>
+    <content>궁수</content>
+  </Record>
+	<Record>
+		<KEY>109999</KEY>
+		<content>마법사</content>
+	</Record>
+	<Record>
+		<KEY>110000</KEY>
+		<content>테스트 적</content>
+	</Record>
+	<Record>
+		<KEY>110001</KEY>
+		<content>테스트 동맹</content>
+	</Record>
+</Table>

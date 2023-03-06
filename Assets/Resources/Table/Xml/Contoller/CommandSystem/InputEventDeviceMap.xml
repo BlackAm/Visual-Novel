@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>ControlUnit</KEY>
+        <DeviceType>Keyboard_TouchPanel</DeviceType>
+    </Record>
+    <Record>
+        <KEY>ControlView</KEY>
+        <DeviceType>TouchPanel</DeviceType>
+    </Record>
+    <Record>
+        <KEY>SystemControl</KEY>
+        <DeviceType>Keyboard_TouchPanel</DeviceType>
+    </Record>
+    <Record>
+      <KEY>WorldMapControl</KEY>
+      <DeviceType>Keyboard_TouchPanel</DeviceType>
+    </Record>
+    
+    <Record>
+        <KEY>TestModule</KEY>
+        <DeviceType>Keyboard</DeviceType>
+    </Record>
+</Table>

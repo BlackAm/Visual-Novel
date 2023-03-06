@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <!-- 게임 컨텐츠 관련 문자열을 140000 ~ 189999번 -->
+  <Record>
+    <KEY>140000</KEY>
+    <content>확인</content>
+  </Record>
+  <Record>
+    <KEY>140001</KEY>
+    <content>취소</content>
+  </Record>
+  <Record>
+    <KEY>140002</KEY>
+    <content>테스트 타이틀</content>
+  </Record>
+  <Record>
+    <KEY>140003</KEY>
+    <content>테스트 컨텐츠</content>
+  </Record>
+  <Record>
+    <KEY>140005</KEY>
+    <content>의 확률로 아이템 제작이 실패 할 수 있습니다.</content>
+  </Record>
+
+  <Record>
+    <KEY>140010</KEY>
+    <content>무속성</content>
+  </Record>
+  <Record>
+    <KEY>140011</KEY>
+    <content>무속성</content>
+  </Record>
+  <Record>
+    <KEY>140012</KEY>
+    <content>무속성</content>
+  </Record>
+  <Record>
+    <KEY>140013</KEY>
+    <content>무속성</content>
+  </Record>
+  <Record>
+    <KEY>140014</KEY>
+    <content>무속성</content>
+  </Record>
+
+  <Record>
+    <KEY>140020</KEY>
+    <content>불속성</content>
+  </Record>
+  <Record>
+    <KEY>140021</KEY>
+    <content>불속성</content>
+  </Record>
+  <Record>
+    <KEY>140022</KEY>
+    <content>불속성</content>
+  </Record>
+  <Record>
+    <KEY>140023</KEY>
+    <content>불속성</content>
+  </Record>
+  <Record>
+    <KEY>140024</KEY>
+    <content>불속성</content>
+  </Record>
+
+  <Record>
+    <KEY>140030</KEY>
+    <content>물속성</content>
+  </Record>
+  <Record>
+    <KEY>140031</KEY>
+    <content>물속성</content>
+  </Record>
+  <Record>
+    <KEY>140032</KEY>
+    <content>물속성</content>
+  </Record>
+  <Record>
+    <KEY>140033</KEY>
+    <content>물속성</content>
+  </Record>
+  <Record>
+    <KEY>140034</KEY>
+    <content>물속성</content>
+  </Record>
+
+  <Record>
+    <KEY>140040</KEY>
+    <content>명속성</content>
+  </Record>
+  <Record>
+    <KEY>140041</KEY>
+    <content>명속성</content>
+  </Record>
+  <Record>
+    <KEY>140042</KEY>
+    <content>명속성</content>
+  </Record>
+  <Record>
+    <KEY>140043</KEY>
+    <content>명속성</content>
+  </Record>
+  <Record>
+    <KEY>140044</KEY>
+    <content>명속성</content>
+  </Record>
+
+  <Record>
+    <KEY>140050</KEY>
+    <content>암속성</content>
+  </Record>
+  <Record>
+    <KEY>140051</KEY>
+    <content>암속성</content>
+  </Record>
+  <Record>
+    <KEY>140052</KEY>
+    <content>암속성</content>
+  </Record>
+  <Record>
+    <KEY>140053</KEY>
+    <content>암속성</content>
+  </Record>
+  <Record>
+    <KEY>140054</KEY>
+    <content>암속성</content>
+  </Record>
+  <!--스피어 제련소-->
+  <Record>
+    <KEY>140100</KEY>
+    <content>을 장착 하시겠습니까?</content>
+  </Record>
+  <Record>
+    <KEY>140101</KEY>
+    <content>아이템 장착</content>
+  </Record>
+  <Record>
+    <KEY>140102</KEY>
+    <content>장착</content>
+  </Record>
+  <Record>
+    <KEY>140103</KEY>
+    <content>아이템 해제</content>
+  </Record>
+  <Record>
+    <KEY>140104</KEY>
+    <content>해제</content>
+  </Record>
+  <Record>
+    <KEY>140105</KEY>
+    <content>을 장착 해제하시겠습니까?</content>
+  </Record>
+  <Record>
+    <KEY>140106</KEY>
+    <content>강화부를 등록해 주십시요.</content>
+  </Record>
+  <Record>
+    <KEY>140107</KEY>
+    <content>아이템을 선택해 주십시요.</content>
+  </Record>
+  <Record>
+    <KEY>140108</KEY>
+    <content>오류</content>
+  </Record>
+  <Record>
+    <KEY>140109</KEY>
+    <content>보석장착</content>
+  </Record>
+  <Record>
+    <KEY>140110</KEY>
+    <content>취소</content>
+  </Record>
+
+  <!-- 스킬 관련-->
+  <Record>
+    <KEY>140300</KEY>
+    <content>일반공격</content>
+  </Record>
+  <Record>
+    <KEY>140301</KEY>
+    <content>공격스킬</content>
+  </Record>
+  <Record>
+    <KEY>140302</KEY>
+    <content>패시브스킬</content>
+  </Record>
+  <Record>
+    <KEY>140303</KEY>
+    <content>버프스킬</content>
+  </Record>
+  <Record>
+    <KEY>140310</KEY>
+    <content>단일</content>
+  </Record>
+  <Record>
+    <KEY>140311</KEY>
+    <content>범위</content>
+  </Record>
+  <Record>
+    <KEY>140312</KEY>
+    <content>자신</content>
+  </Record>
+
+  <!--구매 관련-->
+  <Record>
+    <KEY>140500</KEY>
+    <content>안내</content>
+  </Record>
+  <Record>
+    <KEY>140501</KEY>
+    <content>을 하기위해 다음과 같은 {0}가 필요합니다.</content>
+  </Record>
+  <Record>
+    <KEY>140503</KEY>
+    <content>필요 </content>
+  </Record>
+  <Record>
+    <KEY>140504</KEY>
+    <content>보유 </content>
+  </Record>
+  <Record>
+    <KEY>140505</KEY>
+    <content>취소</content>
+  </Record>
+  <Record>
+    <KEY>140506</KEY>
+    <content>구매</content>
+  </Record>
+  <Record>
+    <KEY>140507</KEY>
+    <content>즉시부활</content>
+  </Record>
+  
+  <!--경험치 복구 관련-->
+  <Record>
+    <KEY>140510</KEY>
+    <content>{0}가 부족합니다</content>
+  </Record>
+  <Record>
+    <KEY>140511</KEY>
+    <content>경험치 복구</content>
+  </Record>
+  <Record>
+    <KEY>140512</KEY>
+    <content>경험치 {0}% 복구</content>
+  </Record>
+  <Record>
+    <KEY>140513</KEY>
+    <content>시간 </content>
+  </Record>
+  <Record>
+    <KEY>140514</KEY>
+    <content>분 </content>
+  </Record>
+  <Record>
+    <KEY>140515</KEY>
+    <content>초 </content>
+  </Record>
+  <Record>
+    <KEY>140516</KEY>
+    <content>남음</content>
+  </Record>
+  <Record>
+    <KEY>140517</KEY>
+    <content>매일 무료로 {0}/{1}회 복구 할수 있습니다.(이후 재화소모)\n경험치 목록{2}개 초과시 자동으로 삭제됩니다.[{3}/{4}]</content>
+  </Record>
+  <Record>
+    <KEY>140518</KEY>
+    <content>선택</content>
+  </Record>
+  <Record>
+    <KEY>140519</KEY>
+    <content>복구</content>
+  </Record>
+  <Record>
+    <KEY>140520</KEY>
+    <content>({0}%)를 복구하기 위해\n다음과 같은 {1}가 필요합니다.</content>
+  </Record>
+  <Record>
+    <KEY>140521</KEY>
+    <content>에르가 부족합니다.</content>
+  </Record>
+  <Record>
+    <KEY>140522</KEY>
+    <content>다이아가 부족합니다.</content>
+  </Record>
+  
+  <!--레벨업-->
+  <Record>
+    <KEY>140550</KEY>
+    <content>{0}레벨이 되었습니다.</content>
+  </Record>
+  <Record>
+    <KEY>140551</KEY>
+    <content>레벨{0}</content>
+  </Record>
+ 
+  <!-- 맵 이름 -->
+  <Record>
+    <KEY>141000</KEY>
+    <content>사비스 성 마을</content>
+  </Record>
+  <Record>
+    <KEY>141001</KEY>
+    <content>협동 목장</content>
+  </Record>
+  <Record>
+    <KEY>141002</KEY>
+    <content>고요한 평원</content>
+  </Record>
+  <Record>
+    <KEY>141003</KEY>
+    <content>초원의 녹지</content>
+  </Record>
+  <Record>
+    <KEY>141004</KEY>
+    <content>버려진 성마을</content>
+  </Record>
+  <Record>
+    <KEY>141005</KEY>
+    <content>숨겨진 던전</content>
+  </Record>
+  <Record>
+    <KEY>141006</KEY>
+    <content>시련의 탑</content>
+  </Record>
+  <Record>
+    <KEY>141007</KEY>
+    <content>사비스 성 외곽</content>
+  </Record>
+  <Record>
+    <KEY>141008</KEY>
+    <content>다릉딘 신전</content>
+  </Record>
+  <Record>
+    <KEY>141009</KEY>
+    <content>다릉딘 습지</content>
+  </Record>
+  <Record>
+    <KEY>141010</KEY>
+    <content>습지 다리</content>
+  </Record>
+  <Record>
+    <KEY>141011</KEY>
+    <content>메마른 땅</content>
+  </Record>
+  <Record>
+    <KEY>141012</KEY>
+    <content>공간의 뒤틀림</content>
+  </Record>
+  <Record>
+    <KEY>141013</KEY>
+    <content>겨울의 전초</content>
+  </Record>
+  <Record>
+    <KEY>141014</KEY>
+    <content>설원의 성지 초입</content>
+  </Record>
+  <Record>
+    <KEY>141015</KEY>
+    <content>설원의 성지</content>
+  </Record>
+  <Record>
+    <KEY>141016</KEY>
+    <content>절망의 탑</content>
+  </Record>
+  <Record>
+    <KEY>141017</KEY>
+    <content>튜토리얼 존</content>
+  </Record>
+  <Record>
+    <KEY>141018</KEY>
+    <content>공성전</content>
+  </Record>
+  <Record>
+    <KEY>141019</KEY>
+    <content>엘윈의 숲</content>
+  </Record>
+  <Record>
+    <KEY>141020</KEY>
+    <content>메마른 땅</content>
+  </Record>
+  <Record>
+    <KEY>141021</KEY>
+    <content>시련의 탑1층</content>
+  </Record>
+  <Record>
+    <KEY>141022</KEY>
+    <content>시련의 던전</content>
+  </Record>
+  <Record>
+    <KEY>141023</KEY>
+    <content>폐허가 된 고성</content>
+  </Record>
+  <Record>
+    <KEY>141024</KEY>
+    <content>라미에르 성 마을</content>
+  </Record>
+  <Record>
+    <KEY>141030</KEY>
+    <content>테스트 맵</content>
+  </Record>
+  <Record>
+    <KEY>141031</KEY>
+    <content>큰 마을</content>
+  </Record>
+  <Record>
+    <KEY>141032</KEY>
+    <content>테스트 인던</content>
+  </Record>
+  <Record>
+    <KEY>141033</KEY>
+    <content>메마른 오아시스</content>
+  </Record>
+  <Record>
+    <KEY>141034</KEY>
+    <content>얼어붙은 마을</content>
+  </Record>
+  <Record>
+    <KEY>141035</KEY>
+    <content>계승의 전장</content>
+  </Record>
+  <Record>
+    <KEY>141036</KEY>
+    <content>고룡의 활화산</content>
+  </Record>
+  <!-- 맵이름 오른쪽에 리뉴얼 중 표기-->
+  <Record>
+    <KEY>141999</KEY>
+    <content>(리뉴얼 중)</content>
+  </Record>
+  
+  <!-- 맵 - 세부 지역 -->
+  <Record>
+    <KEY>150000</KEY>
+    <content>서문 입구</content>
+  </Record>
+  <Record>
+    <KEY>150001</KEY>
+    <content>사냥터 중심지</content>
+  </Record>
+  <Record>
+    <KEY>150002</KEY>
+    <content>시작지</content>
+  </Record>
+  <Record>
+    <KEY>150003</KEY>
+    <content>중심지</content>
+  </Record>
+  <Record>
+    <KEY>150004</KEY>
+    <content>끝문</content>
+  </Record>
+  <Record>
+    <KEY>150005</KEY>
+    <content>신전</content>
+  </Record>
+  <Record>
+    <KEY>150006</KEY>
+    <content>남문 입구</content>
+  </Record>
+  <Record>
+    <KEY>150007</KEY>
+    <content>북문</content>
+  </Record>
+  <Record>
+    <KEY>150008</KEY>
+    <content>서문</content>
+  </Record>
+  <Record>
+    <KEY>150009</KEY>
+    <content>끝 없는 사막</content>
+  </Record>
+  <Record>
+    <KEY>150010</KEY>
+    <content>작은 초원</content>
+  </Record>
+  <Record>
+    <KEY>150011</KEY>
+    <content>세계수 구릉지</content>
+  </Record>
+  <Record>
+    <KEY>150012</KEY>
+    <content>오렌지 농장</content>
+  </Record>
+  <Record>
+    <KEY>150013</KEY>
+    <content>개구리 쉼터</content>
+  </Record>
+  <Record>
+    <KEY>150014</KEY>
+    <content>반란군 야영지</content>
+  </Record>
+  <Record>
+    <KEY>150015</KEY>
+    <content>폐허 성터</content>
+  </Record>
+  <Record>
+    <KEY>150016</KEY>
+    <content>바위 지대</content>
+  </Record>
+  <Record>
+    <KEY>150017</KEY>
+    <content>계승의 제사장</content>
+  </Record>
+  <Record>
+    <KEY>150018</KEY>
+    <content>마을 입구</content>
+  </Record>
+  <Record>
+    <KEY>150019</KEY>
+    <content>얼어 붙은 탑</content>
+  </Record>
+  <Record>
+    <KEY>150020</KEY>
+    <content>이름 없는 자의 무덤</content>
+  </Record>
+  <Record>
+    <KEY>150021</KEY>
+    <content>인적 없는 베이스캠프</content>
+  </Record>
+  <Record>
+    <KEY>150022</KEY>
+    <content>예티의 마을</content>
+  </Record>
+  <Record>
+    <KEY>150023</KEY>
+    <content>한적한 산장</content>
+  </Record>
+  <Record>
+    <KEY>150024</KEY>
+    <content>얼어 붙은 호수</content>
+  </Record>
+  <!-- NPC 상인 정보 -->
+  <Record>
+    <KEY>160000</KEY>
+    <content>장비 상인</content>
+  </Record>
+  <Record>
+    <KEY>160001</KEY>
+    <content>소모품 상인</content>
+  </Record>
+  <Record>
+    <KEY>160002</KEY>
+    <content>스킬 북 상인</content>
+  </Record>
+  <Record>
+    <KEY>160003</KEY>
+    <content>판매 상인</content>
+  </Record>
+
+  <!-- 캐릭터 정보 -->
+  <Record>
+    <KEY>180000</KEY>
+    <content>힘</content>
+  </Record>
+  <Record>
+    <KEY>180001</KEY>
+    <content>손재주</content>
+  </Record>
+  <Record>
+    <KEY>180002</KEY>
+    <content>지능</content>
+  </Record>
+  <Record>
+    <KEY>180003</KEY>
+    <content>생명력</content>
+  </Record>
+  <Record>
+    <KEY>180004</KEY>
+    <content>민첩</content>
+  </Record>
+  <Record>
+    <KEY>180005</KEY>
+    <content>지혜</content>
+  </Record>
+  <Record>
+    <KEY>180006</KEY>
+    <content>경험치</content>
+  </Record>
+
+  <Record>
+    <KEY>180007</KEY>
+    <content>근거리 공격력</content>
+  </Record>
+  <Record>
+    <KEY>180008</KEY>
+    <content>원거리 공격력</content>
+  </Record>
+  <Record>
+    <KEY>180009</KEY>
+    <content>마법 공격력</content>
+  </Record>
+  <Record>
+    <KEY>180010</KEY>
+    <content>근거리 크리티컬 확률</content>
+  </Record>
+  <Record>
+    <KEY>180011</KEY>
+    <content>원거리 크리티컬 확률</content>
+  </Record>
+  <Record>
+    <KEY>180012</KEY>
+    <content>마법 크리티컬 확률</content>
+  </Record>
+  <Record>
+    <KEY>180013</KEY>
+    <content>슈퍼 크리티컬 확률</content>
+  </Record>
+  <Record>
+    <KEY>180014</KEY>
+    <content>크리티컬 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180015</KEY>
+    <content>슈퍼 크리티컬 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180016</KEY>
+    <content>공격속도</content>
+  </Record>
+  <Record>
+    <KEY>180017</KEY>
+    <content>스킬시전속도</content>
+  </Record>
+  <Record>
+    <KEY>180018</KEY>
+    <content>데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180019</KEY>
+    <content>적중률</content>
+  </Record>
+  <Record>
+    <KEY>180020</KEY>
+    <content>스킬데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180021</KEY>
+    <content>상태변화 적중률</content>
+  </Record>
+  <Record>
+    <KEY>180022</KEY>
+    <content>쿨타임 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180023</KEY>
+    <content>근거리 적중률</content>
+  </Record>
+  <Record>
+    <KEY>180024</KEY>
+    <content>원거리 적중률</content>
+  </Record>
+  <Record>
+    <KEY>180025</KEY>
+    <content>마법 적중률</content>
+  </Record>
+  <Record>
+    <KEY>180026</KEY>
+    <content>PVP 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180027</KEY>
+    <content>PVP 근거리 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180028</KEY>
+    <content>PVP 원거리 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180029</KEY>
+    <content>PVP 마법 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180030</KEY>
+    <content>보스 데미지 증가율</content>
+  </Record>
+  <Record>
+    <KEY>180031</KEY>
+    <content>화속성 강화</content>
+  </Record>
+  <Record>
+    <KEY>180032</KEY>
+    <content>수속성 강화</content>
+  </Record>
+  <Record>
+    <KEY>180033</KEY>
+    <content>지속성 강화</content>
+  </Record>
+  <Record>
+    <KEY>180034</KEY>
+    <content>풍속성 강화</content>
+  </Record>
+
+  <Record>
+    <KEY>180035</KEY>
+    <content>방어력</content>
+  </Record>
+  <Record>
+    <KEY>180036</KEY>
+    <content>회피율</content>
+  </Record>
+  <Record>
+    <KEY>180037</KEY>
+    <content>근거리 회피율</content>
+  </Record>
+  <Record>
+    <KEY>180038</KEY>
+    <content>원거리 회피율</content>
+  </Record>
+  <Record>
+    <KEY>180039</KEY>
+    <content>마법 회피율</content>
+  </Record>
+  <Record>
+    <KEY>180040</KEY>
+    <content>근거리 크리티컬 저항률</content>
+  </Record>
+  <Record>
+    <KEY>180041</KEY>
+    <content>원거리 크리티컬 저항률</content>
+  </Record>
+  <Record>
+    <KEY>180042</KEY>
+    <content>마법 크리티컬 저항률</content>
+  </Record>
+  <Record>
+    <KEY>180043</KEY>
+    <content>피격 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180044</KEY>
+    <content>피격 스킬 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180045</KEY>
+    <content>PVP 피격 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180046</KEY>
+    <content>PVP 근거리 피격 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180047</KEY>
+    <content>PVP 원거리 피격 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180048</KEY>
+    <content>PVP 마법 피격 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180049</KEY>
+    <content>보스 피격 데미지 감소율</content>
+  </Record>
+  <Record>
+    <KEY>180050</KEY>
+    <content>상태이상 저항률</content>
+  </Record>
+  <Record>
+    <KEY>180051</KEY>
+    <content>상태이상 지속시간 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180052</KEY>
+    <content>화속성 저항</content>
+  </Record>
+  <Record>
+    <KEY>180053</KEY>
+    <content>수속성 저항</content>
+  </Record>
+  <Record>
+    <KEY>180054</KEY>
+    <content>지속성 저항</content>
+  </Record>
+  <Record>
+    <KEY>180055</KEY>
+    <content>풍속성 저항</content>
+  </Record>
+
+  <Record>
+    <KEY>180056</KEY>
+    <content>HP</content>
+  </Record>
+  <Record>
+    <KEY>180057</KEY>
+    <content>MP</content>
+  </Record>
+  <Record>
+    <KEY>180058</KEY>
+    <content>HP리젠</content>
+  </Record>
+  <Record>
+    <KEY>180059</KEY>
+    <content>MP리젠</content>
+  </Record>
+  <Record>
+    <KEY>180060</KEY>
+    <content>전투 HP리젠</content>
+  </Record>
+  <Record>
+    <KEY>180061</KEY>
+    <content>전투 MP리젠</content>
+  </Record>
+  <Record>
+    <KEY>180062</KEY>
+    <content>이동속도</content>
+  </Record>
+  <Record>
+    <KEY>180063</KEY>
+    <content>경험치 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180064</KEY>
+    <content>골드 획득 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180065</KEY>
+    <content>아이템 드랍 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180066</KEY>
+    <content>포션 효과 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180067</KEY>
+    <content>포션 쿨타임 증감률</content>
+  </Record>
+  <Record>
+    <KEY>180068</KEY>
+    <content>포션 추가 소지 갯수</content>
+  </Record>
+
+</Table>

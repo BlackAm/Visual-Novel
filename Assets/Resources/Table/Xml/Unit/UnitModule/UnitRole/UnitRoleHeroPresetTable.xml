@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>300</KEY>
+        <HeroAttribute>None</HeroAttribute>
+        <UnitScale>1</UnitScale>
+        <BaseStatusAdditiveRate>1</BaseStatusAdditiveRate>
+        <ExtraBaseStatusIndex>0</ExtraBaseStatusIndex>
+        <ExtraBattleStatusIndex>0</ExtraBattleStatusIndex>
+    </Record>
+</Table>

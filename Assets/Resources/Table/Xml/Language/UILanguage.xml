@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <!-- UI 컨텐츠 문자열을 200000 ~ 220000번 -->
+  <Record>
+    <KEY>200000</KEY>
+    <ContentSet>테스트 메시지/테스트 메시지입니다./확인/취소</ContentSet>
+  </Record>
+  <Record>
+    <KEY>200001</KEY>
+    <ContentSet>테스트 메시지...</ContentSet>
+  </Record>
+
+  <!-- 인트로 200100 ~ 200199 -->
+  <Record>
+    <KEY>200100</KEY>
+    <ContentSet>화면을 터치하면 게임이 시작됩니다.</ContentSet>
+  </Record>
+  
+   <!-- 메인 화면 200200 ~ 200299-->
+  <Record>
+    <KEY>200200</KEY>
+    <ContentSet>새로운 이야기</ContentSet>
+  </Record>
+  <Record>
+    <KEY>200201</KEY>
+    <ContentSet>이어하기</ContentSet>
+  </Record>
+  <Record>
+    <KEY>200202</KEY>
+    <ContentSet>기억 보관소</ContentSet>
+  </Record>
+  <Record>
+    <KEY>200203</KEY>
+    <ContentSet>그만하기</ContentSet>
+  </Record>
+</Table>

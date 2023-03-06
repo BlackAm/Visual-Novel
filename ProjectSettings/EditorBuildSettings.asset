@@ -6,21 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
+    path: Assets/Scenes/BootScene.unity
+    guid: b245cc440ea6fae4c9260d9b10978a4b
+  - enabled: 1
+    path: Assets/Scenes/BootStrapScene.unity
+    guid: c8e74073f3b08504fb5324c2305ff9bb
+  - enabled: 1
+    path: Assets/Scenes/LoadingScenes/LoadingScene_B.unity
+    guid: 85da809e245922c44b24f6eb5a590f3e
+  - enabled: 1
+    path: Assets/Scenes/LoadingScenes/LoadingScene_SL.unity
+    guid: 31f2bd8833fbf0c47951ecec7a2fa8cd
+  - enabled: 1
+    path: Assets/Resources/Scenes/MainScene.unity
     guid: f7febcea114a14645b52f1b6c75a577f
-  - enabled: 1
-    path: Assets/Scenes/Rememberance.unity
-    guid: a345ebe62b490364295fb0f5d76c78a8
-  - enabled: 1
-    path: Assets/Scenes/NameInputScene.unity
-    guid: e266a0cb4ed5fb540b6ce1f3b6bb0a83
-  - enabled: 1
-    path: Assets/Scenes/LoadingScene.unity
-    guid: cc9ae50a8457fa14a803cb858d93a563
-  - enabled: 1
-    path: Assets/Scenes/StoryScene/PrologueScene.unity
-    guid: 04e2116e4b17bb94f997366561d295c7
-  - enabled: 1
-    path: Assets/Scenes/StoryScene/Dialog_1_Scene.unity
-    guid: 858240ac6dd18634d8bdc5b94cf6ad75
   m_configObjects: {}

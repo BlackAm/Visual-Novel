@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>Legacy Shaders/Diffuse</KEY>
+    <IsDefaultTable>True</IsDefaultTable>
+  </Record>
+  <Record>
+    <KEY>Hidden/CubeBlur</KEY>
+    <IsDefaultTable>True</IsDefaultTable>
+  </Record>
+  <Record>
+    <KEY>Hidden/CubeCopy</KEY>
+    <IsDefaultTable>True</IsDefaultTable>
+  </Record>
+  <Record>
+    <KEY>Hidden/CubeBlend</KEY>
+    <IsDefaultTable>True</IsDefaultTable>
+  </Record>
+  <Record>
+    <KEY>Sprites/Default</KEY>
+    <IsDefaultTable>True</IsDefaultTable>
+  </Record>
+  <Record>
+    <KEY>UI/Default</KEY>
+    <IsDefaultTable>True</IsDefaultTable>
+  </Record>
+</Table>

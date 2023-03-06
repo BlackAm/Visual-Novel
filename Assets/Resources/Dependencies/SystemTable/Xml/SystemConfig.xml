@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>Table</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>TextAsset</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>GameObjectPrefab</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>VfxPrefab</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>Image</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>Material</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>Misc</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>Scene</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>Model</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>AudioClip</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+  <Record>
+    <KEY>VideoClip</KEY>
+    <ResourceLoadType>FromUnityResource</ResourceLoadType>
+  </Record>
+</Table>
