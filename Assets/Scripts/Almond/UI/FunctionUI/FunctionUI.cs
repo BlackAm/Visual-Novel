@@ -10,7 +10,7 @@ namespace UI2020
 {
     public class FunctionUI : AbstractUI
     {
-        private Image _bg;
+        private Image _bg, _eventCG;
         public Setting setting;
         
         private GameObject mainBack;
@@ -59,6 +59,7 @@ namespace UI2020
         public override void Initialize()
         {
             _bg = GetComponent<Image>("BG");
+            _eventCG = GetComponent<Image>("EventCG");
             setting = AddComponent<Setting>("Setting");
         }
 
@@ -100,6 +101,42 @@ namespace UI2020
 
             if(LamiereGameManager.GetInstanceUnSafe._ClientPlayer.IsValid())
                 LamiereGameManager.GetInstanceUnSafe._ClientPlayer.PlayerNamePanel.TrySyncPosition();
+        }
+        
+        public void GetSprite(int p_Index, Image p_Image)
+        {
+            var loadResult = LoadAssetManager.GetInstanceUnSafe.LoadAsset<Sprite>(
+                ResourceType.Image, ResourceLifeCycleType.Scene,
+                ImageNameTableData.GetInstanceUnSafe.GetTableData(p_Index).ResourceName);
+            
+            p_Image.sprite = loadResult.Item2;
+        }
+
+        public void ChangeImage(ImageType p_ImageType, int p_Key)
+        {
+            switch (p_ImageType)
+            {
+                case ImageType.BG:
+                    ChangeBackGroundImage(p_Key);
+                    break;
+                case ImageType.EventCG:
+                    ChangeEventCG(p_Key);
+                    break;
+                case ImageType.CharacterImage:
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        public void ChangeBackGroundImage(int p_Key)
+        {
+            GetSprite(p_Key, _bg);
+        }
+
+        public void ChangeEventCG(int p_Key)
+        {
+            GetSprite(p_Key, _eventCG);
         }
     }
 }

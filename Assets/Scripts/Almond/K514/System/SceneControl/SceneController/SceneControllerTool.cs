@@ -11,10 +11,10 @@ namespace k514
         // TODO<414K+K> 해당 리전은 추후 시스템 테이블로 이식해야한다.
         #region <Consts>
 
-        public const string DefaultSceneName = "Assets/Scenes/BootScene.unity";
-        public const string BootStrapSceneName = "Assets/Scenes/BootStrapScene.unity";
-        public const string BlackLoadingSceneName = "Assets/Scenes/LoadingScenes/LoadingScene_B.unity";
-        public const string SolidImageLoadingSceneName = "Assets/Scenes/LoadingScenes/LoadingScene_SL.unity";
+        public const string DefaultSceneName = "Assets/Resources/Scenes/BootScene.unity";
+        public const string BootStrapSceneName = "Assets/Resources/Scenes/BootStrapScene.unity";
+        public const string BlackLoadingSceneName = "Assets/Resources/Scenes/LoadingScenes/LoadingScene_B.unity";
+        public const string SolidImageLoadingSceneName = "Assets/Resources/Scenes/LoadingScenes/LoadingScene_SL.unity";
         
         private static readonly Dictionary<SystemSceneType, string> SystemSceneNameTable 
             = new Dictionary<SystemSceneType, string>

@@ -47,3 +47,22 @@ public enum StoryType
     MAINSTORY,
     SUBSTORY,
 }
+
+public enum Character
+{
+    None = 0,
+    Player,
+    Char1,
+    Char2,
+    Char3,
+    CharacterCount,
+    Narration
+}
+
+public enum ImageType
+{
+    None = 0,
+    BG,
+    EventCG,
+    CharacterImage,
+}

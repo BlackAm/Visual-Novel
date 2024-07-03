@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>120000</KEY>
+        <ExtraDataDescription>선택 메시지</ExtraDataDescription>
+        <ExtraComponentType>k514.EitherOrMessageBox</ExtraComponentType>
+    </Record>
+    <Record>
+        <KEY>120001</KEY>
+        <ExtraDataDescription>애니메이션 메시지</ExtraDataDescription>
+        <ExtraComponentType></ExtraComponentType>
+    </Record>
+</Table>

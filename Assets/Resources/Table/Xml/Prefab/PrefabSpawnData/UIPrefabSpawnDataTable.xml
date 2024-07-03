@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+모델인덱스는 UIPrefabDataTable.xml에서 조회합니다.
+-->
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+
+    <Record>
+        <KEY>1</KEY>
+        <ModelIndex>20000</ModelIndex>
+        <ExtraDataIndex>120000</ExtraDataIndex>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <ModelIndex>20001</ModelIndex>
+        <ExtraDataIndex>120001</ExtraDataIndex>
+    </Record>
+    <Record>
+        <KEY>3</KEY>
+        <ModelIndex>20002</ModelIndex>
+        <ExtraDataIndex>120002</ExtraDataIndex>
+    </Record>
+</Table>

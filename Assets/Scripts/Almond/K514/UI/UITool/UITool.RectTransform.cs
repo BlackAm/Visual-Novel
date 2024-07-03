@@ -23,6 +23,7 @@ namespace k514
             p_TargetRectTransform.pivot = p_Pivot;
             p_TargetRectTransform.sizeDelta += p_SizeDelta;
             p_TargetRectTransform.anchoredPosition = p_Offset;
+            
 
             //팝업 위치 오류로 인해 임시로 넣어두었습니다.
             p_TargetRectTransform.localScale = new Vector3(1,1,1);

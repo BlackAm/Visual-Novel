@@ -15,15 +15,9 @@ namespace k514
         public override void OnSceneStarted()
         {
             MenuUI.Instance.SetActive(true);
-            MenuUI.Instance._title.Initialize();
-            if (MenuUI.Instance.isCharacterList)
-            {
-                MenuUI.Instance.ChangeScene(MenuUI.MenuUIList.Connect);
-            }
-            else
-            {
-                MenuUI.Instance.ChangeScene(MenuUI.MenuUIList.Title);
-            }
+            MenuUI.Instance.startTitle.Initialize();
+            MenuUI.Instance.ChangeScene(MenuUI.MenuUIList.StartTitle);
+            
             //DefaultUIManagerSet.GetInstanceUnSafe._LoginUi.Set_UI_Hide(false);
             
             DefaultUIManagerSet.GetInstanceUnSafe._MainGameUi.Set_UI_Hide(true);

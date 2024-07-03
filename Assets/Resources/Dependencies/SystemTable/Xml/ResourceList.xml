@@ -3,731 +3,876 @@
   <Record>
     <KEY>ResourceList.xml</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/ResourceList.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/ResourceList.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>BGM.mixer</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/BGM.mixer</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/BGM.mixer</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameSFX.mixer</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/GameSFX.mixer</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/GameSFX.mixer</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemSFX.mixer</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/SystemSFX.mixer</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/SystemSFX.mixer</ResourceFullPath>
   </Record>
   <Record>
     <KEY>VoiceSFX.mixer</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/VoiceSFX.mixer</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/AudioMixer/VoiceSFX.mixer</ResourceFullPath>
   </Record>
   <Record>
     <KEY>AudioObject.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/AudioObject.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/AudioObject.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>MainUIRoot.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainUIRoot.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainUIRoot.prefab</ResourceFullPath>
   </Record>
   <Record>
-    <KEY>EnterGame.prefab</KEY>
+    <KEY>MainTitle.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/EnterGame.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/MainTitle.prefab</ResourceFullPath>
   </Record>
   <Record>
-    <KEY>MenuUITitleUI.prefab</KEY>
+    <KEY>NameInput.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/MenuUITitleUI.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/NameInput.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>StartTitle.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/StartTitle.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>EitherOrMessageBox.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/EitherOrMessageBox.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>FadePanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/FadePanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/FadePanel.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ImagePanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/ImagePanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/ImagePanel.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>MainGameUI.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MainGameUI.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MainGameUI.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>MenuUI.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MenuUI.prefab</ResourceFullPath>
-  </Record>
-  <Record>
-    <KEY>NamePanel.prefab</KEY>
-    <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/NamePanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MenuUI.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NumberPanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/NumberPanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/NumberPanel.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NumberWithSymbolPanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/NumberWithSymbolPanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/NumberWithSymbolPanel.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialogueObject.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/SelectDialogueObject.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>TargasLoadingUI.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TargasLoadingUI.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TargasLoadingUI.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>TestController.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TestController.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TestController.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>TestScreenWrapper.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TestScreenWrapper.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TestScreenWrapper.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>TestTouchPanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TestTouchPanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TestTouchPanel.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>TextPanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TextPanel.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TextPanel.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>Theater.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/Theater.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/Theater.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UIWrapper.prefab</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/UIWrapper.prefab</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/UIWrapper.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ResourceList.bytes</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/ResourceList.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/ResourceList.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemConfig.bytes</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/SystemConfig.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/SystemConfig.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemLanguage.bytes</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/SystemLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/SystemLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemValue.bytes</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/SystemValue.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Bytes/SystemValue.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemConfig.xml</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemConfig.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemConfig.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemLanguage.xml</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemValue.xml</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemValue.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemValue.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>BootScene.unity</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/BootScene.unity</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>BootStrapScene.unity</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/BootStrapScene.unity</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueScene.unity</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/DialogueScene.unity</ResourceFullPath>
   </Record>
   <Record>
     <KEY>LoadingScene.unity</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/LoadingScene.unity</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/LoadingScene.unity</ResourceFullPath>
   </Record>
   <Record>
     <KEY>MainScene.unity</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/MainScene.unity</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/MainScene.unity</ResourceFullPath>
   </Record>
   <Record>
     <KEY>MainSceneSettings.lighting</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/MainSceneSettings.lighting</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/MainSceneSettings.lighting</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NameInputScene.unity</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/NameInputScene.unity</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/NameInputScene.unity</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>NameInputSceneSettings.lighting</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/NameInputSceneSettings.lighting</ResourceFullPath>
   </Record>
   <Record>
     <KEY>Rememberance.unity</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/Rememberance.unity</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/Rememberance.unity</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>LoadingScene_B.unity</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/LoadingScenes/LoadingScene_B.unity</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>LoadingScene_SL.unity</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/LoadingScenes/LoadingScene_SL.unity</ResourceFullPath>
   </Record>
   <Record>
     <KEY>Dialog_1_Scene.unity</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/StoryScene/Dialog_1_Scene.unity</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/StoryScene/Dialog_1_Scene.unity</ResourceFullPath>
   </Record>
   <Record>
     <KEY>PrologueScene.unity</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/StoryScene/PrologueScene.unity</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/StoryScene/PrologueScene.unity</ResourceFullPath>
   </Record>
   <Record>
     <KEY>PrologueSceneSettings.lighting</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Scenes/StoryScene/PrologueSceneSettings.lighting</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Scenes/StoryScene/PrologueSceneSettings.lighting</ResourceFullPath>
   </Record>
   <Record>
     <KEY>AnimatorMotionPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/AnimatorMotionPresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/AnimatorMotionPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>AutonomyTransitionActablePresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/AutonomyTransitionActablePresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/AutonomyTransitionActablePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>BGM_Table.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/BGM_Table.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/BGM_Table.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>CameraConfigure.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/CameraConfigure.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CameraConfigure.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>CharacterControllerPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/CharacterControllerPresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CharacterControllerPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CharacterImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CharacterImagePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ControlKeyMap.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/ControlKeyMap.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ControlKeyMap.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DefaultUnitRenderPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/DefaultUnitRenderPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DefaultUnitRenderPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployScreenSpaceCamera.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/DeployScreenSpaceCamera.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DeployScreenSpaceCamera.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployScreenSpaceOverlay.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/DeployScreenSpaceOverlay.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DeployScreenSpaceOverlay.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployWorldSpace.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/DeployWorldSpace.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DeployWorldSpace.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueBackGroundImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueBackGroundImagePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueBGMPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueBGMPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueEventPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueEventPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSEPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueSEPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>EventCGPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/EventCGPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameContentsLanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameContentsLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameContentsLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameProperNameLanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameProperNameLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameProperNameLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameSFX_Table.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameSFX_Table.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameSFX_Table.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameSystemLanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameSystemLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameSystemLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>InputEventDeviceMap.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/InputEventDeviceMap.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/InputEventDeviceMap.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ItemPropertyLanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/ItemPropertyLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ItemPropertyLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>KeyCodeCommandMap.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/KeyCodeCommandMap.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/KeyCodeCommandMap.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NavMeshAgentPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/NavMeshAgentPresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/NavMeshAgentPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>OneShotActorDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/OneShotActorDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/OneShotActorDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>PassiveTransitionActablePresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/PassiveTransitionActablePresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/PassiveTransitionActablePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>RigidBodyPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/RigidBodyPresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/RigidBodyPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ScenarioLanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/ScenarioLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ScenarioLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneEntryIndex.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneEntryIndex.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneEntryIndex.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList100.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList100.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList100.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList200.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList200.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList200.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList300.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList300.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList300.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList400.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList400.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneList400.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneListTest.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneListTest.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneListTest.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneSetting.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneSetting.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneSetting.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneVariable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneVariable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneVariable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialoguePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SelectDialoguePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SkillPropertyLanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SkillPropertyLanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SkillPropertyLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SlaveActorDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SlaveActorDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SlaveActorDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemControlTouchEventCommand.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SystemControlTouchEventCommand.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SystemControlTouchEventCommand.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemSFX_Table.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/SystemSFX_Table.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SystemSFX_Table.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>UIExtraDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UIExtraDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UILanguage.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UILanguage.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UILanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UIManagerPrefabData.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UIManagerPrefabData.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UIManagerPrefabData.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>UIPrefabDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UIPrefabDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>UIPrefabSpawnDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UIPrefabSpawnDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitActionPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitActionPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitActionPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitAddForceTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitAddForceTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitAddForceTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitControlTouchEventCommand.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitControlTouchEventCommand.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitControlTouchEventCommand.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindCowardPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitMindCowardPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitMindCowardPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindMeleePresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitMindMeleePresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitMindMeleePresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindPassivityPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitMindPassivityPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitMindPassivityPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleBossPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleBossPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleBossPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleChampionPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleChampionPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleChampionPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleHeroPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleHeroPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleHeroPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleNormalPresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleNormalPresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleNormalPresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleSlavePresetTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleSlavePresetTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitRoleSlavePresetTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitSpellTouchEventCommand.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitSpellTouchEventCommand.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnitSpellTouchEventCommand.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnWeaponTransitionActablePresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnWeaponTransitionActablePresetDataTable.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/UnWeaponTransitionActablePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ViewControlTouchEventCommand.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/ViewControlTouchEventCommand.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ViewControlTouchEventCommand.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>VoiceSFX_Table.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Bytes/VoiceSFX_Table.bytes</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/VoiceSFX_Table.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>CameraConfigure.xml</KEY>
     <AssetBundleName>table/xml/camera</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Camera/CameraConfigure.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Camera/CameraConfigure.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>InputEventDeviceMap.xml</KEY>
     <AssetBundleName>table/xml/contoller/commandsystem</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/CommandSystem/InputEventDeviceMap.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/CommandSystem/InputEventDeviceMap.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ControlKeyMap.xml</KEY>
     <AssetBundleName>table/xml/contoller/keyboard</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/ControlKeyMap.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/ControlKeyMap.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>KeyCodeCommandMap.xml</KEY>
     <AssetBundleName>table/xml/contoller/keyboard</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/KeyCodeCommandMap.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/KeyCodeCommandMap.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemControlTouchEventCommand.xml</KEY>
     <AssetBundleName>table/xml/contoller/touch</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/SystemControlTouchEventCommand.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/SystemControlTouchEventCommand.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitControlTouchEventCommand.xml</KEY>
     <AssetBundleName>table/xml/contoller/touch</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/UnitControlTouchEventCommand.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/UnitControlTouchEventCommand.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitSpellTouchEventCommand.xml</KEY>
     <AssetBundleName>table/xml/contoller/touch</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/UnitSpellTouchEventCommand.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/UnitSpellTouchEventCommand.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ViewControlTouchEventCommand.xml</KEY>
     <AssetBundleName>table/xml/contoller/touch</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/ViewControlTouchEventCommand.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/ViewControlTouchEventCommand.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameContentsLanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/GameContentsLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/GameContentsLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameProperNameLanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/GameProperNameLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/GameProperNameLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameSystemLanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/GameSystemLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/GameSystemLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ItemPropertyLanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/ItemPropertyLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/ItemPropertyLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ScenarioLanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/ScenarioLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/ScenarioLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SkillPropertyLanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/SkillPropertyLanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/SkillPropertyLanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UILanguage.xml</KEY>
     <AssetBundleName>table/xml/language</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/UILanguage.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Language/UILanguage.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>BGM_Table.xml</KEY>
     <AssetBundleName>table/xml/media/sound</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/BGM_Table.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/BGM_Table.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameSFX_Table.xml</KEY>
     <AssetBundleName>table/xml/media/sound</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/GameSFX_Table.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/GameSFX_Table.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemSFX_Table.xml</KEY>
     <AssetBundleName>table/xml/media/sound</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/SystemSFX_Table.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/SystemSFX_Table.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UISFX_Table.xml</KEY>
     <AssetBundleName>table/xml/media/sound</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/UISFX_Table.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/UISFX_Table.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>VoiceSFX_Table.xml</KEY>
     <AssetBundleName>table/xml/media/sound</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/VoiceSFX_Table.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Media/Sound/VoiceSFX_Table.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>UIExtraDataTable.xml</KEY>
+    <AssetBundleName>table/xml/prefab/prefabextradata</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Prefab/PrefabExtraData/UIExtraDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>UIPrefabDataTable.xml</KEY>
+    <AssetBundleName>table/xml/prefab/prefabmodeldata</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Prefab/PrefabModelData/UIPrefabDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>UIPrefabSpawnDataTable.xml</KEY>
+    <AssetBundleName>table/xml/prefab/prefabspawndata</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Prefab/PrefabSpawnData/UIPrefabSpawnDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneEntryIndex.xml</KEY>
     <AssetBundleName>table/xml/scene/sceneindex</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneEntryIndex.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneEntryIndex.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneSetting.xml</KEY>
     <AssetBundleName>table/xml/scene/sceneindex</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneSetting.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneSetting.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneVariable.xml</KEY>
     <AssetBundleName>table/xml/scene/sceneindex</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneVariable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneVariable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList100.xml</KEY>
     <AssetBundleName>table/xml/scene/scenelist</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList100.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList100.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList200.xml</KEY>
     <AssetBundleName>table/xml/scene/scenelist</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList200.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList200.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList300.xml</KEY>
     <AssetBundleName>table/xml/scene/scenelist</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList300.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList300.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList400.xml</KEY>
     <AssetBundleName>table/xml/scene/scenelist</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList400.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneList400.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneListTest.xml</KEY>
     <AssetBundleName>table/xml/scene/scenelist</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneListTest.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneList/SceneListTest.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UIManagerPrefabData.xml</KEY>
     <AssetBundleName>table/xml/_ui</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerPrefabData.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerPrefabData.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/_dialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialoguePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CharacterImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/CharacterImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueBackGroundImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueBackGroundImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueBGMPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueBGMPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueEventPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueEventPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSEPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueSEPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>EventCGPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/EventCGPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialoguePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialoguePresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployScreenSpaceCamera.xml</KEY>
     <AssetBundleName>table/xml/ui/uimanagerdeploy</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerDeploy/DeployScreenSpaceCamera.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerDeploy/DeployScreenSpaceCamera.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployScreenSpaceOverlay.xml</KEY>
     <AssetBundleName>table/xml/ui/uimanagerdeploy</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerDeploy/DeployScreenSpaceOverlay.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerDeploy/DeployScreenSpaceOverlay.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployWorldSpace.xml</KEY>
     <AssetBundleName>table/xml/ui/uimanagerdeploy</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerDeploy/DeployWorldSpace.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/UIManagerDeploy/DeployWorldSpace.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitActionPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitaction</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitAction/UnitActionPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitAction/UnitActionPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>AutonomyTransitionActablePresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitactable</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitActable/AutonomyTransitionActablePresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitActable/AutonomyTransitionActablePresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>PassiveTransitionActablePresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitactable</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitActable/PassiveTransitionActablePresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitActable/PassiveTransitionActablePresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnWeaponTransitionActablePresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitactable</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitActable/UnWeaponTransitionActablePresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitActable/UnWeaponTransitionActablePresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>AnimatorMotionPresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitanimation</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitAnimation/AnimatorMotionPresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitAnimation/AnimatorMotionPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>KinematicMotionPresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitanimation</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitAnimation/KinematicMotionPresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitAnimation/KinematicMotionPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindCowardPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitmind/autonomy</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Autonomy/UnitMindCowardPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Autonomy/UnitMindCowardPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindMeleePresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitmind/autonomy</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Autonomy/UnitMindMeleePresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Autonomy/UnitMindMeleePresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindNTPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitmind/autonomy</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Autonomy/UnitMindNTPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Autonomy/UnitMindNTPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitMindPassivityPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitmind/passivity</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Passivity/UnitMindPassivityPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitMind/Passivity/UnitMindPassivityPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>CharacterControllerPresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitphysics</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/CharacterControllerPresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/CharacterControllerPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NavMeshAgentPresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitphysics</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/NavMeshAgentPresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/NavMeshAgentPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>PhysicsCollisionLayerTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitphysics</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/PhysicsCollisionLayerTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/PhysicsCollisionLayerTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>RigidBodyPresetDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitphysics</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/RigidBodyPresetDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/RigidBodyPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitAddForceTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitphysics</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/UnitAddForceTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/UnitAddForceTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitPhysicsPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitphysics</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/UnitPhysicsPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitPhysics/UnitPhysicsPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DefaultUnitRenderPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitrender</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRender/DefaultUnitRenderPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRender/DefaultUnitRenderPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleBossPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/_unitrole</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleBossPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleBossPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleChampionPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/_unitrole</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleChampionPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleChampionPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleHeroPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/_unitrole</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleHeroPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleHeroPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleNormalPresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/_unitrole</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleNormalPresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleNormalPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UnitRoleSlavePresetTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/_unitrole</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleSlavePresetTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/UnitRoleSlavePresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>OneShotActorDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitrole/actor</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/Actor/OneShotActorDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/Actor/OneShotActorDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SlaveActorDataTable.xml</KEY>
     <AssetBundleName>table/xml/unit/unitmodule/unitrole/actor</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/Actor/SlaveActorDataTable.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Unit/UnitModule/UnitRole/Actor/SlaveActorDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>TestDialogue.xml</KEY>
     <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/OneDrive/문서/Project/Visual-Novel/Assets/Resources/XML/TestDialogue.xml</ResourceFullPath>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/XML/TestDialogue.xml</ResourceFullPath>
   </Record>
 </Table>

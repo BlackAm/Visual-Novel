@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using Cysharp.Threading.Tasks;
+using UI2020;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
@@ -44,7 +45,7 @@ namespace k514
 
         private static readonly Type[] PreLoadSingletonGroup0 =
         {
-            typeof(SceneChangeEventSender), typeof(GameManager), typeof(SteamManager),
+            typeof(SceneChangeEventSender), typeof(GameManager), typeof(SteamManager), typeof(DialogueGameManager),
             typeof(LoadAssetManager), typeof(SceneControllerManager), 
             typeof(ControllerKeyMapData), typeof(CommandFunctionMapData), typeof(InputEventDeviceMap), typeof(KeyCodeCommandMapData),
             typeof(ControllerTool),
@@ -59,7 +60,7 @@ namespace k514
 
         private static readonly Type[] PreLoadSingletonGroup2 =
         {
-            typeof(ObjectDeployLoader),
+            typeof(ObjectDeployLoader), typeof(SelectDialoguePoolingManager),
             typeof(PrefabPoolingTool), typeof(LanguageManager),
         };
 
@@ -113,10 +114,17 @@ namespace k514
         {
             typeof(UnitSpawnData),
             typeof(PrefabModelData_Vfx),
+            
+            typeof(CharacterImagePresetData),
         };
         
         private static readonly Type[] PreLoadGameTableGroup3 =
         {
+            typeof(DialogueEventPresetData), typeof(CharacterImagePresetData), typeof(EventCGPresetData),
+            typeof(DialogueBGMPresetData), typeof(DialogueSEPresetData), typeof(SelectDialoguePresetData),
+            typeof(DialogueBackGroundImagePresetData),
+            
+            
             typeof(UnitAddForceData), typeof(UnitHitBuffData), typeof(UnitHitExtraData),
             typeof(UnitHitParameterData), typeof(UnitHitPresetData), typeof(UnitHitStuckData),
             typeof(UnitHitTickData),

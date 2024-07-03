@@ -3,8 +3,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Text.RegularExpressions;
 using System;
+using k514;
 
-public class NameInput : MonoBehaviour
+/*public class NameInput : MonoBehaviour
 {
     public InputField inputName; // 사용자에게서 입력받은 이름을 표시하는 공간
     public Text PlayerNameCheck; // 이름 입력시 나타날 텍스트
@@ -94,5 +95,57 @@ public class NameInput : MonoBehaviour
     void CancelButtonClicked() // 이름 Cancel 버튼
     {        
         Panel.gameObject.SetActive(false);
+    }
+}*/
+
+namespace UI2020
+{
+    public class NameInput : AbstractUI
+    {
+        #region <Fields>
+
+        public Text name;
+
+        #endregion
+        
+        #region <Callbacks>
+
+        public override void Initialize()
+        {
+            LoadUIObjectAsync("NameInput.prefab", () =>
+            {
+                GetComponent<Text>("NameInput/Text").text = LanguageManager.GetContent(200100);
+
+                var path = "NameInput/InputField/";
+                GetComponent<Text>("NameInput/InputField/Placeholder").text = LanguageManager.GetContent(200100);
+                name = GetComponent<Text>("NameInput/InputField/Text");
+                
+                GetComponent<Button>("NameInput/SubmitButton").onClick.AddListener(SubmitName);
+                GetComponent<Text>("NameInput/SubmitButton/Text").text = LanguageManager.GetContent(200100);
+            }, ResourceLifeCycleType.Scene);    
+        }
+
+        #endregion
+
+        #region <Methods>
+
+        public void SubmitName()
+        {
+            MenuUI.Instance.touchLock.SetActive(true);
+            DefaultUIManagerSet.GetInstanceUnSafe._UiMessageBoxController.Pop(UIMessageBoxController.MessageType.SetPlayerName,
+                () =>
+                {
+                    PlayerPrefs.SetString("Name", name.text);
+                    MainGameUI.Instance.popUpUI.touchLock.SetActive(false);
+                    MenuUI.Instance.touchLock.SetActive(false);
+                    SceneControllerManager.GetInstance.TurnSceneTo(SceneControllerTool.SceneControllerShortCutType.MainHomeScene, (SceneControllerTool.LoadingSceneType.Black, SceneControllerTool.SceneControlFlag.SystemBootInvoke));
+                }, () =>
+                {
+                    MainGameUI.Instance.popUpUI.touchLock.SetActive(false);
+                    MenuUI.Instance.touchLock.SetActive(false);
+                });
+        }
+
+        #endregion
     }
 }

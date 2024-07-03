@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>20000</KEY>
+        <PrefabName>EitherOrMessageBox.prefab</PrefabName>
+    </Record>
+    <Record>
+        <KEY>20001</KEY>
+        <PrefabName>AnimateMessageBoxDefault.prefab</PrefabName>
+    </Record>
+    <Record>
+        <KEY>20002</KEY>
+        <PrefabName>SimpleMessageBox.prefab</PrefabName>
+    </Record>
+</Table>

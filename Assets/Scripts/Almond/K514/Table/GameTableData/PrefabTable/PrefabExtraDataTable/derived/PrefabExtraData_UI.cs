@@ -19,8 +19,8 @@ namespace k514
 
         public override void InitIntervalIndex()
         {
-            StartIndex = 130000;
-            EndIndex = 140000;
+            StartIndex = 120000;
+            EndIndex = 120250;
         }
 
         public override PrefabExtraDataRoot.PrefabExtraDataType GetThisLabelType()

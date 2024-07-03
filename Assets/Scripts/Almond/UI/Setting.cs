@@ -36,6 +36,7 @@ namespace UI2020
         
         #endregion
 
+        // TODO<BlackAm> - 해상도 설정시 UI 사이즈 변경이 가능하도록 변경
         #region <Enum>
 
         /// 옵션 종류.

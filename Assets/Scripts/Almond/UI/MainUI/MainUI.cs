@@ -64,6 +64,8 @@ namespace UI2020
             // autoButton = _Transform.Find("BottomCenter_QuickSlot/Auto/Effect").gameObject.AddComponent<AutoButton>();
 
             Initialize_TopRight_Menu();
+            Initialize_MiddleCenter_SelectDialogue();
+            Initialize_BottomCenter_Dialogue();
 
             // 메뉴
             overlay = Find("Overlay").gameObject;

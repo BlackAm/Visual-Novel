@@ -182,6 +182,15 @@ namespace k514
             }
         }
 
+        public bool StopAllCurrentPlayingSfxUnit()
+        {
+            foreach (var sfxUnit in _CurrentPlayingSfxGroup)
+            {
+                OnSfxPlayOver(sfxUnit);
+            }
+            return true;
+        }
+
         #endregion
 
         #region <Disposable>

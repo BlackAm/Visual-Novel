@@ -29,7 +29,7 @@ namespace UI2020
 
         public MainUI mainUI;
         public FunctionUI functionUI;
-        // public PopUpUIManager popUpUI;
+        public PopUpUIManager popUpUI;
         public UIEffect _UIEffect;
         
         private Dictionary<string, Sprite[]> uiSpritePool = new Dictionary<string, Sprite[]>();
@@ -46,7 +46,7 @@ namespace UI2020
             SlaveNodes.Add(mainUI);
             
             functionUI = _Transform.Find("FunctionUI").gameObject.AddComponent<FunctionUI>();
-            // popUpUI = _Transform.Find("PopUpObjects").gameObject.AddComponent<PopUpUIManager>();
+            popUpUI = _Transform.Find("PopUpObjects").gameObject.AddComponent<PopUpUIManager>();
             _UIEffect = _Transform.Find("UIEffect").gameObject.AddComponent<UIEffect>();
 
             Initialize();
@@ -55,7 +55,7 @@ namespace UI2020
         public void Initialize()
         {
             functionUI.Initialize();
-            // popUpUI.Init();
+            popUpUI.Init();
             //infoUI.Initialize();
             _UIEffect.Initialize();
             

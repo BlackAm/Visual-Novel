@@ -19,7 +19,6 @@ namespace UI2020
         private void Back()
         {
             MenuUI.Instance._exter.SetActive(false);
-            MenuUI.Instance._character.SetActive(true);
         }
     }
 }
