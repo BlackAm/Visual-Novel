@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>20001</KEY>
+        <ThumbnailImageKey>1000</ThumbnailImageKey>
+        <SceneKey>1</SceneKey>
+    </Record>
+    <Record>
+        <KEY>20002</KEY>
+        <ThumbnailImageKey>1000</ThumbnailImageKey>
+        <SceneKey>2</SceneKey>
+    </Record>
+    <Record>
+        <KEY>20003</KEY>
+        <ThumbnailImageKey>1000</ThumbnailImageKey>
+        <SceneKey>3</SceneKey>
+    </Record>
+    <Record>
+        <KEY>20004</KEY>
+        <ThumbnailImageKey>1000</ThumbnailImageKey>
+        <SceneKey>4</SceneKey>
+    </Record>
+</Table>

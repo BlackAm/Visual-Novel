@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table>
-    <Record>
-        <KEY>601</KEY>
-        <AIExtraFlag>NeverSleep | Aggressive | Counter | EncounterCheck</AIExtraFlag>
-        <StatePresetRecord>Notice#[50,1]\Trace#[50,1]\Attack#[1]\Move#[50,1]</StatePresetRecord>
-    </Record>
-</Table>

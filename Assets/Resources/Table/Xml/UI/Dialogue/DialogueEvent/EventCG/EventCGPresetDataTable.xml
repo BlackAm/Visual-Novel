@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+        <EventCGEvent>ChangeEventCG#0</EventCGEvent>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <EventCGEvent>ChangeEventCG#1</EventCGEvent>
+    </Record>
+</Table>

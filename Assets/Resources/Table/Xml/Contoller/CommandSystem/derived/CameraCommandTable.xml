@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>RotateView</KEY>
+        <CommandType>Z</CommandType>
+    </Record>
+    <Record>
+        <KEY>ResetView</KEY>
+        <CommandType>ZZ</CommandType>
+    </Record>
+</Table>

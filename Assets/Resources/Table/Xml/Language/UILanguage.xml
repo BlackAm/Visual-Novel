@@ -1,36 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Table>
-  <!-- UI 컨텐츠 문자열을 200000 ~ 220000번 -->
+  <!-- 공통 20000 ~ 20010 -->
   <Record>
-    <KEY>200000</KEY>
-    <ContentSet>테스트 메시지/테스트 메시지입니다./확인/취소</ContentSet>
+    <KEY>20000</KEY>
+    <ContentSet>확인</ContentSet>
   </Record>
   <Record>
-    <KEY>200001</KEY>
-    <ContentSet>테스트 메시지...</ContentSet>
+    <KEY>20001</KEY>
+    <ContentSet>취소</ContentSet>
   </Record>
-
-  <!-- 인트로 200100 ~ 200199 -->
   <Record>
-    <KEY>200100</KEY>
+    <KEY>20002</KEY>
+    <ContentSet>입력</ContentSet>
+  </Record>
+  <Record>
+    <KEY>20003</KEY>
+    <ContentSet>저장</ContentSet>
+  </Record>
+  
+  <!-- 인트로 20010 ~ 20020 -->
+  <Record>
+    <KEY>20010</KEY>
     <ContentSet>화면을 터치하면 게임이 시작됩니다.</ContentSet>
   </Record>
   
-   <!-- 메인 화면 200200 ~ 200299-->
+   <!-- 메인 화면 20020 ~ 20030-->
   <Record>
-    <KEY>200200</KEY>
-    <ContentSet>새로운 이야기</ContentSet>
+    <KEY>20020</KEY>
+    <ContentSet>New Game</ContentSet>
   </Record>
   <Record>
-    <KEY>200201</KEY>
-    <ContentSet>이어하기</ContentSet>
+    <KEY>20021</KEY>
+    <ContentSet>Load Game</ContentSet>
   </Record>
   <Record>
-    <KEY>200202</KEY>
-    <ContentSet>기억 보관소</ContentSet>
+    <KEY>20022</KEY>
+    <ContentSet>Gallery</ContentSet>
   </Record>
   <Record>
-    <KEY>200203</KEY>
-    <ContentSet>그만하기</ContentSet>
+    <Key>20023</Key>
+    <ContentSet>Setting</ContentSet>
   </Record>
+  <Record>
+    <KEY>20024</KEY>
+    <ContentSet>Quit</ContentSet>
+  </Record>
+  
+  <!-- 닉네임 설정 20030 ~ 20040 -->
+  <Record>
+    <Key>20030</Key>
+    <ContentSet>닉네임을 입력해 주세요.</ContentSet>
+  </Record>
+  <Record>
+    <Key>20031</Key>
+    <ContentSet>닉네임을 {SetPlayerName}으로 설정 합니다.</ContentSet>
+  </Record>
+  
+  <!-- 회상 20040 ~ 20050 -->
+  <Record>
+    <KEY>20040</KEY>
+    <ContentSet>갤러리</ContentSet>
+  </Record>
+  
+  <!-- 설정 화면 -->
+  
 </Table>

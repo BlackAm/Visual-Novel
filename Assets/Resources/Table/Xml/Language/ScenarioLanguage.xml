@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Table>
-    <!-- 시나리오 관련 문자열을 60000~89999번 -->
-
+    <!-- 시나리오 관련 문자열을 40000~99999번 -->
+    <Record>
+        <KEY>40000</KEY>
+        <content>프롤로그 텍스트</content>
+    </Record>
+    <Record>
+        <KEY>40001</KEY>
+        <content>배경 화면 변경 이벤트</content>
+    </Record>
+    <Record>
+        <KEY>40002</KEY>
+        <content>캐릭터 이미지 FadeIn</content>
+    </Record>
+    <Record>
+        <KEY>40003</KEY>
+        <content>EventCG 출력 이벤트</content>
+    </Record>
+    <Record>
+        <KEY>40004</KEY>
+        <content>EventCG 제거 이벤트</content>
+    </Record>
+    <Record>
+        <KEY>40005</KEY>
+        <content>Fade IN 이벤트</content>
+    </Record>
+    <Record>
+        <KEY>40006</KEY>
+        <content>프롤로그 텍스트7</content>
+    </Record>
+    <Record>
+        <KEY>40007</KEY>
+        <content>Fade OUT 이벤트</content>
+    </Record>
+    <Record>
+        <KEY>40008</KEY>
+        <content>선택지 출력 이벤트</content>
+    </Record>
+    <Record>
+        <KEY>40009</KEY>
+        <content>선택지 1</content>
+    </Record>
+    <Record>
+        <KEY>40010</KEY>
+        <content>선택지 2</content>
+    </Record>
+    <Record>
+        <KEY>40011</KEY>
+        <content>호감도 10 이상시 선택 가능한 선택지</content>
+    </Record>
+    <Record>
+        <KEY>40012</KEY>
+        <content>1번 선택지 클릭</content>
+    </Record>
+    <Record>
+        <KEY>40013</KEY>
+        <content>배경 이미지 이동 테스트</content>
+    </Record>
 </Table>

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
+  - Terrain
+  - Neutral
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,22 +17,22 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - WorldUI
+  - Terrain
+  - Obstacle
+  - Block
+  - PostProcessVolume
+  - Camera
+  - CameraIgnore
+  - UnitA
+  - UnitB
+  - UnitC
+  - UnitD
+  - UnitE
+  - UnitF
+  - UnitG
+  - UnitH
+  - Vfx
   - 
   - 
   - 
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: DepthLower
+    uniqueID: 97590823
+    locked: 0
+  - name: DepthNormal
+    uniqueID: 3658490299
+    locked: 0
+  - name: DepthUpper
+    uniqueID: 390269053
     locked: 0

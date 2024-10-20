@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Record>
+		<KEY>0</KEY>
+		<ResourceName>Empty.png</ResourceName>
+	</Record>
+	<!-- 1 ~ 999 UI -->
+	<!-- 1000 1999 배경 -->
+	<Record>
+		<KEY>1000</KEY>
+		<ResourceName>BlueSky.png</ResourceName>
+	</Record>
+	<Record>
+		<KEY>1001</KEY>
+		<ResourceName>Sunset.png</ResourceName>
+	</Record>
+	<!-- 2000 ~ 2999 EventCG -->
+	<Record>
+		<KEY>2000</KEY>
+		<ResourceName>EventCGTest2.png</ResourceName>
+	</Record>
+	<!-- 10000 ~ 10999 캐릭터 이미지 -->
+	<Record>
+		<KEY>10000</KEY>
+		<ResourceName>Raindot.png</ResourceName>
+	</Record>
+</Table>

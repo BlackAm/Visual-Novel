@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <CharacterImageEvent>ChangeCharacterImage#1</CharacterImageEvent>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <CharacterImageEvent>ChangeCharacterImage#2</CharacterImageEvent>
+    </Record>
+</Table>

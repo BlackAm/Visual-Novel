@@ -110,31 +110,20 @@
     </Record>
 
     <Record>
-        <KEY>Alpha1</KEY>
+        <KEY>Escape</KEY>
         <Value>24</Value>
     </Record>
     <Record>
-        <KEY>Alpha2</KEY>
+        <KEY>Return</KEY>
         <Value>25</Value>
     </Record>
+
     <Record>
-        <KEY>Alpha3</KEY>
+        <KEY>Alpha1</KEY>
         <Value>26</Value>
     </Record>
     <Record>
-        <KEY>Alpha4</KEY>
+        <KEY>Alpha2</KEY>
         <Value>27</Value>
-    </Record>
-    <Record>
-        <KEY>Alpha5</KEY>
-        <Value>28</Value>
-    </Record>
-    <Record>
-        <KEY>Alpha6</KEY>
-        <Value>29</Value>
-    </Record>
-    <Record>
-        <KEY>B</KEY>
-        <Value>30</Value>
     </Record>
 </Table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <SelectDialogueInfo>1/2/3</SelectDialogueInfo>
+    </Record>
+</Table>

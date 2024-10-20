@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>10001</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+    <Record>
+        <KEY>10002</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+    <Record>
+        <KEY>10003</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+    <Record>
+        <KEY>10004</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+    <Record>
+        <KEY>10005</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+    <Record>
+        <KEY>10006</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+    <Record>
+        <KEY>10007</KEY>
+        <ThumbnailKey>2000</ThumbnailKey>
+        <ImageKey>2000</ImageKey>
+    </Record>
+</Table>

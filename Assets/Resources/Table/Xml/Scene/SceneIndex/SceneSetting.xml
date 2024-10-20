@@ -7,10 +7,11 @@
     <SceneVariableIndexList>0</SceneVariableIndexList>
   </Record>
   <Record>
-    <KEY>301</KEY>
-    <SceneDescription>마을</SceneDescription>
-    <CameraConfigureIndex>0</CameraConfigureIndex>
-    <SceneVariableIndexList>1/2</SceneVariableIndexList>
-    <CenterPoint>-7.3, 0, -3</CenterPoint>
+    <KEY>200</KEY>
+    <SceneVariableIndexList>1</SceneVariableIndexList>
+  </Record>
+  <Record>
+    <KEY>401</KEY>
+    <SceneVariableIndexList>0</SceneVariableIndexList>
   </Record>
 </Table>

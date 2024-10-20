@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <!-- Null 키 -->
+    <Record>
+        <KEY>0</KEY>
+        <Value>None</Value>
+    </Record>
+
+    <!-- 연계 가능한 키 -->
+    <Record>
+        <KEY>1</KEY>
+        <Value>MoveUp</Value>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <Value>MoveLeft</Value>
+    </Record>
+    <Record>
+        <KEY>3</KEY>
+        <Value>MoveDown</Value>
+    </Record>
+    <Record>
+        <KEY>4</KEY>
+        <Value>MoveRight</Value>
+    </Record>
+    <Record>
+        <KEY>5</KEY>
+        <Value>Z</Value>
+    </Record>
+    <Record>
+        <KEY>6</KEY>
+        <Value>X</Value>
+    </Record>
+    <Record>
+        <KEY>7</KEY>
+        <Value>C</Value>
+    </Record>
+    <Record>
+        <KEY>8</KEY>
+        <Value>V</Value>
+    </Record>
+    <Record>
+        <KEY>9</KEY>
+        <Value>Space</Value>
+    </Record>
+    
+    <!-- 연계가 불가능한 단일 키 -->
+    <Record>
+        <KEY>10</KEY>
+        <Value>A</Value>
+    </Record>
+    <Record>
+        <KEY>11</KEY>
+        <Value>S</Value>
+    </Record>
+    <Record>
+        <KEY>12</KEY>
+        <Value>D</Value>
+    </Record>
+    <Record>
+        <KEY>13</KEY>
+        <Value>F</Value>
+    </Record>
+    <Record>
+        <KEY>14</KEY>
+        <Value>G</Value>
+    </Record>
+    <Record>
+        <KEY>15</KEY>
+        <Value>H</Value>
+    </Record>
+
+    <Record>
+        <KEY>16</KEY>
+        <Value>Q</Value>
+    </Record>
+    <Record>
+        <KEY>17</KEY>
+        <Value>W</Value>
+    </Record>
+    <Record>
+        <KEY>18</KEY>
+        <Value>E</Value>
+    </Record>
+    <Record>
+        <KEY>19</KEY>
+        <Value>R</Value>
+    </Record>
+    <Record>
+        <KEY>20</KEY>
+        <Value>T</Value>
+    </Record>
+
+    <Record>
+        <KEY>21</KEY>
+        <Value>L_Ctrl</Value>
+    </Record>
+    <Record>
+        <KEY>22</KEY>
+        <Value>L_Shift</Value>
+    </Record>
+
+    <Record>
+        <KEY>23</KEY>
+        <Value>R_Shift</Value>
+    </Record>
+
+    <Record>
+        <KEY>24</KEY>
+        <Value>Escape</Value>
+    </Record>
+    <Record>
+        <KEY>25</KEY>
+        <Value>Enter</Value>
+    </Record>
+
+    <Record>
+        <KEY>26</KEY>
+        <Value>N1</Value>
+    </Record>
+    <Record>
+        <KEY>27</KEY>
+        <Value>N2</Value>
+    </Record>
+    
+    
+    <!-- 홀딩 및 연결 커맨드의 경우, 일반 단일키와 인덱스가 겹치는 것을 피하기 위해 인덱스에 음수를 곱해 계산한다. -->
+    <!-- 홀딩 커맨드 -->
+    <!-- 예시 : HLeftZ = 좌측키를 홀딩한 상태에서 Z, 좌측키는 2, Z키는 5, 각각 인덱스를 승수 합하면 4 + 32 = 36이 된다. -->
+    <!--
+    // 아래 커맨드 들은 이후에 필요할 때 주석을 풀거나 새로 만들어서 사용한다.
+    // 기능 구현 없이 테이블에만 존재하는 이를테면, HLeftZ같은 커맨드는 그냥 이동중 대쉬를 막아버리기 때문이다.
+    <Record>
+        <KEY>-36</KEY>
+        <Value>HLeftZ</Value>
+    </Record>
+    <Record>
+        <KEY>-68</KEY>
+        <Value>HLeftX</Value>
+    </Record>
+    <Record>
+        <KEY>-132</KEY>
+        <Value>HLeftC</Value>
+    </Record>
+    <Record>
+        <KEY>-260</KEY>
+        <Value>HLeftV</Value>
+    </Record>
+    <Record>
+        <KEY>-1028</KEY>
+        <Value>HLeftA</Value>
+    </Record>
+    <Record>
+        <KEY>-96</KEY>
+        <Value>ZX</Value>
+    </Record>
+    <Record>
+        <KEY>-192</KEY>
+        <Value>XC</Value>
+    </Record>
+    <Record>
+        <KEY>-384</KEY>
+        <Value>CV</Value>
+    </Record>
+    <Record>
+        <KEY>-160</KEY>
+        <Value>ZC</Value>
+    </Record>
+    <Record>
+        <KEY>-320</KEY>
+        <Value>XV</Value>
+    </Record>
+    -->
+
+    <!-- 연결 커맨드 -->
+    <!-- 예시 : Left 2 Down 3 Right 4 Z 5 이므로 순서대로 2345를 키값으로 설정하면 해당 커맨드를 표현할 수 있음 -->
+    <!-- 이 때, 좌 우 반전 버전도 똑같이 추가해줘야됨. 아래의 2345 4325 처럼 -->
+    <Record>
+        <KEY>-55</KEY>
+        <Value>ZZ</Value>
+    </Record>
+    <Record>
+        <KEY>-95</KEY>
+        <Value>SpaceZ</Value>
+    </Record>
+    <Record>
+        <KEY>-96</KEY>
+        <Value>SpaceX</Value>
+    </Record>
+    <Record>
+        <KEY>-97</KEY>
+        <Value>SpaceC</Value>
+    </Record>
+    <Record>
+        <KEY>-99</KEY>
+        <Value>SpaceSpace</Value>
+    </Record>
+    <Record>
+        <KEY>-2345</KEY>
+        <Value>LeftDownRightZ</Value>
+    </Record>
+    <Record>
+        <KEY>-4325</KEY>
+        <Value>LeftDownRightZ</Value>
+    </Record>
+
+    <Record>
+        <KEY>-345</KEY>
+        <Value>DownRightZ</Value>
+    </Record>
+    <Record>
+        <KEY>-325</KEY>
+        <Value>DownRightZ</Value>
+    </Record>
+    <Record>
+        <KEY>-1136</KEY>
+        <Value>UpUpDownX</Value>
+    </Record>
+</Table>
+

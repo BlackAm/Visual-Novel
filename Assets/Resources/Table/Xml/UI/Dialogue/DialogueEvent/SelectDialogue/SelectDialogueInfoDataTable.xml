@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <DialogueTextKey>40009</DialogueTextKey>
+        <NextDialogueKey>10</NextDialogueKey>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <DialogueTextKey>40010</DialogueTextKey>
+        <NextDialogueKey>2</NextDialogueKey>
+    </Record>
+    <Record>
+        <KEY>3</KEY>
+        <DialogueTextKey>40011</DialogueTextKey>
+        <NextDialogueKey>3</NextDialogueKey>
+        <SelectDialogueConditionKey>1</SelectDialogueConditionKey>
+    </Record>
+</Table>

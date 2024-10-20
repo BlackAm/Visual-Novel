@@ -3,74 +3,79 @@
     <Record>
         <KEY>Theater</KEY>
         <ManagerPrefabName>Theater.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UITheater</ManagerComponent>
+        <ManagerComponent>BlackAm.UITheater</ManagerComponent>
     </Record>
     <Record>
         <KEY>Fader</KEY>
         <ManagerPrefabName>FadePanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_FadePanel</ManagerComponent>
+        <ManagerComponent>BlackAm.UI_FadePanel</ManagerComponent>
     </Record>
 
     <Record>
         <KEY>TestController</KEY>
         <ManagerPrefabName>TestController.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.TestController</ManagerComponent>
+        <ManagerComponent>BlackAm.TestController</ManagerComponent>
     </Record>
     <Record>
         <KEY>TestLoading</KEY>
         <ManagerPrefabName>TargasLoadingUI.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_FadePanel</ManagerComponent>
+        <ManagerComponent>BlackAm.UI_FadePanel</ManagerComponent>
     </Record>
     <Record>
         <KEY>TestTouchPanel</KEY>
         <ManagerPrefabName>TestTouchPanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.TestTouchPanel</ManagerComponent>
+        <ManagerComponent>BlackAm.TestTouchPanel</ManagerComponent>
     </Record>
     <Record>
         <KEY>TestScreenWrapper</KEY>
         <ManagerPrefabName>TestScreenWrapper.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.TestScreenWrapper</ManagerComponent>
+        <ManagerComponent>BlackAm.TestScreenWrapper</ManagerComponent>
     </Record>
     <Record>
         <KEY>MessageBoxController</KEY>
         <ManagerPrefabName>UIWrapper.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UIMessageBoxController</ManagerComponent>
+        <ManagerComponent>BlackAm.UIMessageBoxController</ManagerComponent>
     </Record>
     <Record>
-        <KEY>TestImagePanel</KEY>
-        <ManagerPrefabName>ImagePanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_ImagePanel</ManagerComponent>
+        <KEY>TopMenu</KEY>
+        <ManagerPrefabName>TopMenu.prefab</ManagerPrefabName>
+        <ManagerComponent>BlackAm.TopMenu</ManagerComponent>
     </Record>
+    <!--<Record>
+        <KEY>CharacterImagePanel</KEY>
+        <ManagerPrefabName>CharacterImagePanel.prefab</ManagerPrefabName>
+        <ManagerComponent>BlackAm.UI_CharacterImagePanel</ManagerComponent>
+    </Record>-->
     <Record>
         <KEY>TestTextPanel</KEY>
         <ManagerPrefabName>TextPanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_TextPanel</ManagerComponent>
+        <ManagerComponent>BlackAm.UI_TextPanel</ManagerComponent>
     </Record>
     <Record>
         <KEY>TestNumberPanel</KEY>
         <ManagerPrefabName>NumberPanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_NumberPanel</ManagerComponent>
+        <ManagerComponent>BlackAm.UI_NumberPanel</ManagerComponent>
     </Record>
     <Record>
         <KEY>TestNumberSymbolPanel</KEY>
         <ManagerPrefabName>NumberWithSymbolPanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_NumberWithSymbolPanel</ManagerComponent>
-    </Record>
-    <Record>
-        <KEY>TestNamePanel</KEY>
-        <ManagerPrefabName>NamePanel.prefab</ManagerPrefabName>
-        <ManagerComponent>k514.UI_NamePanel</ManagerComponent>
+        <ManagerComponent>BlackAm.UI_NumberWithSymbolPanel</ManagerComponent>
     </Record>
 
     <Record>
         <KEY>GameLogin</KEY>
-        <ManagerPrefabName>MenuUI.prefab</ManagerPrefabName>
-        <ManagerComponent>UI2020.MenuUI</ManagerComponent>
+        <ManagerPrefabName>TitleMenuUI.prefab</ManagerPrefabName>
+        <ManagerComponent>BlackAm.TitleMenuUI</ManagerComponent>
     </Record>
     <Record>
         <KEY>MainGame</KEY>
         <ManagerPrefabName>MainGameUI.prefab</ManagerPrefabName>
-        <ManagerComponent>UI2020.MainGameUI</ManagerComponent>
+        <ManagerComponent>BlackAm.MainGameUI</ManagerComponent>
+    </Record>
+    <Record>
+        <KEY>SaveLoad</KEY>
+        <ManagerPrefabName>MainGameSaveLoadUI.prefab</ManagerPrefabName>
+        <ManagerComponent>BlackAm.SaveLoad</ManagerComponent>
     </Record>
 </Table>
 

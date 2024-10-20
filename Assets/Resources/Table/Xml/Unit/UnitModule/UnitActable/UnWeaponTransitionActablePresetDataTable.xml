@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table><Record>
-        <KEY>200000</KEY>
-        <ActableType>MotionAction</ActableType>
-        <UnitActionRecords>X#5000</UnitActionRecords>
-        <DefaultCommand>X</DefaultCommand>
-    </Record>
-</Table>

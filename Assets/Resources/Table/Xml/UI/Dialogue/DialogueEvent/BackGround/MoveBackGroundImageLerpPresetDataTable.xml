@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record> <!-- 우측 -> 좌측 -->
+        <KEY>1</KEY>
+        <StartPosition>-928, 0</StartPosition>
+        <EndPosition>928, 0</EndPosition>
+        <Speed>1</Speed>
+    </Record>
+    <Record> <!-- 좌측 -> 우측 -->
+        <KEY>2</KEY>
+        <StartPosition>928, 0</StartPosition>
+        <EndPosition>0, 0</EndPosition>
+        <Speed>1</Speed>
+    </Record>
+    <Record> <!-- 하 -> 상 -->
+        <KEY>3</KEY>
+        <StartPosition>0, 541</StartPosition>
+        <EndPosition>0, -541</EndPosition>
+        <Speed>1</Speed>
+    </Record>
+    <Record> <!-- 상 -> 하 -->
+        <KEY>4</KEY>
+        <StartPosition>0, -541</StartPosition>
+        <EndPosition>0, 541</EndPosition>
+        <Speed>1</Speed>
+    </Record>
+    <Record> <!-- 우측 하단 -> 좌측 상단 -->
+        <KEY>5</KEY>
+        <StartPosition>-928, 541</StartPosition>
+        <EndPosition>928, -541</EndPosition>
+        <Speed>1</Speed>
+    </Record>
+</Table>

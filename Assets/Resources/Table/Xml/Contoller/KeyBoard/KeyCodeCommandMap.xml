@@ -57,6 +57,25 @@
         <SoloCommandCode>R_Shift</SoloCommandCode>
     </Record>
     <Record>
+        <KEY>Escape</KEY>
+        <SoloCommandCode>Escape</SoloCommandCode>
+    </Record>
+    <Record>
+        <KEY>Return</KEY>
+        <SoloCommandCode>Enter</SoloCommandCode>
+    </Record>
+    
+    <Record>
+        <KEY>Mouse0</KEY>
+        <SoloCommandCode>L_Click</SoloCommandCode>
+    </Record>
+    <Record>
+        <KEY>Mouse1</KEY>
+        <SoloCommandCode>R_Click</SoloCommandCode>
+    </Record>
+    
+    
+    <Record>
         <KEY>Q</KEY>
         <SoloCommandCode>Q</SoloCommandCode>
     </Record>

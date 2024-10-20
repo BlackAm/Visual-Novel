@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>LoginScene.unity</KEY>
+    <Type>BlackAm.LoginScene_SceneEnvironment</Type>
+  </Record>
+  <Record>
+    <KEY>NEW_LOBY_AS.unity</KEY>
+    <Type>BlackAm.MainGameZone_SceneEnvironment</Type>
+  </Record>
+  <Record>
+    <KEY>NEW_LOBY_AS_2.unity</KEY>
+    <Type>BlackAm.MainGameZone_SceneEnvironment</Type>
+  </Record>
+  <Record>
+    <KEY>DUN_BOSS_ZONE.unity</KEY>
+    <Type>BlackAm.BossZoneSceneEnvironment</Type>
+  </Record>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <FadeEvent>FadeIn#1</FadeEvent>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <FadeEvent>FadeOut#1</FadeEvent>
+    </Record>
+</Table>

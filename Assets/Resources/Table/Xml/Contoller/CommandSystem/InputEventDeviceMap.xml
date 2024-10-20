@@ -16,6 +16,10 @@
       <KEY>WorldMapControl</KEY>
       <DeviceType>Keyboard_TouchPanel</DeviceType>
     </Record>
+    <Record>
+        <KEY>DialogueControl</KEY>
+        <DeviceType>Keyboard_TouchPanel</DeviceType>
+    </Record>
     
     <Record>
         <KEY>TestModule</KEY>

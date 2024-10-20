@@ -2,7 +2,7 @@
 <Table>
   <Record>
     <KEY>ReleaseMode</KEY>
-    <Flag>False</Flag>
+    <Flag>True</Flag>
     <IntValue>0</IntValue>
   </Record>
   <Record>

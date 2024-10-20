@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <BackGroundImageEvent>ChangeBackGroundImage#1</BackGroundImageEvent>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <BackGroundImageEvent>ResizeBackGroundImage#1\MoveBackGroundImageLerp#2</BackGroundImageEvent>
+    </Record>
+</Table>

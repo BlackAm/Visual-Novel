@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Record>
+    <KEY>0</KEY>
+    <SceneNameKey>0</SceneNameKey>
+    <ChapterNum>0</ChapterNum>
+    <SceneNum>0</SceneNum>
+    <ThumbnailKey>0</ThumbnailKey>
+    <DialogueStartKey>0</DialogueStartKey>
+  </Record>
+  <Record>
+    <KEY>1</KEY>
+    <SceneNameKey>11000</SceneNameKey>
+    <ChapterNum>0</ChapterNum>
+    <SceneNum>1</SceneNum>
+    <ThumbnailKey>11000</ThumbnailKey>
+    <DialogueStartKey>1</DialogueStartKey>
+  </Record>
+</Table>

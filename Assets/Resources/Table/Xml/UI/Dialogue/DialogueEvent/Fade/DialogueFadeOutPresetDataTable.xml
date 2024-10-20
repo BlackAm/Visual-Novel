@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <PreDelay>0</PreDelay>
+        <FadeTime>1</FadeTime>
+    </Record>
+</Table>

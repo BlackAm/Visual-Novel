@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+    <Record>
+        <KEY>0</KEY>
+    </Record>
+    <Record>
+        <KEY>1</KEY>
+        <Character>Char1</Character>
+        <Scale>1.1</Scale>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <Character>Char1</Character>
+        <Scale>0.9</Scale>
+    </Record>
+    <Record>
+        <KEY>3</KEY>
+        <Character>Char1</Character>
+        <Scale>1</Scale>
+    </Record>
+</Table>

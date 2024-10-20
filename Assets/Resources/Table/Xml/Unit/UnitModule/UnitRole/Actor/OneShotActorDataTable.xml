@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table>
-    <Record>
-        <KEY>1000</KEY>
-        <ActorModuleProgressFlag>AutoRunAct</ActorModuleProgressFlag>
-        <ActorTimeOverEventType>DeadEnd</ActorTimeOverEventType>
-        <LifeSpan>5</LifeSpan>
-    </Record>
-</Table>

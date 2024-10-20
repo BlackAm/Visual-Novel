@@ -18,11 +18,15 @@
     </Record>
     <Record>
         <KEY>11</KEY>
-        <ManagerTypeMask>GameLogin | MainGame</ManagerTypeMask>
+        <ManagerTypeMask>GameLogin | MainGame | SaveLoad</ManagerTypeMask>
     </Record>
     <Record>
         <KEY>12</KEY>
         <ManagerTypeMask>MessageBoxController</ManagerTypeMask>
+    </Record>
+    <Record>
+        <KEY>14</KEY>
+        <ManagerTypeMask>TopMenu</ManagerTypeMask>
     </Record>
     
     <Record>

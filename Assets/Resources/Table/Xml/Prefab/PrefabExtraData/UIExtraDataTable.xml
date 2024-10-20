@@ -3,7 +3,7 @@
     <Record>
         <KEY>120000</KEY>
         <ExtraDataDescription>선택 메시지</ExtraDataDescription>
-        <ExtraComponentType>k514.EitherOrMessageBox</ExtraComponentType>
+        <ExtraComponentType>BlackAm.EitherOrMessageBox</ExtraComponentType>
     </Record>
     <Record>
         <KEY>120001</KEY>

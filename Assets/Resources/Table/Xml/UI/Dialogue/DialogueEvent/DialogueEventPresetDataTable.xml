@@ -3,4 +3,40 @@
     <Record>
         <KEY>0</KEY>
     </Record>
+    <Record>
+        <KEY>1</KEY>
+        <DialogueEvent>SelectDialogue#1</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>2</KEY>
+        <DialogueEvent>CharacterImage#1</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>3</KEY>
+        <DialogueEvent>CharacterImage#2</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>4</KEY>
+        <DialogueEvent>BackGroundImage#1</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>5</KEY>
+        <DialogueEvent>EventCG#1</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>6</KEY>
+        <DialogueEvent>EventCG#0</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>7</KEY>
+        <DialogueEvent>Fade#1</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>8</KEY>
+        <DialogueEvent>Fade#2</DialogueEvent>
+    </Record>
+    <Record>
+        <KEY>9</KEY>
+        <DialogueEvent>BackGroundImage#2</DialogueEvent>
+    </Record>
 </Table>

@@ -7,6 +7,12 @@
     <SceneVariableListIndex>0</SceneVariableListIndex>
   </Record>
   <Record>
+    <KEY>200</KEY>
+    <SceneDescription>대화 씬</SceneDescription>
+    <SceneSettingIndex>401</SceneSettingIndex>
+    <SceneVariableListIndex>1</SceneVariableListIndex>
+  </Record>
+  <Record>
     <KEY>401</KEY>
     <SceneDescription>액트 1 마을</SceneDescription>
     <SceneSettingIndex>401</SceneSettingIndex>

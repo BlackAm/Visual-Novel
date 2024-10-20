@@ -3,73 +3,24 @@
   <Record>
     <!-- 키 값, SceneSetting 테이블에서 SceneVariableIndexList가 참조하는 값 -->
     <KEY>0</KEY>
-    <!-- 해당 씬 설정에 대한 요약 -->
-    <StageDescription>플레이어 스폰 위치, 플레이어 카메라 포커스 정보, 해당 설정일 때 적용할 PPS 효과, 배경음</StageDescription>
-    <!-- [레이어 타입#거리] ~ 지정한 레이어의 오브젝트가 카메라로부터 거리만큼 벗어나면 카메라에 랜더링하지 않음 -->
-    <FarCullingDistances>UnitA#50\UnitB#50\UnitC#50\UnitD#50</FarCullingDistances>
-    <!-- 해당 씬의 속성 
-    <SceneVariableFlagMask></SceneVariableFlagMask>-->
-
-    <!-- 플레이어 스폰 좌표 -->
-    <PlayerStartPosition>0,0,0</PlayerStartPosition>
-    <!-- 플레이어 스폰 회전값 -->
-    <PlayerStartRotation>0,0,0</PlayerStartRotation>
-    <!-- 플레이어 카메라 전후 기울기 ~ 해당 카메라는 앞으로 60도 회전해 있다.-->
-    <CameraRootWrapperTiltDegree>0</CameraRootWrapperTiltDegree>
-    <!-- 플레이어 카메라 좌우 기울기 ~ 해당 카메라는 반시계 방향으로 0도 만큼 회전해 있다. -->
-    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
-    <!-- 플레이어와 카메라 사이의 기본 거리 -->
-    <CameraDistance>18</CameraDistance>
-    <!-- 플레이어 위치와 카메라 초점 사이의 Offset ~ 해당 카메라는 플레이어 위치로부터 (0, 1.5, 0) 더한 위치를 초점으로 가진다." -->
-    <TraceOffset>0,0,0</TraceOffset>
-    <!-- 해당 씬에 적용될 PostProcessLayer 및 Profile 제어 컴포넌트 타입
-    <PostProcessVolumeType></PostProcessVolumeType> -->
-    <!-- 해당 씬에 적용될 PostProcessorProfile 이름 리스트
-    <PostProcessorProfileList></PostProcessorProfileList> -->
     <!-- 인게임 씬 이름 -->
     <SceneNameIndex>0</SceneNameIndex>
     <!-- 해당 씬에서 재생할 배경음 테이블 인덱스 -->
     <BackGroundSound>0</BackGroundSound>
-    <!-- 해당 씬에 적용할 스폰 이벤트 -->
-    <PopIndex>0</PopIndex>
-    <!-- 해당 씬을 관리할 로컬 오브젝트 인덱스 -->b
+    <!-- 해당 씬을 관리할 로컬 오브젝트 인덱스 -->
     <SceneEnvironmentTypeIndex>0</SceneEnvironmentTypeIndex>
+    <SceneKeyInputIndex>0</SceneKeyInputIndex>
   </Record>
 
   <Record>
+    <!-- 키 값, SceneSetting 테이블에서 SceneVariableIndexList가 참조하는 값 -->
     <KEY>1</KEY>
-    <PlayerStartPosition>47.913,7.432,58.104</PlayerStartPosition>
-    <PlayerStartRotation>0,0,0</PlayerStartRotation>
-    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
-    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
-    <CameraDistance>11</CameraDistance>
-    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
-    <TraceOffset>0,1,0</TraceOffset>
-    <BackGroundSound>500</BackGroundSound>
-    <SubBackGroundSound>600</SubBackGroundSound>
-    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
-    <SceneName>141000</SceneName>
-    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
-    <StageDescription>마을/사비스 성 마을</StageDescription>
-    <TextureType>Forest</TextureType>
-    <EffectSoundIndex>80020</EffectSoundIndex>
+    <!-- 인게임 씬 이름 -->
+    <SceneNameIndex>0</SceneNameIndex>
+    <!-- 해당 씬에서 재생할 배경음 테이블 인덱스 -->
+    <BackGroundSound>0</BackGroundSound>
+    <!-- 해당 씬을 관리할 로컬 오브젝트 인덱스 -->
+    <SceneEnvironmentTypeIndex>0</SceneEnvironmentTypeIndex>
+    <SceneKeyInputIndex>100</SceneKeyInputIndex>
   </Record>
-  <Record>
-    <KEY>2</KEY>
-    <PlayerStartPosition>48.500,8,58</PlayerStartPosition>
-    <PlayerStartRotation>0,0,0</PlayerStartRotation>
-    <CameraRootWrapperTiltDegree>45</CameraRootWrapperTiltDegree>
-    <CameraRootWrapperSightDegree>0</CameraRootWrapperSightDegree>
-    <CameraDistance>11</CameraDistance>
-    <FarCullingDistances>UnitA#50\Vfx#50\Obstacle#70</FarCullingDistances>
-    <TraceOffset>0,1,0</TraceOffset>
-    <BackGroundSound>500</BackGroundSound>
-    <SceneVariableFlagMask>SupportMultiPlay</SceneVariableFlagMask>
-    <SceneName>0</SceneName>
-    <StageDescription>401번 마을 : 150 vs 150 프로모션용 설정.</StageDescription>
-    <PostProcessorPrefabList>New_Loby_As_Volume.prefab, k514.PostProcessGlobalVolume</PostProcessorPrefabList>
-    <SceneEnvironmentTypeIndex>514</SceneEnvironmentTypeIndex>
-  </Record>
-
-
 </Table>

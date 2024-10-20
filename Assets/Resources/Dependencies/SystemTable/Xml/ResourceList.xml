@@ -36,6 +36,11 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainUIRoot.prefab</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>Gallery.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/Gallery.prefab</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>MainTitle.prefab</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/MainTitle.prefab</ResourceFullPath>
@@ -51,6 +56,21 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/MainSceneObject/StartTitle.prefab</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>CharacterImagePanel.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/CharacterImagePanel.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueHistory.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/DialogueHistory.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueHistoryUI.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/DialogueHistoryUI.prefab</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>EitherOrMessageBox.prefab</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/EitherOrMessageBox.prefab</ResourceFullPath>
@@ -61,19 +81,29 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/FadePanel.prefab</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>GalleryItem.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/GalleryItem.prefab</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>ImagePanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/ImagePanel.prefab</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>MainGameSaveLoadUI.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MainGameSaveLoadUI.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>MainGameSettingUI.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MainGameSettingUI.prefab</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>MainGameUI.prefab</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MainGameUI.prefab</ResourceFullPath>
-  </Record>
-  <Record>
-    <KEY>MenuUI.prefab</KEY>
-    <AssetBundleName></AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/MenuUI.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NumberPanel.prefab</KEY>
@@ -84,6 +114,11 @@
     <KEY>NumberWithSymbolPanel.prefab</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/NumberWithSymbolPanel.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SaveLoadItem.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/SaveLoadItem.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SelectDialogueObject.prefab</KEY>
@@ -119,6 +154,16 @@
     <KEY>Theater.prefab</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/Theater.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>TitleMenuUI.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TitleMenuUI.prefab</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>TopMenu.prefab</KEY>
+    <AssetBundleName></AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/GameObject/UiManagerPrefab/TopMenu.prefab</ResourceFullPath>
   </Record>
   <Record>
     <KEY>UIWrapper.prefab</KEY>
@@ -159,6 +204,61 @@
     <KEY>SystemValue.xml</KEY>
     <AssetBundleName></AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Dependencies/SystemTable/Xml/SystemValue.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>BlueSky.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/BlueSky.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>Dialog Box.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/Dialog Box.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>Empty.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/Empty.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>EventCGTest1.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/EventCGTest1.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>EventCGTest2.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/EventCGTest2.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>Laffey_II.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/Laffey_II.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>left arrow.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/left arrow.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>Raindot.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/Raindot.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>sunset.mat</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/sunset.mat</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>Sunset.png</KEY>
+    <AssetBundleName>image/_image</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/Sunset.png</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>both.mat</KEY>
+    <AssetBundleName>image/materials</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Image/Materials/both.mat</ResourceFullPath>
   </Record>
   <Record>
     <KEY>BootScene.unity</KEY>
@@ -246,9 +346,29 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/BGM_Table.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>CameraCommandTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CameraCommandTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>CameraConfigure.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CameraConfigure.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ChangeBackGroundImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ChangeBackGroundImagePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ChangeCharacterImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ChangeCharacterImagePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ChangeEventCGPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ChangeEventCGPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>CharacterControllerPresetDataTable.bytes</KEY>
@@ -256,9 +376,19 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CharacterControllerPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>CharacterImageGallery.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CharacterImageGallery.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>CharacterImagePresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CharacterImagePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CommandMap.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/CommandMap.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ControlKeyMap.bytes</KEY>
@@ -296,9 +426,84 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueBGMPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>DialogueControlTouchEventCommand.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueControlTouchEventCommand.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>DialogueEventPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueEventPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueFadeInPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueFadeInPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueFadeOutPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueFadeOutPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueFadePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueFadePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputGalleryPresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueKeyInputGalleryPresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputMainPresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueKeyInputMainPresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputRememberancePresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueKeyInputRememberancePresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputStoryPresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueKeyInputStoryPresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModeAutoPlayPresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialoguePlayModeAutoPlayPresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModeBasicPlayPresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialoguePlayModeBasicPlayPresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialoguePlayModePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModeSkipPlayPresetTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialoguePlayModeSkipPlayPresetTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialoguePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSceneExtraInfo.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueSceneExtraInfo.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSceneInfo.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueSceneInfo.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DialogueSEPresetDataTable.bytes</KEY>
@@ -306,9 +511,19 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/DialogueSEPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>EventCGGallery.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/EventCGGallery.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>EventCGPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/EventCGPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ExpandBackGroundImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ExpandBackGroundImagePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameContentsLanguage.bytes</KEY>
@@ -331,6 +546,11 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/GameSystemLanguage.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>ImageNameTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ImageNameTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>InputEventDeviceMap.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/InputEventDeviceMap.bytes</ResourceFullPath>
@@ -344,6 +564,11 @@
     <KEY>KeyCodeCommandMap.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/KeyCodeCommandMap.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>MoveBackGroundImageLerpPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/MoveBackGroundImageLerpPresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>NavMeshAgentPresetDataTable.bytes</KEY>
@@ -361,6 +586,16 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/PassiveTransitionActablePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>ResizeBackGroundImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ResizeBackGroundImagePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ResizeCharacterImagePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ResizeCharacterImagePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>RigidBodyPresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/RigidBodyPresetDataTable.bytes</ResourceFullPath>
@@ -374,6 +609,16 @@
     <KEY>SceneEntryIndex.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneEntryIndex.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SceneEnvironmentTypeTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneEnvironmentTypeTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SceneGallery.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneGallery.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SceneList100.bytes</KEY>
@@ -411,9 +656,29 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SceneVariable.bytes</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>SelectDialogueConditionLikingPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SelectDialogueConditionLikingPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialogueConditionPresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SelectDialogueConditionPresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialogueInfoDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SelectDialogueInfoDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>SelectDialoguePresetDataTable.bytes</KEY>
     <AssetBundleName>table/bytes</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/SelectDialoguePresetDataTable.bytes</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ShowSelectDialoguePresetDataTable.bytes</KEY>
+    <AssetBundleName>table/bytes</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Bytes/ShowSelectDialoguePresetDataTable.bytes</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SkillPropertyLanguage.bytes</KEY>
@@ -542,8 +807,18 @@
   </Record>
   <Record>
     <KEY>InputEventDeviceMap.xml</KEY>
-    <AssetBundleName>table/xml/contoller/commandsystem</AssetBundleName>
+    <AssetBundleName>table/xml/contoller/_commandsystem</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/CommandSystem/InputEventDeviceMap.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CameraCommandTable.xml</KEY>
+    <AssetBundleName>table/xml/contoller/commandsystem/derived</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/CommandSystem/derived/CameraCommandTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CommandMap.xml</KEY>
+    <AssetBundleName>table/xml/contoller/keyboard</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/CommandMap.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>ControlKeyMap.xml</KEY>
@@ -551,9 +826,19 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/ControlKeyMap.xml</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>DialogueActionCommandIndex.xml</KEY>
+    <AssetBundleName>table/xml/contoller/keyboard</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/DialogueActionCommandIndex.xml</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>KeyCodeCommandMap.xml</KEY>
     <AssetBundleName>table/xml/contoller/keyboard</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/KeyBoard/KeyCodeCommandMap.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueControlTouchEventCommand.xml</KEY>
+    <AssetBundleName>table/xml/contoller/touch</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/DialogueControlTouchEventCommand.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SystemControlTouchEventCommand.xml</KEY>
@@ -574,6 +859,51 @@
     <KEY>ViewControlTouchEventCommand.xml</KEY>
     <AssetBundleName>table/xml/contoller/touch</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Contoller/Touch/ViewControlTouchEventCommand.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSceneExtraInfo.xml</KEY>
+    <AssetBundleName>table/xml/_dialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueSceneExtraInfo.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSceneInfo.xml</KEY>
+    <AssetBundleName>table/xml/_dialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueSceneInfo.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputGalleryPresetTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialoguekeyinput</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialogueKeyInput/DialogueKeyInputGalleryPresetTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputMainPresetTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialoguekeyinput</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialogueKeyInput/DialogueKeyInputMainPresetTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueKeyInputStoryPresetTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialoguekeyinput</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialogueKeyInput/DialogueKeyInputStoryPresetTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModeAutoPlayPresetTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialogueplaymode</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialoguePlayMode/DialoguePlayModeAutoPlayPresetTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModeBasicPlayPresetTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialogueplaymode</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialoguePlayMode/DialoguePlayModeBasicPlayPresetTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialogueplaymode</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialoguePlayMode/DialoguePlayModePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialoguePlayModeSkipPlayPresetTable.xml</KEY>
+    <AssetBundleName>table/xml/dialogue/dialoguemodule/dialogueplaymode</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Dialogue/DialogueModule/DialoguePlayMode/DialoguePlayModeSkipPlayPresetTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>GameContentsLanguage.xml</KEY>
@@ -651,6 +981,21 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Prefab/PrefabSpawnData/UIPrefabSpawnDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
+    <KEY>ImageNameTable.xml</KEY>
+    <AssetBundleName>table/xml/resource</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Resource/ImageNameTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SceneEnvironmentTypeIndexingTable.xml</KEY>
+    <AssetBundleName>table/xml/scene/sceneenvironment</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneEnvironment/SceneEnvironmentTypeIndexingTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SceneEnvironmentTypeTable.xml</KEY>
+    <AssetBundleName>table/xml/scene/sceneenvironment</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneEnvironment/SceneEnvironmentTypeTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
     <KEY>SceneEntryIndex.xml</KEY>
     <AssetBundleName>table/xml/scene/sceneindex</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/Scene/SceneIndex/SceneEntryIndex.xml</ResourceFullPath>
@@ -701,39 +1046,124 @@
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialoguePresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
-    <KEY>CharacterImagePresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/CharacterImagePresetDataTable.xml</ResourceFullPath>
-  </Record>
-  <Record>
-    <KEY>DialogueBackGroundImagePresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueBackGroundImagePresetDataTable.xml</ResourceFullPath>
-  </Record>
-  <Record>
-    <KEY>DialogueBGMPresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueBGMPresetDataTable.xml</ResourceFullPath>
-  </Record>
-  <Record>
     <KEY>DialogueEventPresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
+    <AssetBundleName>table/xml/ui/dialogue/_dialogueevent</AssetBundleName>
     <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueEventPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
-    <KEY>DialogueSEPresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/DialogueSEPresetDataTable.xml</ResourceFullPath>
+    <KEY>ChangeBackGroundImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/background</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/BackGround/ChangeBackGroundImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueBackGroundImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/background</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/BackGround/DialogueBackGroundImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>MoveBackGroundImageLerpPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/background</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/BackGround/MoveBackGroundImageLerpPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ResizeBackGroundImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/background</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/BackGround/ResizeBackGroundImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueBGMPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/bgm</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/BGM/DialogueBGMPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ChangeCharacterImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/characterimage</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/CharacterImage/ChangeCharacterImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CharacterImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/characterimage</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/CharacterImage/CharacterImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>RemoveCharacterImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/characterimage</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/CharacterImage/RemoveCharacterImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ResizeCharacterImagePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/characterimage</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/CharacterImage/ResizeCharacterImagePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ChangeEventCGPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/eventcg</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/EventCG/ChangeEventCGPresetDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>EventCGPresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/EventCGPresetDataTable.xml</ResourceFullPath>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/eventcg</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/EventCG/EventCGPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueFadeInPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/fade</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/Fade/DialogueFadeInPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueFadeOutPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/fade</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/Fade/DialogueFadeOutPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueFadePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/fade</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/Fade/DialogueFadePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>DialogueSEPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/se</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SE/DialogueSEPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialogueConditionLikingPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/selectdialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialogue/SelectDialogueConditionLikingPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialogueConditionPresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/selectdialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialogue/SelectDialogueConditionPresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SelectDialogueInfoDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/selectdialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialogue/SelectDialogueInfoDataTable.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>SelectDialoguePresetDataTable.xml</KEY>
-    <AssetBundleName>table/xml/ui/dialogue/dialogueevent</AssetBundleName>
-    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialoguePresetDataTable.xml</ResourceFullPath>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/selectdialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialogue/SelectDialoguePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>ShowSelectDialoguePresetDataTable.xml</KEY>
+    <AssetBundleName>table/xml/ui/dialogue/dialogueevent/selectdialogue</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Dialogue/DialogueEvent/SelectDialogue/ShowSelectDialoguePresetDataTable.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>CharacterImageGallery.xml</KEY>
+    <AssetBundleName>table/xml/ui/gallery</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Gallery/CharacterImageGallery.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>EventCGGallery.xml</KEY>
+    <AssetBundleName>table/xml/ui/gallery</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Gallery/EventCGGallery.xml</ResourceFullPath>
+  </Record>
+  <Record>
+    <KEY>SceneGallery.xml</KEY>
+    <AssetBundleName>table/xml/ui/gallery</AssetBundleName>
+    <ResourceFullPath>C:/Users/dong3/Documents/Project/Visual-Novel/Assets/Resources/Table/Xml/UI/Gallery/SceneGallery.xml</ResourceFullPath>
   </Record>
   <Record>
     <KEY>DeployScreenSpaceCamera.xml</KEY>
